@@ -1,0 +1,42 @@
+[
+    {
+        "role": "Staff Scientist - II",
+        "group": "Information Systems & Modeling (A-1)",
+        "organization": "Los Alamos National Laboratory",
+        "location": "Los Alamos, New Mexico, USA",
+        "start": "August 2018",
+        "end": "present"
+    },
+    {
+        "role": "Post-doctoral Researcher",
+        "group": "Center for Nonlinear Studies (CNLS)",
+        "organization": "Los Alamos National Laboratory",
+        "location": "Los Alamos, New Mexico, USA",
+        "start": "July 2016",
+        "end": "July 2018"
+    },
+    {
+        "role": "Graduate Student Research Intern",
+        "group": "Center for Nonlinear Studies (CNLS)",
+        "organization": "Los Alamos National Laboratory",
+        "location": "Los Alamos, New Mexico, USA",
+        "start": "May 2015",
+        "end": "June 2015"
+    },
+    {
+        "role": "Algorithms and Software Development Intern",
+        "group": "Network Optimization Team",
+        "organization": "US AutoLogistics LLC",
+        "location": "Houston, Texas, USA",
+        "start": "May 2013",
+        "end": "June 2013"
+    },
+    {
+        "role": "Graduate Research Assistant",
+        "group": "Systems, Controls & Applied Optimization Laboratory",
+        "organization": "Texas A&M University",
+        "location": "College Station, TX, USA",
+        "start": "August 2012",
+        "end": "May 2016"
+    }
+]

@@ -1,0 +1,31 @@
+var m = require("mithril");
+var Layout = require("./views/Layout");
+var Home = require("./views/Home")
+var EducationBox = require("./views/EducationBox")
+var PublicationBox = require("./views/PublicationBox");
+const ExperienceBox = require("./views/ExperienceBox");
+const ResearchBox = require("./views/ResearchBox");
+const StudentBox = require("./views/StudentBox");
+
+// Details on how the following route is designed can be founde at:
+// https://mithril.js.org/route.html#advanced-component-resolution
+function buildRouteResolver(component) {
+    return {
+        render: function () {
+            return m(Layout, { title: component.title, padding: component.padding }, m(component))
+        }
+    }
+};
+
+m.route(document.body, "/", {
+    "/": buildRouteResolver(Home),
+    "/research": buildRouteResolver(ResearchBox),
+    "/education": buildRouteResolver(EducationBox),
+    "/experience": buildRouteResolver(ExperienceBox),
+    "/publications": buildRouteResolver(PublicationBox),
+    "/students": buildRouteResolver(StudentBox)
+});
+
+m.route.set("/")
+
+

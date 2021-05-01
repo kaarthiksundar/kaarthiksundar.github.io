@@ -1,0 +1,26 @@
+[
+    {
+        "degree": "Ph.D.",
+        "department": "Mechanical Engineering",
+        "university": "Texas A&M University",
+        "location": "College Station, Texas, USA",
+        "gpa": "4.0/4.0",
+        "year": "2016"
+    },
+    {
+        "degree": "M.S.",
+        "department": "Electrical Engineering",
+        "university": "Texas A&M University",
+        "location": "College Station, Texas, USA",
+        "gpa": "4.0/4.0",
+        "year": "2012"
+    },
+    {
+        "degree": "B.E.",
+        "department": "Electrical Engineering",
+        "university": "College of Engg., Guindy, Anna University",
+        "location": "Chennai, Tamilnadu, India",
+        "gpa": "8.91/10.0",
+        "year": "2010"
+    }
+]

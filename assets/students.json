@@ -1,0 +1,51 @@
+[
+    {
+        "type": "summer",
+        "name": "Sudarshan Rajan",
+        "start": "2020",
+        "end": "2020",
+        "research": "An ADMM approach to solving steady state natural gas optimization problems"
+    },
+    {
+        "type": "summer",
+        "name": "Sungho Shin",
+        "start": "2020",
+        "end": "2020",
+        "research": "Graph-based modeling and decomposition of energy infrastructures"
+    },
+    {
+        "type": "summer",
+        "name": "Ignacio Losada Carreño",
+        "start": "2019",
+        "end": "2019",
+        "research": "An adversarial model for attack vector vulnerability analysis on power and gas delivery operations"
+    },
+    {
+        "type": "summer",
+        "name": "Mareldi Ahumada-Paras",
+        "start": "2019",
+        "end": "2019",
+        "research": "N-k contingency analysis for natural gas networks"
+    },
+    {
+        "type": "postdoc",
+        "name": "Sai Krishna Kanth Hari",
+        "start": "2020",
+        "end": "current",
+        "research": "Optimization of natural gas pipeline operations"
+    },
+    {
+        "type": "postdoc",
+        "name": "Fuyu Hu",
+        "start": "2020",
+        "end": "current",
+        "research": "Natural gas demand response"
+    },
+    {
+        "type": "postdoc",
+        "name": "Elena Khlebnikov",
+        "start": "2019",
+        "end": "2021",
+        "research": "Optimization of petroleum pipeline operations"
+    }
+]
