@@ -21,7 +21,7 @@ var view = function (vnode) {
         [content]);
 
     return m('div',
-        { class: 'fira-sans' },
+        { class: "fira-sans" },
         [m(Header), m(Navmenu), body, m(Footer)]
         );
 };
