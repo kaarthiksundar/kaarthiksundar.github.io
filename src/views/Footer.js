@@ -9,7 +9,7 @@ module.exports = {
             m('a', { href: 'http://tachyons.io/' }, 'Tachyons'),
             ' & ',
             m('a', { href: 'https://mithril.js.org/' }, 'MithrilJS'),
-            '. © Kaarthik Sundar'
+            '. © Kaarthik'
             ]
         )
     }
