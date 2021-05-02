@@ -1,7 +1,6 @@
 var m = require("mithril");
 var Header = require("./Header");
 var Footer = require("./Footer");
-var Navmenu = require("./Navmenu");
 var Content = require("./Content");
 
 // For further details about this design, 
@@ -22,7 +21,7 @@ var view = function (vnode) {
 
     return m('div',
         { class: "fira-sans" },
-        [m(Header), m(Navmenu), body, m(Footer)]
+        [m(Header), body, m(Footer)]
         );
 };
 

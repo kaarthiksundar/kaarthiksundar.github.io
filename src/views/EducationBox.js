@@ -18,7 +18,6 @@ module.exports = {
         if (!Education.loaded) Education.loadList()
     },
     title: '',
-    padding: '1',
     view: function () {
         return m('ul', { class: 'fa-ul f6 f5-ns nt3 pb3' }, Education.list.map(educationView))
     }

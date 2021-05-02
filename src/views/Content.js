@@ -7,24 +7,11 @@ module.exports = {
             vnode.attrs.title)
         
         if (vnode.attrs.title == '') {
-            if (vnode.attrs.padding == '1') {
-                return m('div',
-                    { class: 'pa3 ph5-ns w-100', id: 'content' },
-                    [vnode.children]);
-            }
-                return m('div',
-                    { class: 'w-100', id: 'content' },
+            return m('div', {class: 'pa3 ph5-ns w-100', id: 'content'},
                     [vnode.children]);
         }
-
-        if (vnode.attrs.padding == '1') {
-            return m('div',
-                { class: 'pa3 ph5-ns w-100', id: 'content' },
+        
+        return m('div', {class: 'pa3 ph5-ns w-100 relative', id: 'content'},
                 [title, vnode.children]);
-        }
-
-            return m('div',
-                { class: 'w-100', id: 'content' },
-                [title, vnode.children])
     }
 }

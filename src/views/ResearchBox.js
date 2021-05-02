@@ -3,7 +3,6 @@ var Bio = require("../models/Bio")
 
 module.exports = {
     title: '',
-    padding: '1',
     view: function () {
         var theoryTitle = m('h3', {class: 'f6 ttu tracked nt2'}, 'THEORY');
         var appliedTitle = m('h3', {class: 'f6 ttu tracked nt2'}, 'APPLICATION DOMAINS');

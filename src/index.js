@@ -12,7 +12,7 @@ const StudentBox = require("./views/StudentBox");
 function buildRouteResolver(component) {
     return {
         render: function () {
-            return m(Layout, { title: component.title, padding: component.padding }, m(component))
+            return m(Layout, { title: component.title}, m(component))
         }
     }
 };

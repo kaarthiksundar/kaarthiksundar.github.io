@@ -102,7 +102,6 @@ module.exports = {
         if (!Publication.loaded) Publication.loadList()
     },
     title: '',
-    padding: '1',
     view: function () {
         var allYears = Publication.getYears();
         allYears.unshift('All');
@@ -120,7 +119,7 @@ module.exports = {
             })
         )
 
-        var dddiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f5 pr2'}, 'Select year :'), dropdown])
+        var dddiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Select year :'), dropdown])
         
         var chosenYear = options.filter( (item) => (parseInt(item.value) == Publication.selectedValue))[0].name;
 

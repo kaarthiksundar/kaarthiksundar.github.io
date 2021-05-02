@@ -21,10 +21,10 @@ module.exports = {
     oninit: function() {
         if (!Experience.loaded) Experience.loadList()
     },
-    title: 'Work Experience',
+    title: '',
     padding: '1',
     view: function () {
-        return m('ul', {class: 'fa-ul f6 f5-ns pb3'}, 
+        return m('ul', {class: 'fa-ul f6 f5-ns nt3 pb3'}, 
             Experience.list.map(experienceView));
     }
 }

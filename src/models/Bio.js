@@ -21,6 +21,10 @@ var Bio = {
        
     email: 'kaarthik@lanl.gov',
 
+    github: 'https://github.com/kaarthiksundar',
+
+    scholar: 'https://scholar.google.com/citations?user=jAAj8DAAAAAJ&hl=en',
+
     theoryInterests: [
         'Mathematical Programming',
         'Large scale Optimization',
