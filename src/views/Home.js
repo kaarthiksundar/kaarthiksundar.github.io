@@ -5,12 +5,12 @@ module.exports = {
     title: '',
     view: function () {
         var scholar = m('a', {href: Bio.scholar},
-            m('i', {class: 'ai ai-google-scholar ai-2x dark-blue'})
+            m('i', {class: 'ai ai-google-scholar ai-2x black-70'})
         );
         var github = m('a', {href: Bio.github},
-            m('i', {class: 'fab fa-github fa-2x dark-blue'})
+            m('i', {class: 'fab fa-github fa-2x black-70'})
         );
-        var img = m('img', {src: Bio.pic, class: 'br4 ba h5-ns w5-ns h4 w4 dib', title: 'Kaarthik Sundar'});
+        var img = m('img', {src: Bio.pic, class: 'br-100 shadow-2 o-70 h5-ns w5-ns h4 w4 dib', title: 'Kaarthik Sundar'});
         var pic = m('div', {class: 'tc'}, [img]);
         var email = m('p', {class: 'lh-title measure center f6 black-70'}, 
             ['E-mail id: ', m('a', {href: 'mailto:kaarthik@lanl.gov', class: 'link dim black'}, 
