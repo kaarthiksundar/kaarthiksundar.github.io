@@ -24,6 +24,6 @@ module.exports = {
         var desc = m('p', {class: 'measure-wide fl-ns w-50-ns f6 f5-ns lh-copy pa4 tl'}, 
             [Bio.description, m('br'), m('br'), Bio.softwares]
         );
-        return m('div', {class: 'cf-ns nl2 nr2'}, [card, desc])
+        return m('div', {class: 'cf-ns nl2 nr2 nt5-ns'}, [card, desc])
     }
 }

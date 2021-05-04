@@ -148,6 +148,6 @@ module.exports = {
         if (conferences.length != 0)
             paperdiv.push(confdiv)
         
-        return m('div', {class: 'pb3'}, [dddiv, paperdiv])
+        return m('div', {class: 'pb3 nt5-ns'}, [dddiv, paperdiv])
     }
 }

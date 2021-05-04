@@ -62,6 +62,6 @@ module.exports = {
         var summerlist = m('ul', { class: 'fa-ul f6 f5-ns' }, summer.map(SummerStudentView));
         var summerdiv = m('div', {id: 'journal', class: 'pa3 ph5-ns w-100' }, [summertitle, summerlist]);
         
-        return m('div', {class: 'pb3 nt3'}, [desc, pddiv, summerdiv])
+        return m('div', {class: 'pb3 nt3 nt6-ns'}, [desc, pddiv, summerdiv])
     }
 }

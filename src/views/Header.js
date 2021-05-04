@@ -13,6 +13,6 @@ module.exports = {
             m('div', {class: 'db dt-ns mw9 center w-100'}, logo)
         );
 
-        return m('header', {class: 'w-100'}, [topbar, m(Navmenu)])
+        return m('header', {class: 'w-100 fixed z-3'}, [topbar, m(Navmenu)])
     }
 }
