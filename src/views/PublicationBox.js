@@ -110,18 +110,18 @@ module.exports = {
             return {value: index + 1, name: item}
         });
         var dropdown = m('select', { id: 'year',
-            onchange: function(ev) { Publication.selectedValue = parseInt(ev.target.value); } 
+            onchange: function(ev) { Publication.selectedYearValue = parseInt(ev.target.value); } 
             },
             options.map((row) => {
                 return m('option', {
-                    value: row.value, selected: row.value == Publication.selectedValue
+                    value: row.value, selected: row.value == Publication.selectedYearValue
                 }, row.name)
             })
         )
 
         var dddiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Select year :'), dropdown])
         
-        var chosenYear = options.filter( (item) => (parseInt(item.value) == Publication.selectedValue))[0].name;
+        var chosenYear = options.filter( (item) => (parseInt(item.value) == Publication.selectedYearValue))[0].name;
 
         var papers = getPubs(Publication.list, chosenYear);
         var conferences = papers[0];

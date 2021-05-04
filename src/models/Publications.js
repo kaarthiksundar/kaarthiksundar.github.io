@@ -18,7 +18,7 @@ var Publication = {
             return o['year'];
         }).sort()));
     }, 
-    selectedValue: 1
+    selectedYearValue: 1
 }
 
 module.exports = Publication
