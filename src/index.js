@@ -26,6 +26,6 @@ m.route(document.body, "/", {
     "/students": buildRouteResolver(StudentBox)
 });
 
-m.route.set("/")
+// m.route.set("/")
 
 
