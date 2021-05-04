@@ -19,6 +19,6 @@ module.exports = {
         var appliedlist = m('ul', { class: 'f6 f5-ns' }, appliedItems);
         var applieddiv = m('div', {id: 'theory', class: 'fl-l pa2 ph5-l w-50-l center' }, [appliedTitle, appliedlist]);
 
-        return m('div', {class: 'nt3 cf-ns nl2 nr2'}, [theorydiv, applieddiv]);
+        return m('div', {class: 'nt3 cf-ns nl2 nr2 nt5-l nt6-m pt4 pl4'}, [theorydiv, applieddiv]);
     }
 }

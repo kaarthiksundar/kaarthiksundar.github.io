@@ -7,11 +7,11 @@ module.exports = {
             vnode.attrs.title)
         
         if (vnode.attrs.title == '') {
-            return m('div', {class: 'pa3 ph5-ns w-100', id: 'content'},
+            return m('div', {class: 'pa3 ph5-ns w-100 pt6 pt7-ns', id: 'content'},
                     [vnode.children]);
         }
         
-        return m('div', {class: 'pa3 ph5-ns w-100 relative', id: 'content'},
+        return m('div', {class: 'pa3 ph5-ns w-100 relative pt6 pt7-ns', id: 'content'},
                 [title, vnode.children]);
     }
 }

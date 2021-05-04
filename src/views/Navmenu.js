@@ -28,7 +28,7 @@ module.exports = {
         var nav = m('div', {class: 'nowrap mw6 left'}, items);
 
         return m('div', 
-            {class: 'ph3 ph5-ns w-100 bg-transparent pv3 mb3 mb5-ns bt bb b--black-10 overflow-auto'}, nav
+            {class: 'ph3 ph5-ns w-100 bg-white pv3 mb3 mb5-ns bt bb b--black-10 overflow-auto'}, nav
         ); 
     }
 }

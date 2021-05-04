@@ -19,6 +19,6 @@ module.exports = {
     },
     title: '',
     view: function () {
-        return m('ul', { class: 'fa-ul f6 f5-ns nt3 pb3' }, Education.list.map(educationView))
+        return m('ul', { class: 'fa-ul f6 f5-ns pb3 nt6-ns nt2 pl4' }, Education.list.map(educationView))
     }
 }
