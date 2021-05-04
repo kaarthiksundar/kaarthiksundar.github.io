@@ -11,6 +11,7 @@ module.exports = {
     view: function (vnode) {
 
         var links = [
+            new Link('Home', '/#!'),
             new Link('Research', '/#!/research'),
             new Link('Education', '/#!/education'),
             new Link('Experience', '/#!/experience'),
