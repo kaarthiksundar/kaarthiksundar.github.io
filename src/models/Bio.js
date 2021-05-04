@@ -6,10 +6,12 @@ var Bio = {
     description: [
         'Kaarthik Sundar is a staff-scientst in the',
         ' Information Systems and Modeling Group (A-1) at ',
-        m('a', {href: 'https://www.lanl.gov/', class: 'link dim gray'}, 
+        m('a', {href: 'https://www.lanl.gov/', class: 'link dim gray', 
+        target: "_blank", rel: "noopener noreferrer"}, 
         'Los Alamos National Laboratory (LANL)'),
         '. At LANL, he is also a part of the ',
-        m('a', { href: 'https://lanl-ansi.github.io', class: 'link dim gray'}, 
+        m('a', { href: 'https://lanl-ansi.github.io', class: 'link dim gray',
+        target: "_blank", rel: "noopener noreferrer"}, 
         'Advanced Network Science Initiative'), 
         '. His research interests lie at the intersection of optimization,',
         ' control, and machine learning applied to transportation, pipeline',
@@ -53,9 +55,11 @@ var Bio = {
         ' He has written code in C, C++, Java, Julia, Kotlin, and Python for his ',
         'research work. Furthermore, he also maintain and/or develop a number of Julia packages.', 
         ' Some of them are ',
-        m('a', { href: 'https://github.com/lanl-ansi/GasModels.jl', class: 'link dim gray'}, 'GasModels.jl'), ',  ',
-        m('a', { href: 'https://github.com/kaarthiksundar/Dubins.jl', class: 'link dim gray'}, 'Dubins.jl'), ', and ',
-        m('a', { href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl', class: 'link dim gray'}, 
+        m('a', { href: 'https://github.com/lanl-ansi/GasModels.jl', class: 'link dim gray',
+        target: "_blank", rel: "noopener noreferrer"}, 'GasModels.jl'), ',  ',
+        m('a', { href: 'https://github.com/kaarthiksundar/Dubins.jl', class: 'link dim gray',
+        target: "_blank", rel: "noopener noreferrer"}, 'Dubins.jl'), ', and ',
+        m('a', { href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl', class: 'link dim gray', target: "_blank", rel: "noopener noreferrer"}, 
         'PolyhedralRelaxations.jl'), '. He also plays tennis, swims and snowboards.'
     ]
 }
