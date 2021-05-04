@@ -8,13 +8,13 @@ var experienceView = function (ex) {
     
         var children = [
         icon, 
-        m('span', {class: 'b black'}, ex.role),
+        m('span', {class: 'ttu black'}, ex.role),
         m('br'),
         m('i', ex.group), m('br'), ex.organization,
         m('br'), ex.location,
         m('br'),
         ex.start, ' - ', ex.end]
-    return m('li', { class: 'pa2 lh-copy'}, children)
+    return m('li', { class: 'f6 f5-ns pa2 lh-copy'}, children)
 }
 
 module.exports = {
