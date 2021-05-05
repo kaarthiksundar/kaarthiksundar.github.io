@@ -52,7 +52,7 @@ module.exports = {
         var summer = students[0];
         var pd = students[1];
     
-        var desc = m('div', {class: 'lh-copy f6 f5-ns pa3 ph5-ns'}, 'At LANL, Kaarthik has had the pleasure of mentoring an excellent set of Graduate Summer Students and Post-doctoral Reseachers whose list is given below:')
+        var desc = m('div', {class: 'lh-copy f6 f5-ns pa3 ph5-ns'}, 'At LANL, Kaarthik has had the pleasure of mentoring an excellent set of Graduate Summer Students and Post-doctoral Researchers whose list is given below:')
 
         var pdtitle = m('h3', {class: 'f6 ttu tracked nt2 green'}, 'POST-DOCTORAL RESEARCHERS');
         var pdlist = m('ul', { class: 'fa-ul f6 f5-ns' }, pd.map(PostdocView));
