@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack ./src/index.js -d source-map --watch --mode production",
     "dev": "webpack --mode development",
-    "serve": "webpack serve",
+    "serve": "webpack serve --mode development",
     "build-bib": "node src/build-bib.js"
   },
   "keywords": [],
