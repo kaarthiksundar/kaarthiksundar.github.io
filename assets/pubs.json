@@ -2,6 +2,7 @@
   {
     "type": "conference",
     "authors": "S. Rathinam, R. Ravi, J. Bae and K. Sundar",
+    "fullAuthors": "Sivakumar Rathinam, R. Ravi, Jungyun Bae and Kaarthik Sundar",
     "JCTitle": "17th Scandinavian Symposium and Workshops on Algorithm Theory (SWAT)",
     "year": "2020",
     "paperTitle": "Primal-Dual 2-Approximation Algorithm for the Monotonic Multiple Depot Heterogeneous Traveling Salesman Problem",
@@ -12,6 +13,7 @@
   {
     "type": "conference",
     "authors": "C. Coffrin, R. Bent, K. Sundar, Y. Ng and M. Lubin",
+    "fullAuthors": "Carleton Coffrin, Russell Bent, Kaarthik Sundar, Yeesian Ng and Miles Lubin",
     "JCTitle": "Power Systems Computation Conference (PSCC)",
     "year": "2018",
     "paperTitle": "PowerModels.jl: An Open-Source Framework for Exploring Power Flow Formulations",
@@ -22,6 +24,7 @@
   {
     "type": "conference",
     "authors": "S. K. K. Hari, K. Sundar, J. Braga, J. Teixeira, S. Darbha and J. Sousa",
+    "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Jos{\\'e} Braga, Jo{\\~a}o Teixeira, Swaroop Darbha and Jo{\\~a}o Sousa",
     "JCTitle": "20th IFAC World Congress",
     "year": "2017",
     "paperTitle": "Adaptive Position Estimation for Vehicles Using Range Measurements",
@@ -32,6 +35,7 @@
   {
     "type": "conference",
     "authors": "S. K. K. Hari, K. Sundar, H. Nagarajan, R. Bent and S. Backhaus",
+    "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Harsha Nagarajan, Russell Bent and Scott Backhaus",
     "JCTitle": "Power Systems Computation Conference (PSCC)",
     "year": "2018",
     "paperTitle": "Hierarchical Predictive Control Algorithms for Optimal Design and Operation of Microgrids",
@@ -42,6 +46,7 @@
   {
     "type": "conference",
     "authors": "S. K. K. Hari, K. Sundar, S. Rathinam and S. Darbha",
+    "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Sivakumar Rathinam and Swaroop Darbha",
     "JCTitle": "Cyber-Physical & Human-Systems (CPHS)",
     "year": "2016",
     "paperTitle": "Scheduling Tasks for Human Operators in Monitoring and Surveillance Applications",
@@ -52,6 +57,7 @@
   {
     "type": "conference",
     "authors": "S. G. Manyam, D. W. Casbeer and K. Sundar",
+    "fullAuthors": "Satyanarayana Gupta Manyam, David W. Casbeer and Kaarthik Sundar",
     "JCTitle": "American Control Conference (ACC)",
     "year": "2016",
     "paperTitle": "Path Planning for Cooperative Routing of Air-Ground vehicles",
@@ -62,6 +68,7 @@
   {
     "type": "conference",
     "authors": "S. G. Manyam, K. Sundar and D. W. Casbeer",
+    "fullAuthors": "Satyanarayana Gupta Manyam, Kaarthik Sundar and David W. Casbeer",
     "JCTitle": "IEEE Conference on Control Technology and Applications (CCTA)",
     "year": "2017",
     "paperTitle": "Cooperative Surveillance in the Presence of Time Sensitive Data",
@@ -72,6 +79,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar, C. Coffrin, H. Nagarajan and R. Bent",
+    "fullAuthors": "Kaarthik Sundar, Carleton Coffrin, Harsha Nagarajan and Russell Bent",
     "JCTitle": "Networks",
     "year": "2018",
     "paperTitle": "Probabilistic N-k Failure-Identification for Power Systems",
@@ -82,6 +90,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar, S. Misra, S. Rathinam and R. Sharma",
+    "fullAuthors": "Kaarthik Sundar, Sohum Misra, Sivakumar Rathinam and Rajnikant Sharma",
     "JCTitle": "International Conference on Unmanned Aircraft Systems (ICUAS)",
     "year": "2017",
     "paperTitle": "Routing Unmanned Vehicles in GPS-Denied Environments",
@@ -92,6 +101,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar, H. Nagarajan, M. Lubin, L. Roald, S. Misra, R. Bent and D. Beinstock",
+    "fullAuthors": "Kaarthik Sundar, Harsha Nagarajan, Miles Lubin, Line Roald, Sidanth Misra, Russell Bent and Daniel Beinstock",
     "JCTitle": "Power Systems Computation Conference (PSCC)",
     "year": "2016",
     "paperTitle": "Unit Commitment with N-1 Security and Wind Uncertainty",
@@ -102,6 +112,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar, J. Qin, S. Rathinam, L. Ntaimo, S. Darbha and C. Valicka",
+    "fullAuthors": "Kaarthik Sundar, Jianglei Qin, Sivakumar Rathinam, Lewis Ntaimo, Swaroop Darbha and Christopher Valicka",
     "JCTitle": "IEEE International Conference on Automation Science and Engineering (CASE)",
     "year": "2016",
     "paperTitle": "Algorithms for a Satellite Constellation Scheduling Problem",
@@ -112,6 +123,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "American Control Conference (ACC)",
     "year": "2012",
     "paperTitle": "Route Planning Algorithms for Unmanned Aerial Vehicles with Refueling Constraints",
@@ -122,6 +134,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "International Journal of Advanced Robotic Systems",
     "year": "2013",
     "paperTitle": "A Primal-Dual Heuristic for a Heterogeneous Unmanned Vehicle Path Planning Problem",
@@ -132,6 +145,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "IEEE Transactions on Automation Science and Engineering",
     "year": "2014",
     "paperTitle": "Algorithms for Routing an Unmanned Aerial Vehicle in the Presence of Refueling Depots",
@@ -142,6 +156,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "International Conference on Unmanned Aircraft Systems (ICUAS)",
     "year": "2015",
     "paperTitle": "An Exact Algorithm for a Heterogeneous, Multiple Depot, Multiple Traveling Salesman Problem",
@@ -152,6 +167,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "Journal of Intelligent & Robotic Systems",
     "year": "2017",
     "paperTitle": "Algorithms for Heterogeneous, Multiple Depot, Multiple Unmanned Vehicle Path Planning Problems",
@@ -162,6 +178,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "Journal of Global Optimization",
     "year": "2017",
     "paperTitle": "Multiple Depot Ring Star Problem: a Polyhedral Study and an Exact Algorithm",
@@ -172,6 +189,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar, S. Srinivasan, S. Misra, S. Rathinam and R. Sharma",
+    "fullAuthors": "Kaarthik Sundar, Shriram Srinivasan, Sohum Misra, Sivakumar Rathinam and Rajnikant Sharma",
     "JCTitle": "Annual American Control Conference (ACC)",
     "year": "2018",
     "paperTitle": "Landmark Placement for Localization in a GPS-Denied Environment",
@@ -182,6 +200,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar, S. Venkatachalam and S. G. Manyam",
+    "fullAuthors": "Kaarthik Sundar, Saravanan Venkatachalam and Satyanarayana Gupta Manyam",
     "JCTitle": "International Conference on Unmanned Aircraft Systems (ICUAS)",
     "year": "2017",
     "paperTitle": "Path Planning for Multiple Heterogeneous Unmanned Vehicles with Uncertain Service Times",
@@ -192,6 +211,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar, S. Venkatachalam and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar, Saravanan Venkatachalam and Sivakumar Rathinam",
     "JCTitle": "American Control Conference (ACC)",
     "year": "2016",
     "paperTitle": "Formulations and Algorithms for the Multiple Depot, Fuel-Constrained, Multiple Vehicle Routing Problem",
@@ -202,6 +222,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar and A. Zlotnik",
+    "fullAuthors": "Kaarthik Sundar and Anatoly Zlotnik",
     "JCTitle": "IEEE Transactions on Control Systems Technology",
     "year": "2019",
     "paperTitle": "State and Parameter Estimation for Natural Gas Pipeline Networks Using Transient State Data",
@@ -212,6 +233,7 @@
   {
     "type": "conference",
     "authors": "B. Wang, S. Misra, K. Sundar, S. Rathinam and R. Sharma",
+    "fullAuthors": "Bingyu Wang, Sohum Misra, Kaarthik Sundar, Sivakumar Rathinam and Rajnikant Sharma",
     "JCTitle": "AIAA Information Systems-AIAA Infotech @ Aerospace, AIAA SciTech Forum",
     "year": "2018",
     "paperTitle": "Routing Multiple Unmanned Vehicles in GPS-Denied Environments",
@@ -222,6 +244,7 @@
   {
     "type": "conference",
     "authors": "B. Wang, S. Rathinam, R. Sharma and K. Sundar",
+    "fullAuthors": "Bingyu Wang, Sivakumar Rathinam, Rajnikant Sharma and Kaarthik Sundar",
     "JCTitle": "ASME Dynamic Systems and Control Conference (DSCC)",
     "year": "2018",
     "paperTitle": "Algorithms for Localization and Routing of Unmanned Vehicles in GPS-Denied Environments",
@@ -232,6 +255,7 @@
   {
     "type": "journal",
     "authors": "C. Coffrin, R. Bent, B. Tasseff, K. Sundar and S. Backhaus",
+    "fullAuthors": "Carleton Coffrin, Russell Bent, Byron Tasseff, Kaarthik Sundar and Scott Backhaus",
     "JCTitle": "IEEE Transactions on Power Systems",
     "year": "2019",
     "paperTitle": "Relaxations of AC Maximal Load Delivery for Severe Contingency Analysis",
@@ -242,6 +266,7 @@
   {
     "type": "conference",
     "authors": "H. Nagarajan, K. Sundar, H. Hijazi and R. Bent",
+    "fullAuthors": "Harsha Nagarajan, Kaarthik Sundar, Hassan Hijazi and Russell Bent",
     "JCTitle": "AIP Conference Proceedings",
     "year": "2019",
     "paperTitle": "Convex Hull Formulations for Mixed-Integer Multilinear Functions",
@@ -252,6 +277,7 @@
   {
     "type": "conference",
     "authors": "S. Rajan, K. Sundar and N. Gautam",
+    "fullAuthors": "Sudarshan Rajan, Kaarthik Sundar and Natarajan Gautam",
     "JCTitle": "International Conference on Unmanned Aircraft Systems (ICUAS)",
     "year": "2019",
     "paperTitle": "Routing Problems for Reconnaissance Patrolling Missions",
@@ -262,6 +288,7 @@
   {
     "type": "conference",
     "authors": "A. Zlotnik, K. Sundar, A. M. Rudkevich, R. Tabors and X. Li",
+    "fullAuthors": "Anatoly Zlotnik, Kaarthik Sundar, Aleksandr M. Rudkevich, Richard Tabors and Xindi Li",
     "JCTitle": "PSIG Annual Meeting",
     "year": "2019",
     "paperTitle": "Pipeline Transient Optimization for a Gas-Electric Coordination Decision Support System",
@@ -272,6 +299,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar and A. Zlotnik",
+    "fullAuthors": "Kaarthik Sundar and Anatoly Zlotnik",
     "JCTitle": "IEEE Conference on Control Technology and Applications (CCTA)",
     "year": "2019",
     "paperTitle": "Dynamic State and Parameter Estimation for Natural Gas Networks Using Real Pipeline System Data",
@@ -282,6 +310,7 @@
   {
     "type": "journal",
     "authors": "S. Misra, B. Wang, K. Sundar, R. Sharma and S. Rathinam",
+    "fullAuthors": "Sohum Misra, Bingyu Wang, Kaarthik Sundar, Rajnikant Sharma and Sivakumar Rathinam",
     "JCTitle": "IEEE Access",
     "year": "2019",
     "paperTitle": "Single Vehicle Localization and Routing in GPS-Denied Environments Using Range-Only Measurements",
@@ -292,6 +321,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar, S. G. Manyam, P. B. Sujit and D. W. Casbeer",
+    "fullAuthors": "Kaarthik Sundar, Satyanarayana Gupta Manyam, PB Sujit and David W. Casbeer",
     "JCTitle": "6th Indian Control Conference (ICC)",
     "year": "2019",
     "paperTitle": "Coordinated Air-Ground Vehicle Routing with Timing Constraints",
@@ -302,6 +332,7 @@
   {
     "type": "conference",
     "authors": "E. Khlebnikova, A. Zlotnik, K. Sundar, M. Ewers, B. Tasseff and R. Bent",
+    "fullAuthors": "Elena Khlebnikova, Anatoly Zlotnik, Kaarthik Sundar, Mary Ewers, Byron Tasseff and Russell Bent",
     "JCTitle": "SPE Europec featured at 82nd EAGE Conference and Exhibition",
     "year": "2020",
     "paperTitle": "Optimization of Liquid Pipeline Control for Economic and Efficient Operations",
@@ -312,6 +343,7 @@
   {
     "type": "journal",
     "authors": "L. A. Roald, K. Sundar, A. Zlotnik, S. Misra and G. Andersson",
+    "fullAuthors": "Line A. Roald, Kaarthik Sundar, Anatoly Zlotnik, Sidhant Misra and Goran Andersson",
     "JCTitle": "Proceedings of the IEEE",
     "year": "2020",
     "paperTitle": "An Uncertainty Management Framework for Integrated Gas-Electric Energy Systems",
@@ -322,6 +354,7 @@
   {
     "type": "journal",
     "authors": "S. Gopinath, H. L. Hijazi, T. Weisser, H. Nagarajan, M. Yetkin, K. Sundar and R. W. Bent",
+    "fullAuthors": "Smitha Gopinath, Hassan L. Hijazi, Tillman Weisser, Harsha Nagarajan, Mertcan Yetkin, Kaarthik Sundar and Russell W. Bent",
     "JCTitle": "Electric Power Systems Research",
     "year": "2020",
     "paperTitle": "Proving Global Optimality of ACOPF Solutions",
@@ -332,6 +365,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar, S. Sanjeevi and H. Nagarajan",
+    "fullAuthors": "Kaarthik Sundar, Sujeevraja Sanjeevi and Harsha Nagarajan",
     "JCTitle": "Optimization and Engineering",
     "year": "2021",
     "paperTitle": "Sequence of Polyhedral Relaxations for Nonlinear Univariate Functions",
@@ -342,6 +376,7 @@
   {
     "type": "preprint",
     "authors": "K. Sundar and S. Sanjeevi",
+    "fullAuthors": "Kaarthik Sundar and Sujeevraja Sanjeevi",
     "JCTitle": "",
     "year": "2019",
     "paperTitle": "A Branch-and-Price Algorithm for a Team Orienteering Problem for Fixed-Wing Drones",
@@ -352,6 +387,7 @@
   {
     "type": "conference",
     "authors": "A. Zlotnik, K. Sundar, A. M. Rudkevich, A. Beylin and X. Li",
+    "fullAuthors": "Anatoly Zlotnik, Kaarthik Sundar, Aleksandr M. Rudkevich, Aleksandr Beylin and Xindi Li",
     "JCTitle": "IEEE 58th Conference on Decision and Control (CDC)",
     "year": "2019",
     "paperTitle": "Optimal Control for Scheduling and Pricing Intra-day Natural Gas Transport on Pipeline Networks",
@@ -362,6 +398,7 @@
   {
     "type": "preprint",
     "authors": "S. K. K. Hari, K. Sundar, J. Braga, J. Teixeira, J. Sousa and S. Darbha",
+    "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Jose Braga, Joao Teixeira, Joao Sousa and Swaroop Darbha",
     "JCTitle": "",
     "year": "2018",
     "paperTitle": "Estimation of Location and Orientation for Underwater Vehicles from Range Measurements",
@@ -372,6 +409,7 @@
   {
     "type": "conference",
     "authors": "K. Sundar, M. Vallem, R. Bent, N. Samaan, B. Vyakaranam and Y. Makarov",
+    "fullAuthors": "Kaarthik Sundar, Mallikarjuna Vallem, Russell Bent, Nader Samaan, Bharat Vyakaranam and Yury Makarov",
     "JCTitle": "IEEE Power & Energy Society General Meeting (PESGM)",
     "year": "2019",
     "paperTitle": "N-k Failure Analysis Algorithm for Identification of Extreme Events for Cascading Outage Pre-screening process",
@@ -382,6 +420,7 @@
   {
     "type": "journal",
     "authors": "H. Nagarajan, M. Lu, S. Wang, R. Bent and K. Sundar",
+    "fullAuthors": "Harsha Nagarajan, Mowen Lu, Site Wang, Russell Bent and Kaarthik Sundar",
     "JCTitle": "Journal of Global Optimization",
     "year": "2019",
     "paperTitle": "An Adaptive, Multivariate Partitioning Algorithm for Global Optimization of Nonconvex Programs",
@@ -392,6 +431,7 @@
   {
     "type": "journal",
     "authors": "S. G. Manyam, K. Sundar and D. W. Casbeer",
+    "fullAuthors": "Satyanarayana Gupta Manyam, Kaarthik Sundar and David W. Casbeer",
     "JCTitle": "IEEE Transactions on Automation Science and Engineering",
     "year": "2020",
     "paperTitle": "Cooperative Routing for an Air-Ground Vehicle Team--Exact Algorithm, Transformation Method, and Heuristics",
@@ -402,6 +442,7 @@
   {
     "type": "journal",
     "authors": "P. Maini, K. Sundar, M. Singh, S. Rathinam and P. B. Sujit",
+    "fullAuthors": "Parikshit Maini, Kaarthik Sundar, Mandeep Singh, Sivakumar Rathinam and PB Sujit",
     "JCTitle": "IEEE Transactions on Aerospace and Electronic Systems",
     "year": "2019",
     "paperTitle": "Cooperative Aerial-Ground Vehicle Route Planning With Fuel Constraints for Coverage Applications",
@@ -412,6 +453,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar, H. Nagarajan, L. Roald, S. Misra, R. Bent and D. Bienstock",
+    "fullAuthors": "Kaarthik Sundar, Harsha Nagarajan, Line Roald, Sidhant Misra, Russell Bent and Daniel Bienstock",
     "JCTitle": "IEEE Transactions on Control of Network Systems",
     "year": "2019",
     "paperTitle": "Chance-Constrained Unit Commitment With N-1 Security and Wind Uncertainty",
@@ -422,6 +464,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar, S. Rathinam and R. Sharma",
+    "fullAuthors": "Kaarthik Sundar, Sivakumar Rathinam and Rajnikant Sharma",
     "JCTitle": "Optimization Letters",
     "year": "2019",
     "paperTitle": "Path Planning for Unmanned Vehicles with Localization Constraints",
@@ -432,6 +475,7 @@
   {
     "type": "journal",
     "authors": "S. Venkatachalam, K. Sundar and S. Rathinam",
+    "fullAuthors": "Saravanan Venkatachalam, Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "Sensors",
     "year": "2018",
     "paperTitle": "A Two-Stage Approach for Routing Multiple Unmanned Aerial Vehicles with Stochastic Fuel Consumption",
@@ -442,6 +486,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar, S. Venkatachalam and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar, Saravanan Venkatachalam and Sivakumar Rathinam",
     "JCTitle": "Unmanned Systems",
     "year": "2017",
     "paperTitle": "Analysis of Mixed-Integer Linear Programming Formulations for a Fuel-Constrained Multiple Vehicle Routing Problem",
@@ -452,6 +497,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "Computers & Operations Research",
     "year": "2016",
     "paperTitle": "Generalized Multiple Depot Traveling Salesmen Problem--Polyhedral Study and Exact Algorithm",
@@ -462,6 +508,7 @@
   {
     "type": "journal",
     "authors": "D. Levy, K. Sundar and S. Rathinam",
+    "fullAuthors": "David Levy, Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "Mathematical Problems in Engineering",
     "year": "2014",
     "paperTitle": "Heuristics for Routing Heterogeneous Unmanned Vehicles with Fuel Constraints",
@@ -472,6 +519,7 @@
   {
     "type": "journal",
     "authors": "I. L. Carreño, A. Scaglione, A. Zlotnik, D. Deka and K. Sundar",
+    "fullAuthors": "Ignacio Losada Carre{\\~{n}}o, Anna Scaglione, Anatoly Zlotnik, Deepjyoti Deka and Kaarthik Sundar",
     "JCTitle": "Electric Power Systems Research",
     "year": "2020",
     "paperTitle": "An Adversarial Model for Attack Vector Vulnerability Analysis on Power and Gas Delivery Operations",
@@ -482,6 +530,7 @@
   {
     "type": "journal",
     "authors": "M. Ahumada-Paras, K. Sundar, R. Bent and A. Zlotnik",
+    "fullAuthors": "Mareldi Ahumada-Paras, Kaarthik Sundar, Russell Bent and Anatoly Zlotnik",
     "JCTitle": "Electric Power Systems Research",
     "year": "2021",
     "paperTitle": "N-k Interdiction Modeling for Natural Gas Networks",
@@ -492,6 +541,7 @@
   {
     "type": "preprint",
     "authors": "S. Shin, C. Coffrin, K. Sundar and V. M. Zavala",
+    "fullAuthors": "Sungho Shin, Carleton Coffrin, Kaarthik Sundar and Victor M. Zavala",
     "JCTitle": "",
     "year": "2020",
     "paperTitle": "Graph-Based Modeling and Decomposition of Energy Infrastructures",
@@ -502,6 +552,7 @@
   {
     "type": "preprint",
     "authors": "B. Tasseff, C. Coffrin, R. Bent, K. Sundar and A. Zlotnik",
+    "fullAuthors": "Byron Tasseff, Carleton Coffrin, Russell Bent, Kaarthik Sundar and Anatoly Zlotnik",
     "JCTitle": "",
     "year": "2020",
     "paperTitle": "Natural Gas Maximal Load Delivery for Multi-contingency Analysis",
@@ -512,6 +563,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar, H. Nagarajan, J. Linderoth, S. Wang and R. Bent",
+    "fullAuthors": "Kaarthik Sundar, Harsha Nagarajan, Jeff Linderoth, Site Wang and Russell Bent",
     "JCTitle": "Operations Research Letters",
     "year": "2021",
     "paperTitle": "Piecewise Polyhedral Formulations for a Multilinear Term",
@@ -522,6 +574,7 @@
   {
     "type": "journal",
     "authors": "E. Khlebnikova, K. Sundar, A. Zlotnik, R. Bent, M. Ewers and B. Tasseff",
+    "fullAuthors": "Elena Khlebnikova, Kaarthik Sundar, Anatoly Zlotnik, Russell Bent, Mary Ewers and Byron Tasseff",
     "JCTitle": "AIChE Journal",
     "year": "2021",
     "paperTitle": "Optimal Economic Operation of Liquid Petroleum Products Pipeline Systems",
@@ -532,6 +585,7 @@
   {
     "type": "preprint",
     "authors": "S. Misra, K. Sundar, R. Sharma and K. Brink",
+    "fullAuthors": "Sohum Misra, Kaarthik Sundar, Rajnikant Sharma and Kevin Brink",
     "JCTitle": "",
     "year": "2021",
     "paperTitle": "Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments",
@@ -542,6 +596,7 @@
   {
     "type": "preprint",
     "authors": "K. Sundar, S. Misra, A. Zlotnik and R. Bent",
+    "fullAuthors": "Kaarthik Sundar, Sidhant Misra, Anatoly Zlotnik and Russell Bent",
     "JCTitle": "",
     "year": "2021",
     "paperTitle": "Robust Gas Pipeline Network Expansion Planning to Support Power System Reliability",
@@ -552,6 +607,7 @@
   {
     "type": "preprint",
     "authors": "S. Venkatachalam and K. Sundar",
+    "fullAuthors": "Saravanan Venkatachalam and Kaarthik Sundar",
     "JCTitle": "",
     "year": "2016",
     "paperTitle": "Branch-and-Price Algorithm for an Auto-Carrier Transportation Problem",
@@ -562,6 +618,7 @@
   {
     "type": "preprint",
     "authors": "K. Sundar, H. Nagarajan, S. Misra, M. Lu, C. Coffrin and R. Bent",
+    "fullAuthors": "Kaarthik Sundar, Harsha Nagarajan, Sidhant Misra, Mowen Lu, Carleton Coffrin and Russell Bent",
     "JCTitle": "",
     "year": "2018",
     "paperTitle": "Optimization-Based Bound Tightening Using a Strengthened QC-Relaxation of the Optimal Power Flow Problem",
@@ -572,6 +629,7 @@
   {
     "type": "journal",
     "authors": "K. Sundar, S. Misra, R. Bent and F. Pan",
+    "fullAuthors": "Kaarthik Sundar, Sidhant Misra, Russell Bent and Feng Pan",
     "JCTitle": "IEEE Transactions on Control of Network Systems",
     "year": "2021",
     "paperTitle": "Credible Interdiction for Transmission Systems",
@@ -582,6 +640,7 @@
   {
     "type": "journal",
     "authors": "S. K. K. Hari, K. Sundar, S. Srinivasan, A. Zlotnik and R. Bent",
+    "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Shriram Srinivasan, Anatoly Zlotnik and Russell Bent",
     "JCTitle": "IEEE Transactions on Control Systems Technology",
     "year": "2021",
     "paperTitle": "Operation of Natural Gas Pipeline Networks With Storage Under Transient Flow Conditions",

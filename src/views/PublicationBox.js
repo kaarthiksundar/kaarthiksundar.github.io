@@ -1,5 +1,6 @@
 var m = require('mithril');
 var Publication = require('../models/Publications');
+var runSearch = require('./PublicationSearch')
 
 var JView = function (paper) {
     var icon = m('span', { class: 'fa-li' },
@@ -100,6 +101,8 @@ function getPubs(pubs, year) {
 module.exports = {
     oninit: function() {
         if (!Publication.loaded) Publication.loadList()
+        Publication.selectedYearValue = 1;
+        Publication.searchString = '';
     },
     title: '',
     view: function () {
@@ -119,6 +122,14 @@ module.exports = {
             })
         )
 
+        var searchbox =  m('input', {
+            placeholder: 'Type to search...',
+            oninput: function() { 
+                Publication.searchString = this.value
+            } 
+        });
+        console.log(Publication.searchString)
+        var searchdiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Search :'), searchbox])
         var dddiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Select year :'), dropdown])
         
         var chosenYear = options.filter( (item) => (parseInt(item.value) == Publication.selectedYearValue))[0].name;
@@ -127,6 +138,12 @@ module.exports = {
         var conferences = papers[0];
         var journals = papers[1];
         var preprints = papers[2];
+
+        if (Publication.searchString != '') {
+            conferences = runSearch(Publication.searchString, conferences);
+            journals = runSearch(Publication.searchString, journals);
+            preprints = runSearch(Publication.searchString, preprints);
+        }
 
         var conftitle = m('h3', {class: 'f6 ttu tracked nt2 green'}, 'CONFERENCE PROCEEDINGS');
         var conflist = m('ul', { class: 'fa-ul f6 f5-ns' }, conferences.map(CView));
@@ -148,6 +165,6 @@ module.exports = {
         if (conferences.length != 0)
             paperdiv.push(confdiv)
         
-        return m('div', {class: 'pb3 nt5-ns'}, [dddiv, paperdiv])
+        return m('div', {class: 'pb3 nt5-ns'}, [dddiv, searchdiv, paperdiv])
     }
 }

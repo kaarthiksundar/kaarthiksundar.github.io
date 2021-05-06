@@ -18,7 +18,8 @@ var Publication = {
             return o['year'];
         }).sort()));
     }, 
-    selectedYearValue: 1
+    selectedYearValue: 1,
+    searchString: ''
 }
 
 module.exports = Publication

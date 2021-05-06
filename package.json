@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack ./src/index.js -d source-map --watch --mode production",
+    "start": "webpack ./src/index.js -d source-map --watch --mode development",
     "dev": "webpack --mode development",
     "serve": "webpack serve --mode development",
     "build-bib": "node src/build-bib.js"

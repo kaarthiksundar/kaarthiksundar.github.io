@@ -30,6 +30,10 @@ var parseAuthors = function(authors) {
         });
 };
 
+var parseFullAuthors = function(authors) {
+    return authors.split(' and ')
+};
+
 var getYear = function(date) { 
     return date.substring(0, 4); 
 };
@@ -86,12 +90,14 @@ for(var i = 0; i < bibEntries.length; ++i) {
     var entry = bibEntries[i];
     var cite = getBibCitation(entry);
     var entryTags = entry['entryTags'];
-    var entryType = entryTags['keywords']
+    var entryType = entryTags['keywords'];
     var JCtitle = getJCTitle(entryTags);
     var authors = parseAuthors(entryTags['author']);
+    var fullAuthors = parseFullAuthors(entryTags['author']);
     jsonEntry = {
         'type': entryType,
         'authors': authors.slice(0, -1).join(', ')+' and '+ authors.slice(-1),
+        'fullAuthors': fullAuthors.slice(0, -1).join(', ')+' and '+ fullAuthors.slice(-1),
         'JCTitle': JCtitle,
         'year': getYear(entryTags['date']),
         'paperTitle': cleanTitle(entryTags['title']),
