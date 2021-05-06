@@ -1,7 +1,9 @@
 function getPubString(pub) {
     var pubString = '';
     for(var key in pub) {
-        if (["paperTitle", "JCTitle", "year", "authors", "fullAuthors"].includes(key)) {
+        var fields = ["type", "paperTitle", 
+            "JCTitle", "year", "authors", "fullAuthors"];
+        if (fields.includes(key)) {
             if(pub.hasOwnProperty(key) && pub[key] !== '') 
                 pubString += pub[key].toString().toLowerCase().trim() + ' ';
         }
