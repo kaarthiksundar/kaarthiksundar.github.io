@@ -67,37 +67,6 @@ var PreprintView = function (paper) {
     return m('li', { class: 'pa2 lh-copy'}, children)
 }
 
-function getPubs(pubs, year) {
-    if (year == 'All') {
-        conferences = pubs.filter( function (pub) {
-            return (pub.type == "conference")
-        });
-        journals = pubs.filter( function (pub) {
-            return (pub.type == "journal")
-        });
-        preprints = pubs.filter( function (pub) {
-            return (pub.type == "preprint")
-        });
-        conferences.sort((a, b) => (a.year > b.year) ? -1 : 1)
-        journals.sort((a, b) => (a.year > b.year) ? -1 : 1)
-        preprints.sort((a, b) => (a.year > b.year) ? -1 : 1)
-
-        return [conferences, journals, preprints]
-    }
-    else {
-        conferences = pubs.filter( function (pub) {
-            return (pub.type == "conference" && pub.year == year)
-        });
-        journals = pubs.filter( function (pub) {
-            return (pub.type == "journal" && pub.year == year)
-        });
-        preprints = pubs.filter( function (pub) {
-            return (pub.type == "preprint" && pub.year == year)
-        });
-        return [conferences, journals, preprints]
-    }
-};
-
 module.exports = {
     oninit: function() {
         if (!Publication.loaded) Publication.loadList()
@@ -112,6 +81,7 @@ module.exports = {
         var options = allYears.map(function (item, index) {
             return {value: index + 1, name: item}
         });
+
         var dropdown = m('select', { id: 'year',
             onchange: function(ev) { Publication.selectedYearValue = parseInt(ev.target.value); } 
             },
@@ -120,7 +90,7 @@ module.exports = {
                     value: row.value, selected: row.value == Publication.selectedYearValue
                 }, row.name)
             })
-        )
+        );
 
         var searchbox =  m('input', {
             placeholder: 'Type to search...',
@@ -128,13 +98,13 @@ module.exports = {
                 Publication.searchString = this.value
             } 
         });
-        console.log(Publication.searchString)
+
         var searchdiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Search :'), searchbox])
         var dddiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Select year :'), dropdown])
         
         var chosenYear = options.filter( (item) => (parseInt(item.value) == Publication.selectedYearValue))[0].name;
 
-        var papers = getPubs(Publication.list, chosenYear);
+        var papers = Publication.getPubs(chosenYear);
         var conferences = papers[0];
         var journals = papers[1];
         var preprints = papers[2];
