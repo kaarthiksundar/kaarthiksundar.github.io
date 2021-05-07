@@ -647,5 +647,16 @@
     "doi": "10.1109/TCST.2021.3071316",
     "arxiv": "2103.02493",
     "cite": "@Article{tcst2021_storage,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik and Russell Bent},\n date={2021},\n journaltitle={IEEE Transactions on Control Systems Technology},\n title={Operation of Natural Gas Pipeline Networks With Storage Under Transient Flow Conditions},\n doi={10.1109/TCST.2021.3071316},\n eprint={2103.02493},\n eprintclass={math.OC},\n eprinttype={arXiv},\n issn={2374-0159},\n issue={99},\n pages={1--13},\n volume={PP},\n publisher={IEEE},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "F. Hu, K. Sundar, S. Srinivasan and R. Bent",
+    "fullAuthors": "Fuyu Hu, Kaarthik Sundar, Shriram Srinivasan and Russell Bent",
+    "JCTitle": "",
+    "year": "2021",
+    "paperTitle": "Demand Response for Natural Gas: Technologies, Mathematical Models, and Challenges Ahead",
+    "doi": "",
+    "arxiv": "2104.03269",
+    "cite": "@Article{arxiv2021_dr,\n author={Fuyu Hu and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2021-04-07},\n title={Demand Response for Natural Gas: Technologies, Mathematical Models, and Challenges Ahead},\n eprint={2104.03269},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
