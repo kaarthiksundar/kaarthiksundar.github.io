@@ -4,7 +4,7 @@ var runSearch = require('./PublicationSearch')
 
 var JView = function (paper) {
     var icon = m('span', { class: 'fa-li' },
-        m('i', { class: 'fas fa-file light-red'}));
+        m('i', { class: 'fas fa-file-alt light-red'}));
 
     var children = [
         icon,
@@ -22,13 +22,25 @@ var JView = function (paper) {
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red', 
             href: 'https://arxiv.org/abs/' + paper.arxiv}, 'arXiv'));
     }
+    children.push(' ');
+    var btn = m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red', href: 'javascript:void(0)',
+        onclick: function() {
+            const dummy = document.createElement('textarea');
+            dummy.value = paper.cite;
+            document.body.appendChild(dummy);
+            dummy.select();
+            document.execCommand('copy');
+            document.body.removeChild(dummy);
+        }
+    }, 'Copy BibTeX');
+    children.push(btn);
 
     return m('li', { class: 'pa2 lh-copy'}, children)
 };
 
 var CView = function (paper) {
     var icon = m('span', { class: 'fa-li' },
-        m('i', { class: 'fas fa-file green'}));
+        m('i', { class: 'fas fa-file-alt green'}));
 
     var children = [
         icon,
@@ -46,13 +58,25 @@ var CView = function (paper) {
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green', 
             href: 'https://arxiv.org/abs/' + paper.arxiv}, 'arXiv'));
     }
+    children.push(' ');
+    var btn = m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green', href: 'javascript:void(0)',
+        onclick: function() {
+            const dummy = document.createElement('textarea');
+            dummy.value = paper.cite;
+            document.body.appendChild(dummy);
+            dummy.select();
+            document.execCommand('copy');
+            document.body.removeChild(dummy);
+        }
+    }, 'Copy BibTeX');
+    children.push(btn);
 
     return m('li', { class: 'pa2 lh-copy'}, children)
 };
 
 var PreprintView = function (paper) {
     var icon = m('span', { class: 'fa-li' },
-        m('i', {class: 'fas fa-file blue'}));
+        m('i', {class: 'fas fa-file-alt blue'}));
 
     var children = [
         icon,
@@ -64,6 +88,19 @@ var PreprintView = function (paper) {
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib blue', 
             href: 'https://arxiv.org/abs/' + paper.arxiv}, 'arXiv'));
     }
+    children.push(' ');
+    var btn = m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib blue', href: 'javascript:void(0)',
+    onclick: function() {
+        const dummy = document.createElement('textarea');
+        dummy.value = paper.cite;
+        document.body.appendChild(dummy);
+        dummy.select();
+        document.execCommand('copy');
+        document.body.removeChild(dummy);
+    }
+}, 'Copy BibTeX');
+    children.push(btn);
+
     return m('li', { class: 'pa2 lh-copy'}, children)
 }
 
