@@ -5,10 +5,10 @@ module.exports = {
     title: '',
     view: function () {
         var scholar = m('a', {href: Bio.scholar, target: "_blank", rel: "noopener noreferrer"},
-            m('i', {class: 'ai ai-google-scholar ai-2x black-70'})
+            m('i', {class: 'ai ai-google-scholar ai-2x black-70 hover-dark-red'})
         );
         var github = m('a', {href: Bio.github, target: "_blank", rel: "noopener noreferrer"},
-            m('i', {class: 'fab fa-github fa-2x black-70'})
+            m('i', {class: 'fab fa-github fa-2x black-70 hover-dark-red'})
         );
         var img = m('img', {src: Bio.pic, class: 'br-100 shadow-2 o-70 h5-ns w5-ns h4 w4 dib', title: 'Kaarthik Sundar'});
         var pic = m('div', {class: 'tc'}, [img]);

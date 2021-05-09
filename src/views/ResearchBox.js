@@ -4,8 +4,8 @@ var Bio = require("../models/Bio")
 module.exports = {
     title: '',
     view: function () {
-        var theoryTitle = m('h3', {class: 'f6 ttu tracked nt2'}, 'THEORY');
-        var appliedTitle = m('h3', {class: 'f6 ttu tracked nt2'}, 'APPLICATION DOMAINS');
+        var theoryTitle = m('h3', {class: 'f6 ttu tracked nt2 black'}, 'THEORY');
+        var appliedTitle = m('h3', {class: 'f6 ttu tracked nt2 black'}, 'APPLICATION DOMAINS');
 
         var theoryItems = Bio.theoryInterests.map(function(item) {
             return m('li', {class: 'pa1 lh-copy'}, item)
