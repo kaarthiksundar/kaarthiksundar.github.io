@@ -10,7 +10,7 @@ var experienceView = function (ex) {
         icon, 
         m('span', {class: 'f6 tracked ttu black b'}, ex.role),
         m('br'),
-        m('span', {class: 'b black-80'}, ex.group), 
+        m('span', {class: 'black-90'}, ex.group), 
         m('br'), m('span', {class: 'black-60'}, ex.organization),
         m('br'), ex.location,
         m('br'),
