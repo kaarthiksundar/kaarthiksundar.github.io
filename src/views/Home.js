@@ -9,11 +9,11 @@ module.exports = {
         var github = m('a', {href: Bio.github, target: "_blank", rel: "noopener noreferrer"},
             m('i', {class: 'fab fa-github fa-2x black-70 hover-dark-red'})
         );
-        var img = m('img', {src: Bio.pic, class: 'br-100 shadow-2 o-70 h5-ns w5-ns h4 w4 dib', title: 'Kaarthik Sundar'});
+        var img = m('img', {src: Bio.pic, class: 'br-100 shadow-2 o-80 h5-ns w5-ns h4 w4 dib', title: 'Kaarthik Sundar'});
         var pic = m('div', {class: 'tc'}, [img]);
         var email = m('p', {class: 'lh-title measure center f6 black-70'}, 
-            ['E-mail id: ', m('a', {href: 'mailto:kaarthik@lanl.gov', class: 'link dim black'}, 
-            Bio.email), m('br'), m('br'), m('a', {href: Bio.cv, class: 'link dim black hover-blue', target: "_blank", rel: "noopener noreferrer"}, 
+            ['E-mail id: ', m('a', {href: 'mailto:kaarthik@lanl.gov', class: 'link dim gray hover-dark-blue'}, 
+            Bio.email), m('br'), m('br'), m('a', {href: Bio.cv, class: 'link dim gray hover-dark-blue', target: "_blank", rel: "noopener noreferrer"}, 
             'Download Curriculum Vitae')]
         );
         var caption = m('div', {class: 'tc'}, [email, m('br'), m('span', {class: 'pr3'}, scholar), github]);

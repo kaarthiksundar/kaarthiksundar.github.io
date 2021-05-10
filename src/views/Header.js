@@ -9,7 +9,7 @@ module.exports = {
             )
         );
 
-        var topbar = m('div', {class: 'pa3 ph5-ns bg-dark-gray'}, 
+        var topbar = m('div', {class: 'pa3 ph5-ns bg-navy'}, 
             logo
         );
 
