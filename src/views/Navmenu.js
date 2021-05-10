@@ -8,7 +8,7 @@ class Link {
 }
 
 module.exports = {
-    view: function (vnode) {
+    view: function() {
 
         var links = [
             new Link('Home', '/#!'),
