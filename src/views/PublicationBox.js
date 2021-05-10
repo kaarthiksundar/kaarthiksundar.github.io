@@ -110,7 +110,6 @@ module.exports = {
         Publication.selectedYearValue = 1;
         Publication.searchString = '';
     },
-    title: '',
     view: function () {
         var allYears = Publication.getYears();
         allYears.unshift('All');

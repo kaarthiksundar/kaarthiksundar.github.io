@@ -10,10 +10,7 @@ var Content = require("./Content");
 
 var view = function (vnode) {
     // m(component) consumes the component to generate a view.
-    var content = m(Content, {
-        title: vnode.attrs.title,
-        padding: vnode.attrs.padding
-    }, vnode.children)
+    var content = m(Content, vnode.children)
 
     var body = m('div',
         { class: 'bg-white black-70' },

@@ -46,7 +46,6 @@ module.exports = {
     oninit: function() {
         if (!Student.loaded) Student.loadList()
     },
-    title: '',
     view: function () {
         var students = getStudents(Student.list);
         var summer = students[0];

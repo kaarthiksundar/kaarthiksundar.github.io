@@ -2,7 +2,6 @@ var m = require("mithril")
 var Bio = require("../models/Bio")
 
 module.exports = {
-    title: '',
     view: function () {
         var scholar = m('a', {href: Bio.scholar, target: "_blank", rel: "noopener noreferrer"},
             m('i', {class: 'ai ai-google-scholar ai-2x black-70 hover-dark-red'})
