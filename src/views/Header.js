@@ -9,10 +9,9 @@ module.exports = {
             )
         );
 
-        var topbar = m('div', {class: 'pa3 ph5-ns bg-navy'}, 
-            logo
-        );
+        var topbar = m('div', {class: 'pa3 ph5-ns bg-navy'}, logo);
 
-        return m('header', {class: 'w-100 fixed z-3'}, [topbar, m(Navmenu)])
+        return m('header', {class: 'w-100 fixed z-3', id: 'header'}, 
+            [topbar, m(Navmenu)])
     }
 }

@@ -5,7 +5,7 @@ class Link {
         this.name = name;
         this.route = route;
     }
-}
+};
 
 module.exports = {
     view: function() {
@@ -28,7 +28,8 @@ module.exports = {
         var nav = m('div', {class: 'nowrap left'}, items);
 
         return m('nav', 
-            {class: 'ph3 ph5-ns w-100 bg-white pv3 mb3 mb5-ns bt bb b--black-10 overflow-auto'}, nav
+            {class: 'ph3 ph5-ns w-100 bg-white pv3 mb3 mb5-ns bt bb b--black-10 overflow-auto'}, 
+            nav
         ); 
     }
 }
