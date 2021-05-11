@@ -9,7 +9,6 @@ class Link {
 
 module.exports = {
     view: function() {
-
         var links = [
             new Link('Home', '/#!'),
             new Link('Research', '/#!/research'),
@@ -24,9 +23,9 @@ module.exports = {
                 class: 'pv1-ns f6 fw6 dim link navy mr3 mr3-m mr4-l dib'},
                 item.name)
         });
-
+        
         var nav = m('div', {class: 'nowrap left'}, items);
-
+        
         return m('nav', 
             {class: 'ph3 ph5-ns w-100 bg-white pv3 mb3 mb5-ns bt bb b--black-10 overflow-auto'}, 
             nav

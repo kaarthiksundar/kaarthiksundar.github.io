@@ -11,6 +11,20 @@ var Student = {
         })
         Student.loaded = true
         console.log("Students.loadList completed.")
+    },
+    getStudents: function() {
+        summer = Student.list.filter( function (it) {
+            return (it.type == "summer")
+        });
+    
+        pd = Student.list.filter( function (it) {
+            return (it.type == "postdoc")
+        });
+    
+        summer.sort((a, b) => (a.start > b.start) ? -1 : 1)
+        pd.sort((a, b) => (a.start > b.start) ? -1 : 1)
+        
+        return [summer, pd]
     }
 }
 

@@ -27,27 +27,12 @@ var PostdocView = function (student) {
 };
 
 
-function getStudents(students) {
-    summer = students.filter( function (it) {
-        return (it.type == "summer")
-    });
-
-    pd = students.filter( function (it) {
-        return (it.type == "postdoc")
-    });
-
-    summer.sort((a, b) => (a.start > b.start) ? -1 : 1)
-    pd.sort((a, b) => (a.start > b.start) ? -1 : 1)
-    
-    return [summer, pd]
-};
-
 module.exports = {
     oninit: function() {
         if (!Student.loaded) Student.loadList()
     },
     view: function () {
-        var students = getStudents(Student.list);
+        var students = Student.getStudents();
         var summer = students[0];
         var pd = students[1];
     
