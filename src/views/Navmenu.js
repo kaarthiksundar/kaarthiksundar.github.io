@@ -20,7 +20,7 @@ module.exports = {
 
         var items = links.map( function(item) {
             return m('a', {href: item.route, 
-                class: 'pv1-ns f6 fw6 dim link navy mr3 mr3-m mr4-l dib'},
+                class: 'pv1-ns f6 fw6 dim link dark-gray mr3 mr3-m mr4-l dib'},
                 item.name)
         });
         

@@ -9,7 +9,7 @@ module.exports = {
             )
         );
 
-        var topbar = m('div', {class: 'pa3 ph5-ns bg-navy'}, logo);
+        var topbar = m('div', {class: 'pa3 ph5-ns bg-dark-gray'}, logo);
 
         return m('header', {class: 'w-100 fixed z-3', id: 'header'}, 
             [topbar, m(Navmenu)])
