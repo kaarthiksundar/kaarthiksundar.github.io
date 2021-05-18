@@ -1,4 +1,11 @@
-[
+[   
+    {
+        "type": "summer",
+        "name": "Christopher Montez",
+        "start": "2021",
+        "end": "2021",
+        "research": "Sensitivity analysis for Mixed-Integer Linear Programs (MILPs)"
+    },
     {
         "type": "summer",
         "name": "Sudarshan Rajan",
