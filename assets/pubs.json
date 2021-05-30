@@ -658,5 +658,16 @@
     "doi": "",
     "arxiv": "2104.03269",
     "cite": "@Article{arxiv2021_dr,\n author={Fuyu Hu and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2021-04-07},\n title={Demand Response for Natural Gas: Technologies, Mathematical Models, and Challenges Ahead},\n eprint={2104.03269},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "conference",
+    "authors": "I. L. Carreño, A. Scaglione, A. Giacomoni, K. Sundar, D. Deka and A. Zlotnik",
+    "fullAuthors": "Ignacio Losada Carre{\\~{n}}o, Anna Scaglione, Anthony Giacomoni, Kaarthik Sundar, Deepjyoti Deka and Anatoly Zlotnik",
+    "JCTitle": "PSIG Annual Meeting",
+    "year": "2021",
+    "paperTitle": "Using Transient Pipeline Simulation to Evaluate Electric Power Generation Reliability",
+    "doi": "",
+    "arxiv": "",
+    "cite": "@InProceedings{psig2021_gas,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anthony Giacomoni and Kaarthik Sundar and Deepjyoti Deka and Anatoly Zlotnik},\n booktitle={PSIG Annual Meeting},\n date={2021-05},\n title={Using Transient Pipeline Simulation to Evaluate Electric Power Generation Reliability},\n organization={Pipeline Simulation Interest Group},\n }"
   }
 ]
