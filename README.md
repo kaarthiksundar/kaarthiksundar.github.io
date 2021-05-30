@@ -1,4 +1,4 @@
-# kaarthiksundar.github.io
+# Personal Webpage of Kaarthik Sundar
 
 Source code for my [homepage](https://kaarthiksundar.github.io). Styles are obtained from the [Tachyons](https://tachyons.io) CSS toolkit. Front-end
 UI loading and routing is handled with [MithrilJS](https://mithril.js.org).
