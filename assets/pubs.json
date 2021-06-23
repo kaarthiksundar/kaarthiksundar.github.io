@@ -660,6 +660,17 @@
     "cite": "@Article{arxiv2021_dr,\n author={Fuyu Hu and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2021-04-07},\n title={Demand Response for Natural Gas: Technologies, Mathematical Models, and Challenges Ahead},\n eprint={2104.03269},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
+    "type": "preprint",
+    "authors": "S. Rajan, K. Sundar and N. Gautam",
+    "fullAuthors": "Sudarshan Rajan, Kaarthik Sundar and Natarajan Gautam",
+    "JCTitle": "",
+    "year": "2021",
+    "paperTitle": "Routing Problem for Unmanned Aerial Vehicle Patrolling Missions -- A Progressive Hedging Algorithm",
+    "doi": "",
+    "arxiv": "2106.08379",
+    "cite": "@Article{arxiv2021_pg,\n author={Sudarshan Rajan and Kaarthik Sundar and Natarajan Gautam},\n date={2021-06-22},\n title={Routing Problem for Unmanned Aerial Vehicle Patrolling Missions -- A Progressive Hedging Algorithm},\n eprint={2106.08379},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
     "type": "conference",
     "authors": "I. L. Carreño, A. Scaglione, A. Giacomoni, K. Sundar, D. Deka and A. Zlotnik",
     "fullAuthors": "Ignacio Losada Carre{\\~{n}}o, Anna Scaglione, Anthony Giacomoni, Kaarthik Sundar, Deepjyoti Deka and Anatoly Zlotnik",
