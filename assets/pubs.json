@@ -375,14 +375,14 @@
   },
   {
     "type": "preprint",
-    "authors": "K. Sundar and S. Sanjeevi",
-    "fullAuthors": "Kaarthik Sundar and Sujeevraja Sanjeevi",
+    "authors": "K. Sundar, S. Sanjeevi and C. Montez",
+    "fullAuthors": "Kaarthik Sundar, Sujeevraja Sanjeevi and Christopher Montez",
     "JCTitle": "",
     "year": "2019",
-    "paperTitle": "A Branch-and-Price Algorithm for a Team Orienteering Problem for Fixed-Wing Drones",
+    "paperTitle": "A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones",
     "doi": "",
     "arxiv": "1912.04353",
-    "cite": "@Article{arxiv2019_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi},\n date={2019-12-09},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem for Fixed-Wing Drones},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2019_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Christopher Montez},\n date={2019-12-09},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
@@ -539,15 +539,15 @@
     "cite": "@Article{pscc2021_nk,\n author={Mareldi Ahumada-Paras and Kaarthik Sundar and Russell Bent and Anatoly Zlotnik},\n date={2021-01},\n journaltitle={Electric Power Systems Research},\n title={N-k Interdiction Modeling for Natural Gas Networks},\n doi={10.1016/j.epsr.2020.106725},\n pages={106725},\n volume={190},\n publisher={Elsevier BV},\n }"
   },
   {
-    "type": "preprint",
+    "type": "conference",
     "authors": "S. Shin, C. Coffrin, K. Sundar and V. M. Zavala",
     "fullAuthors": "Sungho Shin, Carleton Coffrin, Kaarthik Sundar and Victor M. Zavala",
-    "JCTitle": "",
-    "year": "2020",
+    "JCTitle": "16th IFAC Symposium on Advanced Control of Chemical Processes (ADCHEM)",
+    "year": "2021",
     "paperTitle": "Graph-Based Modeling and Decomposition of Energy Infrastructures",
-    "doi": "",
+    "doi": "10.1016/j.ifacol.2021.08.322",
     "arxiv": "2010.02404",
-    "cite": "@Article{arxiv2020_schwartz,\n author={Sungho Shin and Carleton Coffrin and Kaarthik Sundar and Victor M. Zavala},\n date={2020-10-06},\n title={Graph-Based Modeling and Decomposition of Energy Infrastructures},\n eprint={2010.02404},\n eprintclass={math.OC},\n eprinttype={arxiv},\n }"
+    "cite": "@Article{adchem2021_schwartz,\n author={Sungho Shin and Carleton Coffrin and Kaarthik Sundar and Victor M. Zavala},\n date={2021},\n journaltitle={IFAC-PapersOnLine},\n title={Graph-Based Modeling and Decomposition of Energy Infrastructures},\n doi={10.1016/j.ifacol.2021.08.322},\n eprint={2010.02404},\n eprintclass={math.OC},\n eprinttype={arxiv},\n issn={2405-8963},\n note={16th IFAC Symposium on Advanced Control of Chemical Processes (ADCHEM)},\n number={3},\n pages={693--698},\n volume={54},\n }"
   },
   {
     "type": "preprint",
@@ -594,15 +594,15 @@
     "cite": "@Article{arxiv2021_gps,\n author={Sohum Misra and Kaarthik Sundar and Rajnikant Sharma and Kevin Brink},\n date={2021-01-24},\n title={Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments},\n eprint={2101.09750},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
   },
   {
-    "type": "preprint",
+    "type": "conference",
     "authors": "K. Sundar, S. Misra, A. Zlotnik and R. Bent",
     "fullAuthors": "Kaarthik Sundar, Sidhant Misra, Anatoly Zlotnik and Russell Bent",
-    "JCTitle": "",
+    "JCTitle": "American Control Conference (ACC)",
     "year": "2021",
     "paperTitle": "Robust Gas Pipeline Network Expansion Planning to Support Power System Reliability",
-    "doi": "",
+    "doi": "10.23919/ACC50511.2021.9483249",
     "arxiv": "2101.10398",
-    "cite": "@Article{arxiv2021_robust,\n author={Kaarthik Sundar and Sidhant Misra and Anatoly Zlotnik and Russell Bent},\n date={2021-01-25},\n title={Robust Gas Pipeline Network Expansion Planning to Support Power System Reliability},\n eprint={2101.10398},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{acc2021_robust,\n author={Kaarthik Sundar and Sidhant Misra and Anatoly Zlotnik and Russell Bent},\n booktitle={American Control Conference (ACC)},\n date={2021-07},\n title={Robust Gas Pipeline Network Expansion Planning to Support Power System Reliability},\n doi={10.23919/ACC50511.2021.9483249},\n eprint={2101.10398},\n eprintclass={math.OC},\n eprinttype={arXiv},\n pages={620--627},\n }"
   },
   {
     "type": "preprint",
