@@ -36,6 +36,13 @@
     },
     {
         "type": "postdoc",
+        "name": "Saif R. Kazi",
+        "start": "2021",
+        "end": "current",
+        "research": "Blending of hydrogen in natural gas pipeline networks"
+    },
+    {
+        "type": "postdoc",
         "name": "Sai Krishna Kanth Hari",
         "start": "2019",
         "end": "current",
@@ -45,7 +52,7 @@
         "type": "postdoc",
         "name": "Fuyu Hu",
         "start": "2019",
-        "end": "current",
+        "end": "2021",
         "research": "Natural gas demand response"
     },
     {
