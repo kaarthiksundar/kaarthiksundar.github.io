@@ -8,9 +8,5 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './bin'),
     filename: 'app.js',
-  },
-
-  devServer: {
-    port: 8080
   }
 }
