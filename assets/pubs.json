@@ -294,7 +294,7 @@
     "paperTitle": "Pipeline Transient Optimization for a Gas-Electric Coordination Decision Support System",
     "doi": "",
     "arxiv": "",
-    "cite": "@InProceedings{psig2019_gas,\n author={Anatoly Zlotnik and Kaarthik Sundar and Aleksandr M. Rudkevich and Richard Tabors and Xindi Li},\n booktitle={PSIG Annual Meeting},\n date={2019-05},\n title={Pipeline Transient Optimization for a Gas-Electric Coordination Decision Support System},\n organization={Pipeline Simulation Interest Group},\n }"
+    "cite": "@InProceedings{psig2019_gas,\n author={Anatoly Zlotnik and Kaarthik Sundar and Aleksandr M. Rudkevich and Richard Tabors and Xindi Li},\n booktitle={PSIG Annual Meeting},\n date={2019-05},\n title={Pipeline Transient Optimization for a Gas-Electric Coordination Decision Support System},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-pdf/PSIG19/All-PSIG19/PSIG-1919/1130167/psig-1919.pdf},\n }"
   },
   {
     "type": "conference",
@@ -635,7 +635,7 @@
     "paperTitle": "Credible Interdiction for Transmission Systems",
     "doi": "10.1109/tcns.2021.3050128",
     "arxiv": "1904.08330",
-    "cite": "@Article{tcns2021_nk,\n author={Kaarthik Sundar and Sidhant Misra and Russell Bent and Feng Pan},\n date={2021},\n journaltitle={IEEE Transactions on Control of Network Systems},\n title={Credible Interdiction for Transmission Systems},\n doi={10.1109/tcns.2021.3050128},\n eprint={1904.08330},\n eprintclass={math.OC},\n eprinttype={arXiv},\n pages={1--1},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n }"
+    "cite": "@Article{tcns2021_nk,\n author={Kaarthik Sundar and Sidhant Misra and Russell Bent and Feng Pan},\n date={2021},\n journaltitle={IEEE Transactions on Control of Network Systems},\n title={Credible Interdiction for Transmission Systems},\n doi={10.1109/tcns.2021.3050128},\n volume={8},\n number={2},\n pages={738--748},\n eprint={1904.08330},\n eprintclass={math.OC},\n eprinttype={arXiv},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n }"
   },
   {
     "type": "journal",
@@ -649,15 +649,15 @@
     "cite": "@Article{tcst2021_storage,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik and Russell Bent},\n date={2021},\n journaltitle={IEEE Transactions on Control Systems Technology},\n title={Operation of Natural Gas Pipeline Networks With Storage Under Transient Flow Conditions},\n doi={10.1109/TCST.2021.3071316},\n eprint={2103.02493},\n eprintclass={math.OC},\n eprinttype={arXiv},\n issn={2374-0159},\n issue={99},\n pages={1--13},\n volume={PP},\n publisher={IEEE},\n }"
   },
   {
-    "type": "preprint",
+    "type": "journal",
     "authors": "F. Hu, K. Sundar, S. Srinivasan and R. Bent",
     "fullAuthors": "Fuyu Hu, Kaarthik Sundar, Shriram Srinivasan and Russell Bent",
-    "JCTitle": "",
+    "JCTitle": "IEEE Access",
     "year": "2021",
-    "paperTitle": "Demand Response for Natural Gas: Technologies, Mathematical Models, and Challenges Ahead",
-    "doi": "",
+    "paperTitle": "Demand Response Analogues for Residential Loads in Natural Gas Networks",
+    "doi": "10.1109/ACCESS.2021.3132614",
     "arxiv": "2104.03269",
-    "cite": "@Article{arxiv2021_dr,\n author={Fuyu Hu and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2021-04-07},\n title={Demand Response for Natural Gas: Technologies, Mathematical Models, and Challenges Ahead},\n eprint={2104.03269},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{access2021_dr,\n author={Fuyu Hu and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2021},\n journaltitle={IEEE Access},\n title={Demand Response Analogues for Residential Loads in Natural Gas Networks},\n doi={10.1109/ACCESS.2021.3132614},\n issn={2169-3536},\n pages={1--13},\n volume={9},\n eprint={2104.03269},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -679,6 +679,6 @@
     "paperTitle": "Using Transient Pipeline Simulation to Evaluate Electric Power Generation Reliability",
     "doi": "",
     "arxiv": "",
-    "cite": "@InProceedings{psig2021_gas,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anthony Giacomoni and Kaarthik Sundar and Deepjyoti Deka and Anatoly Zlotnik},\n booktitle={PSIG Annual Meeting},\n date={2021-05},\n title={Using Transient Pipeline Simulation to Evaluate Electric Power Generation Reliability},\n organization={Pipeline Simulation Interest Group},\n }"
+    "cite": "@InProceedings{psig2021_gas,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anthony Giacomoni and Kaarthik Sundar and Deepjyoti Deka and Anatoly Zlotnik},\n booktitle={PSIG Annual Meeting},\n date={2021-05},\n title={Using Transient Pipeline Simulation to Evaluate Electric Power Generation Reliability},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-pdf/PSIG21/All-PSIG21/PSIG-2119/2444843/psig-2119.pdf},\n }"
   }
 ]
