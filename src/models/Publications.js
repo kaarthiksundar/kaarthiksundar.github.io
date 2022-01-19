@@ -16,7 +16,7 @@ var Publication = {
     getYears: function () {
         return Array.from(new Set(Publication.list.map( function(o) {
             return o['year'];
-        }).sort()));
+        }).sort().reverse()));
     }, 
     selectedYearValue: 1,
     searchString: '',

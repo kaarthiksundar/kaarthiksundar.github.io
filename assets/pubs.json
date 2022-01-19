@@ -374,15 +374,15 @@
     "cite": "@Article{oe2021_sequence,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Harsha Nagarajan},\n date={2021},\n journaltitle={Optimization and Engineering},\n title={Sequence of Polyhedral Relaxations for Nonlinear Univariate Functions},\n doi={10.1007/s11081-021-09609-z},\n eprint={2005.13445},\n eprintclass={math.OC},\n eprinttype={arXiv},\n pages={1--18},\n publisher={Springer},\n }"
   },
   {
-    "type": "preprint",
+    "type": "journal",
     "authors": "K. Sundar, S. Sanjeevi and C. Montez",
     "fullAuthors": "Kaarthik Sundar, Sujeevraja Sanjeevi and Christopher Montez",
-    "JCTitle": "",
-    "year": "2019",
+    "JCTitle": "EURO Journal on Transportation and Logistics",
+    "year": "2022",
     "paperTitle": "A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones",
-    "doi": "",
+    "doi": "10.1016/j.ejtl.2021.100070",
     "arxiv": "1912.04353",
-    "cite": "@Article{arxiv2019_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Christopher Montez},\n date={2019-12-09},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{euro2021_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Christopher Montez},\n date={2022},\n journaltitle={EURO Journal on Transportation and Logistics},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones},\n doi={10.1016/j.ejtl.2021.100070},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n pages={100070},\n publisher={Elsevier BV},\n }"
   },
   {
     "type": "conference",
