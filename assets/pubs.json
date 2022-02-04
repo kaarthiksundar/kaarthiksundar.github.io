@@ -374,17 +374,6 @@
     "cite": "@Article{oe2021_sequence,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Harsha Nagarajan},\n date={2021},\n journaltitle={Optimization and Engineering},\n title={Sequence of Polyhedral Relaxations for Nonlinear Univariate Functions},\n doi={10.1007/s11081-021-09609-z},\n eprint={2005.13445},\n eprintclass={math.OC},\n eprinttype={arXiv},\n pages={1--18},\n publisher={Springer},\n }"
   },
   {
-    "type": "journal",
-    "authors": "K. Sundar, S. Sanjeevi and C. Montez",
-    "fullAuthors": "Kaarthik Sundar, Sujeevraja Sanjeevi and Christopher Montez",
-    "JCTitle": "EURO Journal on Transportation and Logistics",
-    "year": "2022",
-    "paperTitle": "A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones",
-    "doi": "10.1016/j.ejtl.2021.100070",
-    "arxiv": "1912.04353",
-    "cite": "@Article{euro2021_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Christopher Montez},\n date={2022},\n journaltitle={EURO Journal on Transportation and Logistics},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones},\n doi={10.1016/j.ejtl.2021.100070},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n pages={100070},\n publisher={Elsevier BV},\n }"
-  },
-  {
     "type": "conference",
     "authors": "A. Zlotnik, K. Sundar, A. M. Rudkevich, A. Beylin and X. Li",
     "fullAuthors": "Anatoly Zlotnik, Kaarthik Sundar, Aleksandr M. Rudkevich, Aleksandr Beylin and Xindi Li",
@@ -680,5 +669,27 @@
     "doi": "",
     "arxiv": "",
     "cite": "@InProceedings{psig2021_gas,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anthony Giacomoni and Kaarthik Sundar and Deepjyoti Deka and Anatoly Zlotnik},\n booktitle={PSIG Annual Meeting},\n date={2021-05},\n title={Using Transient Pipeline Simulation to Evaluate Electric Power Generation Reliability},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-pdf/PSIG21/All-PSIG21/PSIG-2119/2444843/psig-2119.pdf},\n }"
+  },
+  {
+    "type": "journal",
+    "authors": "K. Sundar, S. Sanjeevi and C. Montez",
+    "fullAuthors": "Kaarthik Sundar, Sujeevraja Sanjeevi and Christopher Montez",
+    "JCTitle": "EURO Journal on Transportation and Logistics",
+    "year": "2022",
+    "paperTitle": "A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones",
+    "doi": "10.1016/j.ejtl.2021.100070",
+    "arxiv": "1912.04353",
+    "cite": "@Article{euro2021_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Christopher Montez},\n date={2022},\n journaltitle={EURO Journal on Transportation and Logistics},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones},\n doi={10.1016/j.ejtl.2021.100070},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n pages={100070},\n publisher={Elsevier BV},\n }"
+  },
+  {
+    "type": "journal",
+    "authors": "G. V. Wald, K. Sundar, E. Sherwin, A. Zlotnik and A. Brandt",
+    "fullAuthors": "Gregory Von Wald, Kaarthik Sundar, Evan Sherwin, Anatoly Zlotnik and Adam Brandt",
+    "JCTitle": "Advances in Applied Energy",
+    "year": "2022",
+    "paperTitle": "Optimal Gas-Electric Energy System Decarbonization Planning",
+    "doi": "10.1016/j.adapen.2022.100086",
+    "arxiv": "",
+    "cite": "@Article{ae2022_decarbonization,\n author={Gregory Von Wald and Kaarthik Sundar and Evan Sherwin and Anatoly Zlotnik and Adam Brandt},\n date={2022},\n journaltitle={Advances in Applied Energy},\n title={Optimal Gas-Electric Energy System Decarbonization Planning},\n doi={10.1016/j.adapen.2022.100086},\n pages={100086},\n issn={2666-7924},\n publisher={Elsevier BV},\n }"
   }
 ]
