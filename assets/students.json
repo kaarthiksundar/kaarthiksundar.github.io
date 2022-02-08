@@ -2,6 +2,13 @@
     {
         "type": "summer",
         "name": "Christopher Montez",
+        "start": "2022",
+        "end": "2022",
+        "research": "Global optimization with trigonometric functions"
+    },
+    {
+        "type": "summer",
+        "name": "Christopher Montez",
         "start": "2021",
         "end": "2021",
         "research": "Sensitivity analysis for Mixed-Integer Linear Programs (MILPs)"
