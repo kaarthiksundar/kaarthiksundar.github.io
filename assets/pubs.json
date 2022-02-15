@@ -649,15 +649,15 @@
     "cite": "@Article{access2021_dr,\n author={Fuyu Hu and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2021},\n journaltitle={IEEE Access},\n title={Demand Response Analogues for Residential Loads in Natural Gas Networks},\n doi={10.1109/ACCESS.2021.3132614},\n issn={2169-3536},\n pages={1--13},\n volume={9},\n eprint={2104.03269},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
-    "type": "preprint",
+    "type": "journal",
     "authors": "S. Rajan, K. Sundar and N. Gautam",
     "fullAuthors": "Sudarshan Rajan, Kaarthik Sundar and Natarajan Gautam",
-    "JCTitle": "",
-    "year": "2021",
-    "paperTitle": "Routing Problem for Unmanned Aerial Vehicle Patrolling Missions -- A Progressive Hedging Algorithm",
-    "doi": "",
+    "JCTitle": "Computers & Operations Research",
+    "year": "2022",
+    "paperTitle": "Routing Problem for Unmanned Aerial Vehicle Patrolling Missions - A Progressive Hedging Algorithm",
+    "doi": "10.1016/j.cor.2022.105702",
     "arxiv": "2106.08379",
-    "cite": "@Article{arxiv2021_pg,\n author={Sudarshan Rajan and Kaarthik Sundar and Natarajan Gautam},\n date={2021-06-22},\n title={Routing Problem for Unmanned Aerial Vehicle Patrolling Missions -- A Progressive Hedging Algorithm},\n eprint={2106.08379},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{caor2021_pg,\n author={Sudarshan Rajan and Kaarthik Sundar and Natarajan Gautam},\n date={2022},\n journaltitle={Computers \\& Operations Research},\n title={Routing Problem for Unmanned Aerial Vehicle Patrolling Missions - A Progressive Hedging Algorithm},\n doi={10.1016/j.cor.2022.105702},\n pages={105702},\n volume={142},\n publisher={Elsevier BV},\n eprint={2106.08379},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
