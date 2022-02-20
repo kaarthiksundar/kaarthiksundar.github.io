@@ -170,7 +170,12 @@ module.exports = {
             paperdiv.push(journaldiv)
         if (conferences.length != 0)
             paperdiv.push(confdiv)
+
+        var numentries = preprints.length + journals.length + conferences.length
+        console.log(numentries)
+        var numentriesdiv = m('div', {class: 'f6 dib ml4 mb4'}, 
+            m('span', {class: 'f6 f5-ns pr2'}, 'Number of entries : ' + numentries))
         
-        return m('div', {class: 'pb3 nt5-ns'}, [dddiv, searchdiv, paperdiv])
+        return m('div', {class: 'pb3 nt5-ns'}, [dddiv, searchdiv, numentriesdiv, paperdiv])
     }
 }
