@@ -360,7 +360,7 @@
     "paperTitle": "Proving Global Optimality of ACOPF Solutions",
     "doi": "10.1016/j.epsr.2020.106688",
     "arxiv": "1910.03716",
-    "cite": "@Article{pscc2020_acopf,\n author={Smitha Gopinath and Hassan L. Hijazi and Tillman Weisser and Harsha Nagarajan and Mertcan Yetkin and Kaarthik Sundar and Russell W. Bent},\n date={2020-12},\n journaltitle={Electric Power Systems Research},\n title={Proving Global Optimality of ACOPF Solutions},\n doi={10.1016/j.epsr.2020.106688},\n pages={106688},\n volume={189},\n publisher={Elsevier BV},\n eprint={1910.03716},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{pscc2020_acopf,\n author={Smitha Gopinath and Hassan L. Hijazi and Tillman Weisser and Harsha Nagarajan and Mertcan Yetkin and Kaarthik Sundar and Russell W. Bent},\n date={2020-12},\n journaltitle={Electric Power Systems Research},\n title={Proving Global Optimality of ACOPF Solutions},\n doi={10.1016/j.epsr.2020.106688},\n eid={106688},\n volume={189},\n publisher={Elsevier BV},\n eprint={1910.03716},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "journal",
@@ -514,7 +514,7 @@
     "paperTitle": "An Adversarial Model for Attack Vector Vulnerability Analysis on Power and Gas Delivery Operations",
     "doi": "10.1016/j.epsr.2020.106777",
     "arxiv": "1910.03662",
-    "cite": "@Article{pscc2020_cyber,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anatoly Zlotnik and Deepjyoti Deka and Kaarthik Sundar},\n date={2020-12},\n journaltitle={Electric Power Systems Research},\n title={An Adversarial Model for Attack Vector Vulnerability Analysis on Power and Gas Delivery Operations},\n doi={10.1016/j.epsr.2020.106777},\n eprint={1910.03662},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n pages={106777},\n volume={189},\n publisher={Elsevier BV},\n }"
+    "cite": "@Article{pscc2020_cyber,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anatoly Zlotnik and Deepjyoti Deka and Kaarthik Sundar},\n date={2020-12},\n journaltitle={Electric Power Systems Research},\n title={An Adversarial Model for Attack Vector Vulnerability Analysis on Power and Gas Delivery Operations},\n doi={10.1016/j.epsr.2020.106777},\n eprint={1910.03662},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n eid={106777},\n volume={189},\n publisher={Elsevier BV},\n }"
   },
   {
     "type": "journal",
@@ -525,7 +525,7 @@
     "paperTitle": "N-k Interdiction Modeling for Natural Gas Networks",
     "doi": "10.1016/j.epsr.2020.106725",
     "arxiv": "",
-    "cite": "@Article{pscc2021_nk,\n author={Mareldi Ahumada-Paras and Kaarthik Sundar and Russell Bent and Anatoly Zlotnik},\n date={2021-01},\n journaltitle={Electric Power Systems Research},\n title={N-k Interdiction Modeling for Natural Gas Networks},\n doi={10.1016/j.epsr.2020.106725},\n pages={106725},\n volume={190},\n publisher={Elsevier BV},\n }"
+    "cite": "@Article{pscc2021_nk,\n author={Mareldi Ahumada-Paras and Kaarthik Sundar and Russell Bent and Anatoly Zlotnik},\n date={2021-01},\n journaltitle={Electric Power Systems Research},\n title={N-k Interdiction Modeling for Natural Gas Networks},\n doi={10.1016/j.epsr.2020.106725},\n eid={106725},\n volume={190},\n publisher={Elsevier BV},\n }"
   },
   {
     "type": "conference",
@@ -569,7 +569,7 @@
     "paperTitle": "Optimal Economic Operation of Liquid Petroleum Products Pipeline Systems",
     "doi": "10.1002/aic.17124",
     "arxiv": "",
-    "cite": "@Article{aiche2021_petroleum,\n author={Elena Khlebnikova and Kaarthik Sundar and Anatoly Zlotnik and Russell Bent and Mary Ewers and Byron Tasseff},\n date={2021},\n journaltitle={AIChE Journal},\n title={Optimal Economic Operation of Liquid Petroleum Products Pipeline Systems},\n doi={10.1002/aic.17124},\n pages={e17124},\n volume={67},\n publisher={Wiley},\n }"
+    "cite": "@Article{aiche2021_petroleum,\n author={Elena Khlebnikova and Kaarthik Sundar and Anatoly Zlotnik and Russell Bent and Mary Ewers and Byron Tasseff},\n date={2021},\n journaltitle={AIChE Journal},\n title={Optimal Economic Operation of Liquid Petroleum Products Pipeline Systems},\n doi={10.1002/aic.17124},\n eid={e17124},\n volume={67},\n publisher={Wiley},\n }"
   },
   {
     "type": "preprint",
@@ -657,7 +657,7 @@
     "paperTitle": "Routing Problem for Unmanned Aerial Vehicle Patrolling Missions - A Progressive Hedging Algorithm",
     "doi": "10.1016/j.cor.2022.105702",
     "arxiv": "2106.08379",
-    "cite": "@Article{caor2021_pg,\n author={Sudarshan Rajan and Kaarthik Sundar and Natarajan Gautam},\n date={2022},\n journaltitle={Computers \\& Operations Research},\n title={Routing Problem for Unmanned Aerial Vehicle Patrolling Missions - A Progressive Hedging Algorithm},\n doi={10.1016/j.cor.2022.105702},\n pages={105702},\n volume={142},\n publisher={Elsevier BV},\n eprint={2106.08379},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{caor2022_pg,\n author={Sudarshan Rajan and Kaarthik Sundar and Natarajan Gautam},\n date={2022},\n journaltitle={Computers \\& Operations Research},\n title={Routing Problem for Unmanned Aerial Vehicle Patrolling Missions - A Progressive Hedging Algorithm},\n doi={10.1016/j.cor.2022.105702},\n eid={105702},\n issn={0305-0548},\n volume={142},\n publisher={Elsevier BV},\n eprint={2106.08379},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
@@ -679,7 +679,7 @@
     "paperTitle": "A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones",
     "doi": "10.1016/j.ejtl.2021.100070",
     "arxiv": "1912.04353",
-    "cite": "@Article{euro2021_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Christopher Montez},\n date={2022},\n journaltitle={EURO Journal on Transportation and Logistics},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones},\n doi={10.1016/j.ejtl.2021.100070},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n pages={100070},\n publisher={Elsevier BV},\n }"
+    "cite": "@Article{euro2021_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Christopher Montez},\n date={2022},\n journaltitle={EURO Journal on Transportation and Logistics},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones},\n doi={10.1016/j.ejtl.2021.100070},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n eid={100070},\n publisher={Elsevier BV},\n }"
   },
   {
     "type": "journal",
@@ -690,6 +690,17 @@
     "paperTitle": "Optimal Gas-Electric Energy System Decarbonization Planning",
     "doi": "10.1016/j.adapen.2022.100086",
     "arxiv": "",
-    "cite": "@Article{ae2022_decarbonization,\n author={Gregory Von Wald and Kaarthik Sundar and Evan Sherwin and Anatoly Zlotnik and Adam Brandt},\n date={2022},\n journaltitle={Advances in Applied Energy},\n title={Optimal Gas-Electric Energy System Decarbonization Planning},\n doi={10.1016/j.adapen.2022.100086},\n pages={100086},\n issn={2666-7924},\n publisher={Elsevier BV},\n }"
+    "cite": "@Article{ae2022_decarbonization,\n author={Gregory Von Wald and Kaarthik Sundar and Evan Sherwin and Anatoly Zlotnik and Adam Brandt},\n date={2022},\n journaltitle={Advances in Applied Energy},\n title={Optimal Gas-Electric Energy System Decarbonization Planning},\n doi={10.1016/j.adapen.2022.100086},\n eid={100086},\n issn={2666-7924},\n publisher={Elsevier BV},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. Srinivasan, K. Sundar, . V. Gyrya and A. Zlotnik",
+    "fullAuthors": "Shriram Srinivasan, Kaarthik Sundar,  Vitaliy Gyrya and Anatoly Zlotnik",
+    "JCTitle": "",
+    "year": "2022",
+    "paperTitle": "Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas",
+    "doi": "",
+    "arxiv": "2204.00071",
+    "cite": "@Article{arxiv2022_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and  Vitaliy Gyrya and Anatoly Zlotnik},\n date={2022-03-31},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
   }
 ]
