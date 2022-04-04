@@ -694,13 +694,13 @@
   },
   {
     "type": "preprint",
-    "authors": "S. Srinivasan, K. Sundar, . V. Gyrya and A. Zlotnik",
-    "fullAuthors": "Shriram Srinivasan, Kaarthik Sundar,  Vitaliy Gyrya and Anatoly Zlotnik",
+    "authors": "S. Srinivasan, K. Sundar, V. Gyrya and A. Zlotnik",
+    "fullAuthors": "Shriram Srinivasan, Kaarthik Sundar, Vitaliy Gyrya and Anatoly Zlotnik",
     "JCTitle": "",
     "year": "2022",
     "paperTitle": "Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas",
     "doi": "",
     "arxiv": "2204.00071",
-    "cite": "@Article{arxiv2022_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and  Vitaliy Gyrya and Anatoly Zlotnik},\n date={2022-03-31},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2022_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and Vitaliy Gyrya and Anatoly Zlotnik},\n date={2022-03-31},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
   }
 ]
