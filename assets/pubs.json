@@ -572,17 +572,6 @@
     "cite": "@Article{aiche2021_petroleum,\n author={Elena Khlebnikova and Kaarthik Sundar and Anatoly Zlotnik and Russell Bent and Mary Ewers and Byron Tasseff},\n date={2021},\n journaltitle={AIChE Journal},\n title={Optimal Economic Operation of Liquid Petroleum Products Pipeline Systems},\n doi={10.1002/aic.17124},\n eid={e17124},\n volume={67},\n publisher={Wiley},\n }"
   },
   {
-    "type": "preprint",
-    "authors": "S. Misra, K. Sundar, R. Sharma and K. Brink",
-    "fullAuthors": "Sohum Misra, Kaarthik Sundar, Rajnikant Sharma and Kevin Brink",
-    "JCTitle": "",
-    "year": "2021",
-    "paperTitle": "Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments",
-    "doi": "",
-    "arxiv": "2101.09750",
-    "cite": "@Article{arxiv2021_gps,\n author={Sohum Misra and Kaarthik Sundar and Rajnikant Sharma and Kevin Brink},\n date={2021-01-24},\n title={Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments},\n eprint={2101.09750},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
-  },
-  {
     "type": "conference",
     "authors": "K. Sundar, S. Misra, A. Zlotnik and R. Bent",
     "fullAuthors": "Kaarthik Sundar, Sidhant Misra, Anatoly Zlotnik and Russell Bent",
@@ -691,6 +680,17 @@
     "doi": "10.1016/j.adapen.2022.100086",
     "arxiv": "",
     "cite": "@Article{ae2022_decarbonization,\n author={Gregory Von Wald and Kaarthik Sundar and Evan Sherwin and Anatoly Zlotnik and Adam Brandt},\n date={2022},\n journaltitle={Advances in Applied Energy},\n title={Optimal Gas-Electric Energy System Decarbonization Planning},\n doi={10.1016/j.adapen.2022.100086},\n eid={100086},\n issn={2666-7924},\n publisher={Elsevier BV},\n }"
+  },
+  {
+    "type": "journal",
+    "authors": "S. Misra, K. Sundar, R. Sharma and K. Brink",
+    "fullAuthors": "Sohum Misra, Kaarthik Sundar, Rajnikant Sharma and Kevin Brink",
+    "JCTitle": "Journal of Intelligent & Robotic Systems",
+    "year": "2022",
+    "paperTitle": "Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments",
+    "doi": "10.1007/s10846-022-01647-8",
+    "arxiv": "2101.09750",
+    "cite": "@Article{jint2022_gps,\n author={Sohum Misra and Kaarthik Sundar and Rajnikant Sharma and Kevin Brink},\n date={2022},\n journaltitle={Journal of Intelligent \\& Robotic Systems},\n title={Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments},\n doi={10.1007/s10846-022-01647-8},\n number={2},\n pages={1--21},\n publisher={Springer},\n eprint={2101.09750},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
