@@ -30,7 +30,7 @@
     "paperTitle": "Adaptive Position Estimation for Vehicles Using Range Measurements",
     "doi": "10.1016/j.ifacol.2017.08.398",
     "arxiv": "",
-    "cite": "@Article{ifac2017_range,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Jos{\\'e} Braga and Jo{\\~a}o Teixeira and Swaroop Darbha and Jo{\\~a}o Sousa},\n date={2017},\n journaltitle={IFAC-PapersOnLine},\n note={20th IFAC World Congress},\n title={Adaptive Position Estimation for Vehicles Using Range Measurements},\n doi={10.1016/j.ifacol.2017.08.398},\n number={1},\n pages={1145--1150},\n volume={50},\n }"
+    "cite": "@Article{ifac2017_range,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Jos{\\'e} Braga and Jo{\\~a}o Teixeira and Swaroop Darbha and Jo{\\~a}o Sousa},\n author+an={1=student},\n date={2017},\n journaltitle={IFAC-PapersOnLine},\n note={20th IFAC World Congress},\n title={Adaptive Position Estimation for Vehicles Using Range Measurements},\n doi={10.1016/j.ifacol.2017.08.398},\n number={1},\n pages={1145--1150},\n volume={50},\n }"
   },
   {
     "type": "conference",
@@ -41,7 +41,7 @@
     "paperTitle": "Hierarchical Predictive Control Algorithms for Optimal Design and Operation of Microgrids",
     "doi": "10.23919/PSCC.2018.8442977",
     "arxiv": "1803.06705",
-    "cite": "@InProceedings{pscc2018_mpc,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Harsha Nagarajan and Russell Bent and Scott Backhaus},\n booktitle={Power Systems Computation Conference (PSCC)},\n date={2018-07},\n title={Hierarchical Predictive Control Algorithms for Optimal Design and Operation of Microgrids},\n doi={10.23919/PSCC.2018.8442977},\n pages={1--7},\n eprint={1803.06705},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{pscc2018_mpc,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Harsha Nagarajan and Russell Bent and Scott Backhaus},\n author+an={1=student},\n booktitle={Power Systems Computation Conference (PSCC)},\n date={2018-07},\n title={Hierarchical Predictive Control Algorithms for Optimal Design and Operation of Microgrids},\n doi={10.23919/PSCC.2018.8442977},\n pages={1--7},\n eprint={1803.06705},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
@@ -96,7 +96,7 @@
     "paperTitle": "Routing Unmanned Vehicles in GPS-Denied Environments",
     "doi": "10.1109/ICUAS.2017.7991488",
     "arxiv": "1708.03269",
-    "cite": "@InProceedings{icuas2017_gps,\n author={Kaarthik Sundar and Sohum Misra and Sivakumar Rathinam and Rajnikant Sharma},\n booktitle={International Conference on Unmanned Aircraft Systems (ICUAS)},\n date={2017-06},\n title={Routing Unmanned Vehicles in GPS-Denied Environments},\n doi={10.1109/ICUAS.2017.7991488},\n pages={62--71},\n organization={IEEE},\n eprint={1708.03269},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{icuas2017_gps,\n author={Kaarthik Sundar and Sohum Misra and Sivakumar Rathinam and Rajnikant Sharma},\n author+an={2=student},\n booktitle={International Conference on Unmanned Aircraft Systems (ICUAS)},\n date={2017-06},\n title={Routing Unmanned Vehicles in GPS-Denied Environments},\n doi={10.1109/ICUAS.2017.7991488},\n pages={62--71},\n organization={IEEE},\n eprint={1708.03269},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
@@ -118,7 +118,7 @@
     "paperTitle": "Algorithms for a Satellite Constellation Scheduling Problem",
     "doi": "10.1109/COASE.2016.7743431",
     "arxiv": "",
-    "cite": "@InProceedings{case2016_scheduling,\n author={Kaarthik Sundar and Jianglei Qin and Sivakumar Rathinam and Lewis Ntaimo and Swaroop Darbha and Christopher Valicka},\n booktitle={IEEE International Conference on Automation Science and Engineering (CASE)},\n date={2016-08},\n title={Algorithms for a Satellite Constellation Scheduling Problem},\n doi={10.1109/COASE.2016.7743431},\n pages={373--378},\n }"
+    "cite": "@InProceedings{case2016_scheduling,\n author={Kaarthik Sundar and Jianglei Qin and Sivakumar Rathinam and Lewis Ntaimo and Swaroop Darbha and Christopher Valicka},\n author+an={2=student},\n booktitle={IEEE International Conference on Automation Science and Engineering (CASE)},\n date={2016-08},\n title={Algorithms for a Satellite Constellation Scheduling Problem},\n doi={10.1109/COASE.2016.7743431},\n pages={373--378},\n }"
   },
   {
     "type": "conference",
@@ -195,7 +195,7 @@
     "paperTitle": "Landmark Placement for Localization in a GPS-Denied Environment",
     "doi": "10.23919/ACC.2018.8431886",
     "arxiv": "1802.07652",
-    "cite": "@InProceedings{acc2018_lpp,\n author={Kaarthik Sundar and Shriram Srinivasan and Sohum Misra and Sivakumar Rathinam and Rajnikant Sharma},\n booktitle={Annual American Control Conference (ACC)},\n date={2018-06},\n title={Landmark Placement for Localization in a GPS-Denied Environment},\n doi={10.23919/ACC.2018.8431886},\n organization={IEEE},\n pages={2769--2775},\n eprint={1802.07652},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{acc2018_lpp,\n author={Kaarthik Sundar and Shriram Srinivasan and Sohum Misra and Sivakumar Rathinam and Rajnikant Sharma},\n author+an={3=student},\n booktitle={Annual American Control Conference (ACC)},\n date={2018-06},\n title={Landmark Placement for Localization in a GPS-Denied Environment},\n doi={10.23919/ACC.2018.8431886},\n organization={IEEE},\n pages={2769--2775},\n eprint={1802.07652},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
@@ -239,7 +239,7 @@
     "paperTitle": "Routing Multiple Unmanned Vehicles in GPS-Denied Environments",
     "doi": "10.2514/6.2018-0897",
     "arxiv": "1901.00389",
-    "cite": "@InProceedings{aiaa2018_mgps,\n author={Bingyu Wang and Sohum Misra and Kaarthik Sundar and Sivakumar Rathinam and Rajnikant Sharma},\n booktitle={AIAA Information Systems-AIAA Infotech @ Aerospace, AIAA SciTech Forum},\n date={2018},\n title={Routing Multiple Unmanned Vehicles in GPS-Denied Environments},\n doi={10.2514/6.2018-0897},\n eprint={1901.00389},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{aiaa2018_mgps,\n author={Bingyu Wang and Sohum Misra and Kaarthik Sundar and Sivakumar Rathinam and Rajnikant Sharma},\n author+an={2=student},\n booktitle={AIAA Information Systems-AIAA Infotech @ Aerospace, AIAA SciTech Forum},\n date={2018},\n title={Routing Multiple Unmanned Vehicles in GPS-Denied Environments},\n doi={10.2514/6.2018-0897},\n eprint={1901.00389},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
@@ -283,7 +283,7 @@
     "paperTitle": "Routing Problems for Reconnaissance Patrolling Missions",
     "doi": "10.1109/ICUAS.2019.8797712",
     "arxiv": "",
-    "cite": "@InProceedings{icuas2019_patrolling,\n author={Sudarshan Rajan and Kaarthik Sundar and Natarajan Gautam},\n booktitle={International Conference on Unmanned Aircraft Systems (ICUAS)},\n date={2019-06},\n organization={IEEE},\n title={Routing Problems for Reconnaissance Patrolling Missions},\n doi={10.1109/ICUAS.2019.8797712},\n pages={213--220},\n }"
+    "cite": "@InProceedings{icuas2019_patrolling,\n author={Sudarshan Rajan and Kaarthik Sundar and Natarajan Gautam},\n author+an={1=student},\n booktitle={International Conference on Unmanned Aircraft Systems (ICUAS)},\n date={2019-06},\n organization={IEEE},\n title={Routing Problems for Reconnaissance Patrolling Missions},\n doi={10.1109/ICUAS.2019.8797712},\n pages={213--220},\n }"
   },
   {
     "type": "conference",
@@ -316,7 +316,7 @@
     "paperTitle": "Single Vehicle Localization and Routing in GPS-Denied Environments Using Range-Only Measurements",
     "doi": "10.1109/ACCESS.2019.2963286",
     "arxiv": "",
-    "cite": "@Article{access2019_gps,\n author={Sohum Misra and Bingyu Wang and Kaarthik Sundar and Rajnikant Sharma and Sivakumar Rathinam},\n date={2019},\n journaltitle={IEEE Access},\n title={Single Vehicle Localization and Routing in GPS-Denied Environments Using Range-Only Measurements},\n doi={10.1109/ACCESS.2019.2963286},\n issn={2169-3536},\n pages={31004--31017},\n volume={8},\n }"
+    "cite": "@Article{access2019_gps,\n author={Sohum Misra and Bingyu Wang and Kaarthik Sundar and Rajnikant Sharma and Sivakumar Rathinam},\n author+an={1=student},\n date={2019},\n journaltitle={IEEE Access},\n title={Single Vehicle Localization and Routing in GPS-Denied Environments Using Range-Only Measurements},\n doi={10.1109/ACCESS.2019.2963286},\n issn={2169-3536},\n pages={31004--31017},\n volume={8},\n }"
   },
   {
     "type": "conference",
@@ -338,7 +338,7 @@
     "paperTitle": "Optimization of Liquid Pipeline Control for Economic and Efficient Operations",
     "doi": "10.2118/200653-MS",
     "arxiv": "",
-    "cite": "@InProceedings{spec2020_petroleum,\n author={Elena Khlebnikova and Anatoly Zlotnik and Kaarthik Sundar and Mary Ewers and Byron Tasseff and Russell Bent},\n booktitle={SPE Europec featured at 82nd EAGE Conference and Exhibition},\n date={2020},\n title={Optimization of Liquid Pipeline Control for Economic and Efficient Operations},\n doi={10.2118/200653-MS},\n organization={Society of Petroleum Engineers},\n }"
+    "cite": "@InProceedings{spec2020_petroleum,\n author={Elena Khlebnikova and Anatoly Zlotnik and Kaarthik Sundar and Mary Ewers and Byron Tasseff and Russell Bent},\n author+an={1=postdoc},\n booktitle={SPE Europec featured at 82nd EAGE Conference and Exhibition},\n date={2020},\n title={Optimization of Liquid Pipeline Control for Economic and Efficient Operations},\n doi={10.2118/200653-MS},\n organization={Society of Petroleum Engineers},\n }"
   },
   {
     "type": "journal",
@@ -367,11 +367,11 @@
     "authors": "K. Sundar, S. Sanjeevi and H. Nagarajan",
     "fullAuthors": "Kaarthik Sundar, Sujeevraja Sanjeevi and Harsha Nagarajan",
     "JCTitle": "Optimization and Engineering",
-    "year": "2021",
+    "year": "2022",
     "paperTitle": "Sequence of Polyhedral Relaxations for Nonlinear Univariate Functions",
     "doi": "10.1007/s11081-021-09609-z",
     "arxiv": "2005.13445",
-    "cite": "@Article{oe2021_sequence,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Harsha Nagarajan},\n date={2021},\n journaltitle={Optimization and Engineering},\n title={Sequence of Polyhedral Relaxations for Nonlinear Univariate Functions},\n doi={10.1007/s11081-021-09609-z},\n eprint={2005.13445},\n eprintclass={math.OC},\n eprinttype={arXiv},\n pages={1--18},\n publisher={Springer},\n }"
+    "cite": "@Article{oe2022_sequence,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Harsha Nagarajan},\n date={2022},\n journaltitle={Optimization and Engineering},\n title={Sequence of Polyhedral Relaxations for Nonlinear Univariate Functions},\n doi={10.1007/s11081-021-09609-z},\n eprint={2005.13445},\n eprintclass={math.OC},\n eprinttype={arXiv},\n volume={23},\n number={2},\n pages={877--894},\n publisher={Springer},\n }"
   },
   {
     "type": "conference",
@@ -393,7 +393,7 @@
     "paperTitle": "Estimation of Location and Orientation for Underwater Vehicles from Range Measurements",
     "doi": "",
     "arxiv": "1808.03198",
-    "cite": "@Article{arxiv2018_localization,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Jose Braga and Joao Teixeira and Joao Sousa and Swaroop Darbha},\n date={2018-08-09},\n title={Estimation of Location and Orientation for Underwater Vehicles from Range Measurements},\n eprint={1808.03198},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2018_localization,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Jose Braga and Joao Teixeira and Joao Sousa and Swaroop Darbha},\n author+an={1=student},\n date={2018-08-09},\n title={Estimation of Location and Orientation for Underwater Vehicles from Range Measurements},\n eprint={1808.03198},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
@@ -503,7 +503,7 @@
     "paperTitle": "Heuristics for Routing Heterogeneous Unmanned Vehicles with Fuel Constraints",
     "doi": "10.1155/2014/131450",
     "arxiv": "",
-    "cite": "@Article{mpe2014_fmtsp,\n author={David Levy and Kaarthik Sundar and Sivakumar Rathinam},\n date={2014},\n journaltitle={Mathematical Problems in Engineering},\n title={Heuristics for Routing Heterogeneous Unmanned Vehicles with Fuel Constraints},\n doi={10.1155/2014/131450},\n pages={1--12},\n volume={2014},\n publisher={Hindawi Limited},\n }"
+    "cite": "@Article{mpe2014_fmtsp,\n author={David Levy and Kaarthik Sundar and Sivakumar Rathinam},\n author+an={1=student},\n date={2014},\n journaltitle={Mathematical Problems in Engineering},\n title={Heuristics for Routing Heterogeneous Unmanned Vehicles with Fuel Constraints},\n doi={10.1155/2014/131450},\n pages={1--12},\n volume={2014},\n publisher={Hindawi Limited},\n }"
   },
   {
     "type": "journal",
@@ -514,7 +514,7 @@
     "paperTitle": "An Adversarial Model for Attack Vector Vulnerability Analysis on Power and Gas Delivery Operations",
     "doi": "10.1016/j.epsr.2020.106777",
     "arxiv": "1910.03662",
-    "cite": "@Article{pscc2020_cyber,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anatoly Zlotnik and Deepjyoti Deka and Kaarthik Sundar},\n date={2020-12},\n journaltitle={Electric Power Systems Research},\n title={An Adversarial Model for Attack Vector Vulnerability Analysis on Power and Gas Delivery Operations},\n doi={10.1016/j.epsr.2020.106777},\n eprint={1910.03662},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n eid={106777},\n volume={189},\n publisher={Elsevier BV},\n }"
+    "cite": "@Article{pscc2020_cyber,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anatoly Zlotnik and Deepjyoti Deka and Kaarthik Sundar},\n author+an={1=student},\n date={2020-12},\n journaltitle={Electric Power Systems Research},\n title={An Adversarial Model for Attack Vector Vulnerability Analysis on Power and Gas Delivery Operations},\n doi={10.1016/j.epsr.2020.106777},\n eprint={1910.03662},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n eid={106777},\n volume={189},\n publisher={Elsevier BV},\n }"
   },
   {
     "type": "journal",
@@ -525,7 +525,7 @@
     "paperTitle": "N-k Interdiction Modeling for Natural Gas Networks",
     "doi": "10.1016/j.epsr.2020.106725",
     "arxiv": "",
-    "cite": "@Article{pscc2021_nk,\n author={Mareldi Ahumada-Paras and Kaarthik Sundar and Russell Bent and Anatoly Zlotnik},\n date={2021-01},\n journaltitle={Electric Power Systems Research},\n title={N-k Interdiction Modeling for Natural Gas Networks},\n doi={10.1016/j.epsr.2020.106725},\n eid={106725},\n volume={190},\n publisher={Elsevier BV},\n }"
+    "cite": "@Article{pscc2021_nk,\n author={Mareldi Ahumada-Paras and Kaarthik Sundar and Russell Bent and Anatoly Zlotnik},\n author+an={1=student},\n date={2021-01},\n journaltitle={Electric Power Systems Research},\n title={N-k Interdiction Modeling for Natural Gas Networks},\n doi={10.1016/j.epsr.2020.106725},\n eid={106725},\n volume={190},\n publisher={Elsevier BV},\n }"
   },
   {
     "type": "conference",
@@ -536,18 +536,18 @@
     "paperTitle": "Graph-Based Modeling and Decomposition of Energy Infrastructures",
     "doi": "10.1016/j.ifacol.2021.08.322",
     "arxiv": "2010.02404",
-    "cite": "@Article{adchem2021_schwartz,\n author={Sungho Shin and Carleton Coffrin and Kaarthik Sundar and Victor M. Zavala},\n date={2021},\n journaltitle={IFAC-PapersOnLine},\n title={Graph-Based Modeling and Decomposition of Energy Infrastructures},\n doi={10.1016/j.ifacol.2021.08.322},\n eprint={2010.02404},\n eprintclass={math.OC},\n eprinttype={arxiv},\n issn={2405-8963},\n note={16th IFAC Symposium on Advanced Control of Chemical Processes (ADCHEM)},\n number={3},\n pages={693--698},\n volume={54},\n }"
+    "cite": "@Article{adchem2021_schwartz,\n author={Sungho Shin and Carleton Coffrin and Kaarthik Sundar and Victor M. Zavala},\n author+an={1=student},\n date={2021},\n journaltitle={IFAC-PapersOnLine},\n title={Graph-Based Modeling and Decomposition of Energy Infrastructures},\n doi={10.1016/j.ifacol.2021.08.322},\n eprint={2010.02404},\n eprintclass={math.OC},\n eprinttype={arxiv},\n issn={2405-8963},\n note={16th IFAC Symposium on Advanced Control of Chemical Processes (ADCHEM)},\n number={3},\n pages={693--698},\n volume={54},\n }"
   },
   {
-    "type": "preprint",
+    "type": "journal",
     "authors": "B. Tasseff, C. Coffrin, R. Bent, K. Sundar and A. Zlotnik",
     "fullAuthors": "Byron Tasseff, Carleton Coffrin, Russell Bent, Kaarthik Sundar and Anatoly Zlotnik",
-    "JCTitle": "",
-    "year": "2020",
+    "JCTitle": "Computers & Chemical Engineering",
+    "year": "2022",
     "paperTitle": "Natural Gas Maximal Load Delivery for Multi-contingency Analysis",
-    "doi": "",
+    "doi": "10.1016/j.compchemeng.2022.108032",
     "arxiv": "2009.14726",
-    "cite": "@Article{arxiv2020_scsgas,\n author={Byron Tasseff and Carleton Coffrin and Russell Bent and Kaarthik Sundar and Anatoly Zlotnik},\n date={2020-09-30},\n title={Natural Gas Maximal Load Delivery for Multi-contingency Analysis},\n eprint={2009.14726},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2020_scsgas,\n author={Byron Tasseff and Carleton Coffrin and Russell Bent and Kaarthik Sundar and Anatoly Zlotnik},\n date={2022},\n journaltitle={Computers \\& Chemical Engineering},\n title={Natural Gas Maximal Load Delivery for Multi-contingency Analysis},\n doi={10.1016/j.compchemeng.2022.108032},\n eid={108032},\n publisher={Elsevier BV},\n eprint={2009.14726},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "journal",
@@ -569,7 +569,7 @@
     "paperTitle": "Optimal Economic Operation of Liquid Petroleum Products Pipeline Systems",
     "doi": "10.1002/aic.17124",
     "arxiv": "",
-    "cite": "@Article{aiche2021_petroleum,\n author={Elena Khlebnikova and Kaarthik Sundar and Anatoly Zlotnik and Russell Bent and Mary Ewers and Byron Tasseff},\n date={2021},\n journaltitle={AIChE Journal},\n title={Optimal Economic Operation of Liquid Petroleum Products Pipeline Systems},\n doi={10.1002/aic.17124},\n eid={e17124},\n volume={67},\n publisher={Wiley},\n }"
+    "cite": "@Article{aiche2021_petroleum,\n author={Elena Khlebnikova and Kaarthik Sundar and Anatoly Zlotnik and Russell Bent and Mary Ewers and Byron Tasseff},\n author+an={1=postdoc},\n date={2021},\n journaltitle={AIChE Journal},\n title={Optimal Economic Operation of Liquid Petroleum Products Pipeline Systems},\n doi={10.1002/aic.17124},\n eid={e17124},\n volume={67},\n publisher={Wiley},\n }"
   },
   {
     "type": "conference",
@@ -624,7 +624,7 @@
     "paperTitle": "Operation of Natural Gas Pipeline Networks With Storage Under Transient Flow Conditions",
     "doi": "10.1109/TCST.2021.3071316",
     "arxiv": "2103.02493",
-    "cite": "@Article{tcst2021_storage,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik and Russell Bent},\n date={2021},\n journaltitle={IEEE Transactions on Control Systems Technology},\n title={Operation of Natural Gas Pipeline Networks With Storage Under Transient Flow Conditions},\n doi={10.1109/TCST.2021.3071316},\n eprint={2103.02493},\n eprintclass={math.OC},\n eprinttype={arXiv},\n issn={2374-0159},\n issue={99},\n pages={1--13},\n volume={PP},\n publisher={IEEE},\n }"
+    "cite": "@Article{tcst2021_storage,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik and Russell Bent},\n author+an={1=postdoc},\n date={2021},\n journaltitle={IEEE Transactions on Control Systems Technology},\n title={Operation of Natural Gas Pipeline Networks With Storage Under Transient Flow Conditions},\n doi={10.1109/TCST.2021.3071316},\n eprint={2103.02493},\n eprintclass={math.OC},\n eprinttype={arXiv},\n issn={2374-0159},\n issue={99},\n pages={1--13},\n volume={PP},\n publisher={IEEE},\n }"
   },
   {
     "type": "journal",
@@ -635,7 +635,7 @@
     "paperTitle": "Demand Response Analogues for Residential Loads in Natural Gas Networks",
     "doi": "10.1109/ACCESS.2021.3132614",
     "arxiv": "2104.03269",
-    "cite": "@Article{access2021_dr,\n author={Fuyu Hu and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2021},\n journaltitle={IEEE Access},\n title={Demand Response Analogues for Residential Loads in Natural Gas Networks},\n doi={10.1109/ACCESS.2021.3132614},\n issn={2169-3536},\n pages={1--13},\n volume={9},\n eprint={2104.03269},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{access2021_dr,\n author={Fuyu Hu and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n author+an={1=postdoc},\n date={2021},\n journaltitle={IEEE Access},\n title={Demand Response Analogues for Residential Loads in Natural Gas Networks},\n doi={10.1109/ACCESS.2021.3132614},\n issn={2169-3536},\n pages={1--13},\n volume={9},\n eprint={2104.03269},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "journal",
@@ -646,7 +646,7 @@
     "paperTitle": "Routing Problem for Unmanned Aerial Vehicle Patrolling Missions - A Progressive Hedging Algorithm",
     "doi": "10.1016/j.cor.2022.105702",
     "arxiv": "2106.08379",
-    "cite": "@Article{caor2022_pg,\n author={Sudarshan Rajan and Kaarthik Sundar and Natarajan Gautam},\n date={2022},\n journaltitle={Computers \\& Operations Research},\n title={Routing Problem for Unmanned Aerial Vehicle Patrolling Missions - A Progressive Hedging Algorithm},\n doi={10.1016/j.cor.2022.105702},\n eid={105702},\n issn={0305-0548},\n volume={142},\n publisher={Elsevier BV},\n eprint={2106.08379},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{caor2022_pg,\n author={Sudarshan Rajan and Kaarthik Sundar and Natarajan Gautam},\n author+an={1=student},\n date={2022},\n journaltitle={Computers \\& Operations Research},\n title={Routing Problem for Unmanned Aerial Vehicle Patrolling Missions - A Progressive Hedging Algorithm},\n doi={10.1016/j.cor.2022.105702},\n eid={105702},\n issn={0305-0548},\n volume={142},\n publisher={Elsevier BV},\n eprint={2106.08379},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
@@ -657,7 +657,7 @@
     "paperTitle": "Using Transient Pipeline Simulation to Evaluate Electric Power Generation Reliability",
     "doi": "",
     "arxiv": "",
-    "cite": "@InProceedings{psig2021_gas,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anthony Giacomoni and Kaarthik Sundar and Deepjyoti Deka and Anatoly Zlotnik},\n booktitle={PSIG Annual Meeting},\n date={2021-05},\n title={Using Transient Pipeline Simulation to Evaluate Electric Power Generation Reliability},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-pdf/PSIG21/All-PSIG21/PSIG-2119/2444843/psig-2119.pdf},\n }"
+    "cite": "@InProceedings{psig2021_gas,\n author={Ignacio Losada Carre{\\~{n}}o and Anna Scaglione and Anthony Giacomoni and Kaarthik Sundar and Deepjyoti Deka and Anatoly Zlotnik},\n author+an={1=student},\n booktitle={PSIG Annual Meeting},\n date={2021-05},\n title={Using Transient Pipeline Simulation to Evaluate Electric Power Generation Reliability},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-pdf/PSIG21/All-PSIG21/PSIG-2119/2444843/psig-2119.pdf},\n }"
   },
   {
     "type": "journal",
@@ -668,7 +668,7 @@
     "paperTitle": "A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones",
     "doi": "10.1016/j.ejtl.2021.100070",
     "arxiv": "1912.04353",
-    "cite": "@Article{euro2021_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Christopher Montez},\n date={2022},\n journaltitle={EURO Journal on Transportation and Logistics},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones},\n doi={10.1016/j.ejtl.2021.100070},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n eid={100070},\n publisher={Elsevier BV},\n }"
+    "cite": "@Article{euro2021_top,\n author={Kaarthik Sundar and Sujeevraja Sanjeevi and Christopher Montez},\n author+an={3=student},\n date={2022},\n journaltitle={EURO Journal on Transportation and Logistics},\n title={A Branch-and-Price Algorithm for a Team Orienteering Problem with Fixed-Wing Drones},\n doi={10.1016/j.ejtl.2021.100070},\n eprint={1912.04353},\n eprintclass={math.OC},\n eprinttype={arXiv},\n eid={100070},\n publisher={Elsevier BV},\n }"
   },
   {
     "type": "journal",
@@ -690,7 +690,7 @@
     "paperTitle": "Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments",
     "doi": "10.1007/s10846-022-01647-8",
     "arxiv": "2101.09750",
-    "cite": "@Article{jint2022_gps,\n author={Sohum Misra and Kaarthik Sundar and Rajnikant Sharma and Kevin Brink},\n date={2022},\n journaltitle={Journal of Intelligent \\& Robotic Systems},\n title={Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments},\n doi={10.1007/s10846-022-01647-8},\n number={2},\n pages={1--21},\n publisher={Springer},\n eprint={2101.09750},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{jint2022_gps,\n author={Sohum Misra and Kaarthik Sundar and Rajnikant Sharma and Kevin Brink},\n author+an={1=student},\n date={2022},\n journaltitle={Journal of Intelligent \\& Robotic Systems},\n title={Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments},\n doi={10.1007/s10846-022-01647-8},\n number={2},\n pages={1--21},\n publisher={Springer},\n eprint={2101.09750},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -702,5 +702,27 @@
     "doi": "",
     "arxiv": "2204.00071",
     "cite": "@Article{arxiv2022_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and Vitaliy Gyrya and Anatoly Zlotnik},\n date={2022-03-31},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "V. S. Chirala, K. Sundar, S. Venkatachalam, J. M. Smereka and S. Kassoumeh",
+    "fullAuthors": "Venkata Sirimuvva Chirala, Kaarthik Sundar, Saravanan Venkatachalam, Jonathon M. Smereka and Sam Kassoumeh",
+    "JCTitle": "",
+    "year": "2022",
+    "paperTitle": "Heuristics for Multi-Vehicle Routing Problem Considering Human-Robot Interactions",
+    "doi": "",
+    "arxiv": "2208.09607",
+    "cite": "@Article{arxiv2022_multivehiclehr,\n author={Venkata Sirimuvva Chirala and Kaarthik Sundar and Saravanan Venkatachalam and Jonathon M. Smereka and Sam Kassoumeh},\n author+an={1=student},\n date={2022-08-20},\n title={Heuristics for Multi-Vehicle Routing Problem Considering Human-Robot Interactions},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "M. Sodwatana, S. R. Kazi, K. Sundar and A. Zlotnik",
+    "fullAuthors": "Mo Sodwatana, Saif R. Kazi, Kaarthik Sundar and Anatoly Zlotnik",
+    "JCTitle": "",
+    "year": "2022",
+    "paperTitle": "Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction",
+    "doi": "",
+    "arxiv": "2208.09607",
+    "cite": "@Article{arxiv2022_hydrogen,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={2=postdoc},\n date={2022-10-28},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
