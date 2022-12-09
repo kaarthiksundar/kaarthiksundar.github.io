@@ -1,6 +1,13 @@
 [   
     {
         "type": "summer",
+        "name": "Yuqi Zhou",
+        "start": "2022",
+        "end": "2022",
+        "research": "Power systems topology control under wildfire"
+    },
+    {
+        "type": "summer",
         "name": "Christopher Montez",
         "start": "2022",
         "end": "2022",
