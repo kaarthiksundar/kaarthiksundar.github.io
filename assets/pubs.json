@@ -723,6 +723,17 @@
     "paperTitle": "Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction",
     "doi": "",
     "arxiv": "2208.09607",
-    "cite": "@Article{arxiv2022_hydrogen,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={2=postdoc},\n date={2022-10-28},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2022_hydrogenemissions,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={2=postdoc},\n date={2022-10-28},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. R. Kazi, K. Sundar, S. Srinivasan and A. Zlotnik",
+    "fullAuthors": "Saif R. Kazi, Kaarthik Sundar, Shriram Srinivasan and Anatoly Zlotnik",
+    "JCTitle": "",
+    "year": "2022",
+    "paperTitle": "Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks",
+    "doi": "",
+    "arxiv": "2212.00961",
+    "cite": "@Article{arxiv2022_hydrogen,\n author={Saif R. Kazi and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2022-12-02},\n title={Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks},\n eprint={2212.00961},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
