@@ -693,15 +693,15 @@
     "cite": "@Article{jint2022_gps,\n author={Sohum Misra and Kaarthik Sundar and Rajnikant Sharma and Kevin Brink},\n author+an={1=student},\n date={2022},\n journaltitle={Journal of Intelligent \\& Robotic Systems},\n title={Deployable, Data-Driven Unmanned Vehicle Navigation System in GPS-Denied, Feature-Deficient Environments},\n doi={10.1007/s10846-022-01647-8},\n number={2},\n pages={1--21},\n publisher={Springer},\n eprint={2101.09750},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
   },
   {
-    "type": "preprint",
+    "type": "journal",
     "authors": "S. Srinivasan, K. Sundar, V. Gyrya and A. Zlotnik",
     "fullAuthors": "Shriram Srinivasan, Kaarthik Sundar, Vitaliy Gyrya and Anatoly Zlotnik",
-    "JCTitle": "",
+    "JCTitle": "IEEE Transactions on Control of Network Systems",
     "year": "2022",
     "paperTitle": "Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas",
-    "doi": "",
+    "doi": "10.1109/TCNS.2022.3232524",
     "arxiv": "2204.00071",
-    "cite": "@Article{arxiv2022_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and Vitaliy Gyrya and Anatoly Zlotnik},\n date={2022-03-31},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{tcns2022_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and Vitaliy Gyrya and Anatoly Zlotnik},\n date={2022-12-27},\n journaltitle={IEEE Transactions on Control of Network Systems},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n doi={10.1109/TCNS.2022.3232524},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -722,8 +722,8 @@
     "year": "2022",
     "paperTitle": "Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction",
     "doi": "",
-    "arxiv": "2208.09607",
-    "cite": "@Article{arxiv2022_hydrogenemissions,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={2=postdoc},\n date={2022-10-28},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "arxiv": "2210.16385",
+    "cite": "@Article{arxiv2022_hydrogenemissions,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={2=postdoc},\n date={2022-10-28},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n eprint={2210.16385},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
