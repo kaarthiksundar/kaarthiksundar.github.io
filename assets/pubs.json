@@ -735,5 +735,16 @@
     "doi": "",
     "arxiv": "2212.00961",
     "cite": "@Article{arxiv2022_hydrogen,\n author={Saif R. Kazi and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2022-12-02},\n title={Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks},\n eprint={2212.00961},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "Y. Zhou, K. Sundar, D. Deka and H. Zhu",
+    "fullAuthors": "Yuqi Zhou, Kaarthik Sundar, Deepjyoti Deka and Hao Zhu",
+    "JCTitle": "",
+    "year": "2023",
+    "paperTitle": "Optimal Power System Topology Control Under Uncertain Wildfire Risk",
+    "doi": "",
+    "arxiv": "2303.07558",
+    "cite": "@Article{arxiv2023_wildfire,\n author={Yuqi Zhou and Kaarthik Sundar and Deepjyoti Deka and Hao Zhu},\n author+an={1=student},\n date={2023-03-14},\n title={Optimal Power System Topology Control Under Uncertain Wildfire Risk},\n eprint={2303.07558},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
   }
 ]
