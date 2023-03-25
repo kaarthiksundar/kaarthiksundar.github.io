@@ -704,15 +704,15 @@
     "cite": "@Article{tcns2022_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and Vitaliy Gyrya and Anatoly Zlotnik},\n date={2022-12-27},\n journaltitle={IEEE Transactions on Control of Network Systems},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n doi={10.1109/TCNS.2022.3232524},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
   },
   {
-    "type": "preprint",
+    "type": "journal",
     "authors": "V. S. Chirala, K. Sundar, S. Venkatachalam, J. M. Smereka and S. Kassoumeh",
     "fullAuthors": "Venkata Sirimuvva Chirala, Kaarthik Sundar, Saravanan Venkatachalam, Jonathon M. Smereka and Sam Kassoumeh",
-    "JCTitle": "",
-    "year": "2022",
+    "JCTitle": "IEEE Transactions on Intelligent Vehicles",
+    "year": "2023",
     "paperTitle": "Heuristics for Multi-Vehicle Routing Problem Considering Human-Robot Interactions",
-    "doi": "",
+    "doi": "10.1109/TIV.2023.3261274",
     "arxiv": "2208.09607",
-    "cite": "@Article{arxiv2022_multivehiclehr,\n author={Venkata Sirimuvva Chirala and Kaarthik Sundar and Saravanan Venkatachalam and Jonathon M. Smereka and Sam Kassoumeh},\n author+an={1=student},\n date={2022-08-20},\n title={Heuristics for Multi-Vehicle Routing Problem Considering Human-Robot Interactions},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{tvt2023_multivehiclehr,\n author={Venkata Sirimuvva Chirala and Kaarthik Sundar and Saravanan Venkatachalam and Jonathon M. Smereka and Sam Kassoumeh},\n author+an={1=student},\n date={2023-03-24},\n journaltitle={IEEE Transactions on Intelligent Vehicles},\n title={Heuristics for Multi-Vehicle Routing Problem Considering Human-Robot Interactions},\n doi={10.1109/TIV.2023.3261274},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -723,7 +723,7 @@
     "paperTitle": "Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction",
     "doi": "",
     "arxiv": "2210.16385",
-    "cite": "@Article{arxiv2022_hydrogenemissions,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={2=postdoc},\n date={2022-10-28},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n eprint={2210.16385},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2022_hydrogenemissions,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=student,2=postdoc},\n date={2022-10-28},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n eprint={2210.16385},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",

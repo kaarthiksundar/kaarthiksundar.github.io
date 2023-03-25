@@ -1,6 +1,13 @@
 [   
     {
         "type": "summer",
+        "name": "Mo Sodwatana",
+        "start": "2022",
+        "end": "2022",
+        "research": "Economics of blending hydrogen and natural gas in pipeline networks"
+    },
+    {
+        "type": "summer",
         "name": "Yuqi Zhou",
         "start": "2022",
         "end": "2022",
