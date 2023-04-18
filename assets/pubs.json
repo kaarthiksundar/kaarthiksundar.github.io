@@ -734,7 +734,18 @@
     "paperTitle": "Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks",
     "doi": "",
     "arxiv": "2212.00961",
-    "cite": "@Article{arxiv2022_hydrogen,\n author={Saif R. Kazi and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2022-12-02},\n title={Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks},\n eprint={2212.00961},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2022_hydrogen_ss,\n author={Saif R. Kazi and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2022-12-02},\n title={Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks},\n eprint={2212.00961},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. R. Kazi, K. Sundar and A. Zlotnik",
+    "fullAuthors": "Saif R. Kazi, Kaarthik Sundar and Anatoly Zlotnik",
+    "JCTitle": "",
+    "year": "2023",
+    "paperTitle": "Dynamic Optimization and Optimal Control of Hydrogen Blending Operations in Natural Gas Networks",
+    "doi": "",
+    "arxiv": "2304.02716",
+    "cite": "@Article{arxiv2023_hydrogen_tr,\n author={Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2023-04-05},\n title={Dynamic Optimization and Optimal Control of Hydrogen Blending Operations in Natural Gas Networks},\n eprint={2304.02716},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
