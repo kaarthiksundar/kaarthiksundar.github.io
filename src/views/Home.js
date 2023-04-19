@@ -10,6 +10,10 @@ module.exports = {
             m('i', {class: 'fab fa-github fa-2x black-70 hover-dark-red'})
         );
         var img = m('img', {src: Bio.pic, class: 'br-100 shadow-2 o-80 h5-ns w5-ns h4 w4 dib', title: 'Kaarthik Sundar'});
+        var img_new = m('img', {src: Bio.pic, class: 'br-100 shadow-2 h5-ns w5-ns h4 w4 dib ba b--transparent', title: 'Kaarthik Sundar'})
+        var title = m('h1', {class: 'f3 mb2'}, 'Kaarthik')
+        var subtitle = m('h2', {class: 'f5 fw4 gray mt0'}, 'LANL')
+        var pic_new = m('div', {class: 'tc'}, [img, title, subtitle]);
         var pic = m('div', {class: 'tc'}, [img]);
         var email = m('p', {class: 'lh-title measure center f6 black-70'}, 
             ['E-mail id: ', m('a', {href: 'mailto:kaarthik@lanl.gov', class: 'link dim gray hover-dark-blue'}, 
@@ -23,6 +27,7 @@ module.exports = {
         var desc = m('p', {class: 'measure-wide fl-ns w-50-ns f6 f5-ns lh-copy pa4 tl'}, 
             [Bio.description, m('br'), m('br'), Bio.softwares]
         );
-        return m('div', {class: 'cf-ns nl2 nr2 nt5-ns'}, [card, desc])
+        // return m('div', {class: 'cf-ns nl2 nr2 nt5-ns'}, [card, desc])
+        return img_new
     }
 }
