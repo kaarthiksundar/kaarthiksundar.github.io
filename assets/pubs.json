@@ -101,13 +101,13 @@
   {
     "type": "conference",
     "authors": "K. Sundar, H. Nagarajan, M. Lubin, L. Roald, S. Misra, R. Bent and D. Beinstock",
-    "fullAuthors": "Kaarthik Sundar, Harsha Nagarajan, Miles Lubin, Line Roald, Sidanth Misra, Russell Bent and Daniel Beinstock",
+    "fullAuthors": "Kaarthik Sundar, Harsha Nagarajan, Miles Lubin, Line Roald, Sidhant Misra, Russell Bent and Daniel Beinstock",
     "JCTitle": "Power Systems Computation Conference (PSCC)",
     "year": "2016",
     "paperTitle": "Unit Commitment with N-1 Security and Wind Uncertainty",
     "doi": "10.1109/PSCC.2016.7540910",
     "arxiv": "1602.00079",
-    "cite": "@InProceedings{pscc2016_sccuc,\n author={Kaarthik Sundar and Harsha Nagarajan and Miles Lubin and Line Roald and Sidanth Misra and Russell Bent and Daniel Beinstock},\n booktitle={Power Systems Computation Conference (PSCC)},\n date={2016},\n title={Unit Commitment with N-1 Security and Wind Uncertainty},\n doi={10.1109/PSCC.2016.7540910},\n pages={1--7},\n eprint={1602.00079},\n eprintclass={cs.SY},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{pscc2016_sccuc,\n author={Kaarthik Sundar and Harsha Nagarajan and Miles Lubin and Line Roald and Sidhant Misra and Russell Bent and Daniel Beinstock},\n booktitle={Power Systems Computation Conference (PSCC)},\n date={2016},\n title={Unit Commitment with N-1 Security and Wind Uncertainty},\n doi={10.1109/PSCC.2016.7540910},\n pages={1--7},\n eprint={1602.00079},\n eprintclass={cs.SY},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",

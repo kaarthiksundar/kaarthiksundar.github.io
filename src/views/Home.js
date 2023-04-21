@@ -25,7 +25,7 @@ module.exports = {
             title: 'Kaarthik Sundar'
         });
 
-        var title = m('h2', {class: 'f3-ns f4 mb3'}, 'Scientist')
+        var title = m('h2', {class: 'f3-ns f4 mb3'}, 'Staff Scientist')
         
         var lanl = m('a', {
             href: 'https://www.lanl.gov/', 
@@ -50,7 +50,7 @@ module.exports = {
             rel: "noopener noreferrer" 
             },
             m('i', {
-                class: 'ai ai-google-scholar ai-2x black-70 hover-blue'
+                class: 'ai ai-google-scholar ai-2x black-70 hover-blue grow'
             })
         );
 
@@ -59,7 +59,7 @@ module.exports = {
             target: "_blank", 
             rel: "noopener noreferrer"
             },
-            m('i', {class: 'fab fa-github fa-2x black-70 hover-blue'})
+            m('i', {class: 'fab fa-github fa-2x black-70 hover-blue grow'})
         );
 
         var cv = m('a', {
@@ -67,7 +67,7 @@ module.exports = {
             target: "_blank", 
             rel: "noopener noreferrer"
             },
-            m('i', {class: 'ai ai-cv ai-2x black-70 hover-blue'})
+            m('i', {class: 'ai ai-cv ai-2x black-70 hover-blue grow'})
         );
 
         var email = m('a', {
@@ -75,7 +75,7 @@ module.exports = {
             target: "_blank", 
             rel: "noopener noreferrer"
             },
-            m('i', {class: 'fa fa-envelope fa-2x black-70 hover-blue'})
+            m('i', {class: 'fa fa-envelope fa-2x black-70 hover-blue grow'})
         );
 
 
@@ -92,10 +92,10 @@ module.exports = {
 
 
         var education = m('ul', { class: 'fa-ul f6 f5-ns' }, Education.list.map(educationView))
-        var edTitle = m('h4', {class: 'f3-ns f4 mb2'}, 'Education')
+        var edTitle = m('h4', {class: 'f5-ns f6 ttu tracked mb2 black'}, 'EDUCATION')
         var edRow = m('div', {class: 'dt-row'}, [edTitle, education])
         
-        var desc = m('p', {class: 'fl-ns w-50-ns f6 f5-ns lh-copy pa4 tl'}, [
+        var desc = m('p', {class: 'measure-wide fl-ns w-50-ns f6 f5-ns lh-copy pa2 tl'}, [
             Bio.biography, ' ', 
             Bio.research, //' ', 
             // Bio.softwares,

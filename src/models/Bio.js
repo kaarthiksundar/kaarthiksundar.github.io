@@ -44,21 +44,20 @@ var Bio = {
 
     theoryInterests: [
         'Mathematical Programming',
-        'Large scale Optimization',
+        'Global Optimization',
         'Optimal Control Theory',
         'Dynamics and Control',
-        'Heuristics',
         'Approximation Algorithms', 
-        'Machine Learning'
+        'Reinforcement Learning'
     ],
 
     appliedInterests: [
-        'Vehicle Routing',
         'Pipeline Infrastructure Systems',
-        'Robotics',
-        'Transportation',
-        'Decarbonization',
-        'Power Systems'
+        'Transportation Systems',
+        'Interdependent Energy Infrastructure Systems',
+        'Supply Chain Systems',
+        'Decarbonization Planning', 
+        'Dynamical Systems'
     ],
 
     softwares: [

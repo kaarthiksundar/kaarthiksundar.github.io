@@ -12,7 +12,7 @@ module.exports = {
         var links = [
             new Link('Home', '/#!'),
             new Link('Research', '/#!/research'),
-            new Link('Experience', '/#!/experience'),
+            // new Link('Experience', '/#!/experience'),
             new Link('Publications', '/#!/publications'),
             new Link('Students', '/#!/students')
         ];
@@ -26,7 +26,7 @@ module.exports = {
         var nav = m('div', {class: 'nowrap left'}, items);
         
         return m('nav', 
-            {class: 'ph3 ph5-ns w-100 bg-white pv3 mb3 mb5-ns bt bb b--black-10 overflow-auto'}, 
+            {class: 'ph3 ph5-ns w-100 bg-near-white pv3 mb3 mb5-ns bt bb b--black-10 overflow-auto'}, 
             nav
         ); 
     }
