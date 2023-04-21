@@ -2,10 +2,15 @@ var m = require("mithril")
 
 var Bio = {
     pic: '../assets/profile-pic.jpg',
-    
-    description: [
-        'Kaarthik Sundar is a staff-scientst in the',
-        ' Information Systems and Modeling Group (A-1) at ',
+
+    biography: [
+        'Kaarthik is a scientst in the ',
+        m('a', {
+            href: 'https://organizations.lanl.gov/a-1/',
+            class: 'link dim gray hover-blue', 
+            target: "_blank", rel: "noopener noreferrer"
+        }, 'Information Systems and Modeling'),
+        ' at ',
         m('a', {href: 'https://www.lanl.gov/', class: 'link dim gray hover-dark-blue', 
         target: "_blank", rel: "noopener noreferrer"}, 
         'Los Alamos National Laboratory (LANL)'),
@@ -14,15 +19,24 @@ var Bio = {
         class: 'link dim gray hover-dark-blue',
         target: "_blank", rel: "noopener noreferrer"}, 
         'Advanced Network Science Initiative'), 
-        '. His research interests lie at the intersection of optimization,',
-        ' control, and machine learning applied to transportation, pipeline',
-        ' infrastructure systems, robotics, power systems, and decarbonization',
-        ' of energy infrastructure systems.',
+        '.',
+    ],
+    
+    research: [
+        'His research interests lie at the intersection of optimization,',
+        ' control, and machine learning applied to complex systems. In particular,',
+        ' his expertise lies in the areas of mathematical programming, large scale', 
+        ' deterministic and stochastic optimization, optimal control, heuristics,', 
+        ' approximation algorithms and reinforcement learning. He applies these',
+        ' techniques to solve problems that arise in the domains of pipeline', 
+        ' infrastucture systems transportation systems, decarbonization of', 
+        ' energy infrastucture systems improving the resiliency of infrastucture',
+        ' systems in the face of climate impacts robotics, and autonomous systems. '
     ],
 
     cv: '../assets/kaarthik-sundar-cv.pdf',
        
-    email: 'kaarthik@lanl.gov',
+    email: 'mailto:kaarthik@lanl.gov',
 
     github: 'https://github.com/kaarthiksundar',
 
@@ -30,38 +44,33 @@ var Bio = {
 
     theoryInterests: [
         'Mathematical Programming',
-        'Large scale Optimization',
+        'Global Optimization',
         'Optimal Control Theory',
         'Dynamics and Control',
-        'Heuristics',
         'Approximation Algorithms', 
-        'Machine Learning'
+        'Reinforcement Learning'
     ],
 
     appliedInterests: [
-        'Vehicle Routing',
         'Pipeline Infrastructure Systems',
-        'Robotics',
-        'Transportation',
-        'Decarbonization',
-        'Power Systems', 
-        'Airline Crew Recovery'
+        'Transportation Systems',
+        'Interdependent Energy Infrastructure Systems',
+        'Supply Chain Systems',
+        'Decarbonization Planning', 
+        'Dynamical Systems'
     ],
 
     softwares: [
-        'Kaarthik also loves to write production-quality code, even for his research work.', 
-        ' He writes production code in C++, Kotlin, and Julia', 
-        ' and relies heavily on Python3 for scripting.',
+        'He also loves to write production-quality code, even for his research work.', 
+        ' He writes production code in C++, Kotlin, Python and Julia.',
         ' He extensively uses gnuplot for plotting.',
         ' He has written code in C, C++, Java, Julia, Kotlin, and Python for his ',
         'research work. Furthermore, he also maintains and/or develops a number of Julia packages.', 
         ' Some of them are ',
-        m('a', { href: 'https://github.com/lanl-ansi/GasModels.jl', class: 'link dim gray hover-dark-blue',
-        target: "_blank", rel: "noopener noreferrer"}, 'GasModels.jl'), ',  ',
         m('a', { href: 'https://github.com/kaarthiksundar/Dubins.jl', class: 'link dim gray hover-dark-blue',
-        target: "_blank", rel: "noopener noreferrer"}, 'Dubins.jl'), ', and ',
+        target: "_blank", rel: "noopener noreferrer"}, 'Dubins.jl'), ' and ',
         m('a', { href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl', class: 'link dim gray hover-dark-blue', target: "_blank", rel: "noopener noreferrer"}, 
-        'PolyhedralRelaxations.jl'), '. He also plays tennis, swims and snowboards.'
+        'PolyhedralRelaxations.jl'), '.'
     ]
 }
 

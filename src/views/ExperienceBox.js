@@ -8,7 +8,7 @@ var experienceView = function (ex) {
     
         var children = [
         icon, 
-        m('span', {class: 'f6 ttu black b'}, ex.role),
+        m('span', {class: 'f6 f5-ns ttu black b'}, ex.role),
         m('br'),
         m('span', {class: 'black-90'}, ex.group), 
         m('br'), m('span', {class: 'black-60'}, ex.organization),

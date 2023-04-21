@@ -1,9 +1,8 @@
 var m = require("mithril");
 var Layout = require("./views/Layout");
 var Home = require("./views/Home")
-var EducationBox = require("./views/EducationBox")
 var PublicationBox = require("./views/PublicationBox");
-const ExperienceBox = require("./views/ExperienceBox");
+// const ExperienceBox = require("./views/ExperienceBox");
 const ResearchBox = require("./views/ResearchBox");
 const StudentBox = require("./views/StudentBox");
 
@@ -20,8 +19,7 @@ function buildRouteResolver(component) {
 m.route(document.body, "/", {
     "/": buildRouteResolver(Home),
     "/research": buildRouteResolver(ResearchBox),
-    "/education": buildRouteResolver(EducationBox),
-    "/experience": buildRouteResolver(ExperienceBox),
+    // "/experience": buildRouteResolver(ExperienceBox),
     "/publications": buildRouteResolver(PublicationBox),
     "/students": buildRouteResolver(StudentBox)
 });
