@@ -17,7 +17,7 @@ var view = function (vnode) {
         [content]);
 
     return m('div',
-        { class: 'fira-sans' },
+        { class: 'sans-serif' },
         [m(Header), body, m(Footer)]
         );
 };
