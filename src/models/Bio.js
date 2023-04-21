@@ -4,8 +4,13 @@ var Bio = {
     pic: '../assets/profile-pic.jpg',
 
     biography: [
-        'Kaarthik is a scientst in the',
-        ' Information Systems and Modeling Group (A-1) at ',
+        'Kaarthik is a scientst in the ',
+        m('a', {
+            href: 'https://organizations.lanl.gov/a-1/',
+            class: 'link dim gray hover-blue', 
+            target: "_blank", rel: "noopener noreferrer"
+        }, 'Information Systems and Modeling'),
+        ' at ',
         m('a', {href: 'https://www.lanl.gov/', class: 'link dim gray hover-dark-blue', 
         target: "_blank", rel: "noopener noreferrer"}, 
         'Los Alamos National Laboratory (LANL)'),
@@ -23,10 +28,10 @@ var Bio = {
         ' his expertise lies in the areas of mathematical programming, large scale', 
         ' deterministic and stochastic optimization, optimal control, heuristics,', 
         ' approximation algorithms and reinforcement learning. He applies these',
-        ' techniques to solve problems in pipeline infrastucture systems',
-        ' transportation systems, decarbonization of energy infrastucture systems,',
-        ' improving the resiliency of infrastucture systems in the face of climate impacts,',
-        ' robotics, and autonomous systems. '
+        ' techniques to solve problems that arise in the domains of pipeline', 
+        ' infrastucture systems transportation systems, decarbonization of', 
+        ' energy infrastucture systems improving the resiliency of infrastucture',
+        ' systems in the face of climate impacts robotics, and autonomous systems. '
     ],
 
     cv: '../assets/kaarthik-sundar-cv.pdf',
@@ -53,19 +58,18 @@ var Bio = {
         'Robotics',
         'Transportation',
         'Decarbonization',
-        'Power Systems', 
-        'Airline Crew Recovery'
+        'Power Systems'
     ],
 
     softwares: [
-        'Kaarthik also loves to write production-quality code, even for his research work.', 
+        'He also loves to write production-quality code, even for his research work.', 
         ' He writes production code in C++, Kotlin, Python and Julia.',
         ' He extensively uses gnuplot for plotting.',
         ' He has written code in C, C++, Java, Julia, Kotlin, and Python for his ',
         'research work. Furthermore, he also maintains and/or develops a number of Julia packages.', 
         ' Some of them are ',
         m('a', { href: 'https://github.com/kaarthiksundar/Dubins.jl', class: 'link dim gray hover-dark-blue',
-        target: "_blank", rel: "noopener noreferrer"}, 'Dubins.jl'), ', and ',
+        target: "_blank", rel: "noopener noreferrer"}, 'Dubins.jl'), ' and ',
         m('a', { href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl', class: 'link dim gray hover-dark-blue', target: "_blank", rel: "noopener noreferrer"}, 
         'PolyhedralRelaxations.jl'), '.'
     ]

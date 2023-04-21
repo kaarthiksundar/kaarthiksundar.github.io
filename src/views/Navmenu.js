@@ -12,7 +12,6 @@ module.exports = {
         var links = [
             new Link('Home', '/#!'),
             new Link('Research', '/#!/research'),
-            new Link('Education', '/#!/education'),
             new Link('Experience', '/#!/experience'),
             new Link('Publications', '/#!/publications'),
             new Link('Students', '/#!/students')

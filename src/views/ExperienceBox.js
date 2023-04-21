@@ -15,7 +15,7 @@ var experienceView = function (ex) {
         m('br'), ex.location,
         m('br'),
         ex.start, ' - ', ex.end]
-    return m('li', { class: 'f6 f5-ns pa2 lh-copy'}, children)
+    return m('li', { class: 'f6 pa2 lh-copy'}, children)
 }
 
 module.exports = {
@@ -23,7 +23,7 @@ module.exports = {
         if (!Experience.loaded) Experience.loadList()
     },
     view: function () {
-        return m('ul', {class: 'fa-ul f6 f5-ns pb3 nt6-ns nt2 pl4'}, 
+        return m('ul', {class: 'fa-ul f6 pb3 nt6-ns nt2 pl4'}, 
             Experience.list.map(experienceView));
     }
 }
