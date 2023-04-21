@@ -30,8 +30,8 @@ var Bio = {
         ' approximation algorithms and reinforcement learning. He applies these',
         ' techniques to solve problems that arise in the domains of pipeline', 
         ' infrastucture systems transportation systems, decarbonization of', 
-        ' energy infrastucture systems improving the resiliency of infrastucture',
-        ' systems in the face of climate impacts robotics, and autonomous systems. '
+        ' energy infrastucture systems, improving the resiliency of infrastucture',
+        ' systems in the face of climate impacts, robotics, and autonomous systems. '
     ],
 
     cv: '../assets/kaarthik-sundar-cv.pdf',
