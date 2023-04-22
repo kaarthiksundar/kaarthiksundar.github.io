@@ -39,7 +39,8 @@ var getYear = function(date) {
 };
 
 var cleanTitle = function(title) {
-    return title.replace('\\&', '&');
+    var temp = title.replace('--', '—')
+    return temp.replace('\\&', '&');
 };
 
 function getBibCitation(entry) {

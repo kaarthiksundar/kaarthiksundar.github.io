@@ -423,7 +423,7 @@
     "fullAuthors": "Satyanarayana Gupta Manyam, Kaarthik Sundar and David W. Casbeer",
     "JCTitle": "IEEE Transactions on Automation Science and Engineering",
     "year": "2020",
-    "paperTitle": "Cooperative Routing for an Air-Ground Vehicle Team--Exact Algorithm, Transformation Method, and Heuristics",
+    "paperTitle": "Cooperative Routing for an Air-Ground Vehicle Team—Exact Algorithm, Transformation Method, and Heuristics",
     "doi": "10.1109/TASE.2019.2931894",
     "arxiv": "1804.09546",
     "cite": "@Article{tase2020_agv,\n author={Satyanarayana Gupta Manyam and Kaarthik Sundar and David W. Casbeer},\n date={2020-01},\n journaltitle={IEEE Transactions on Automation Science and Engineering},\n title={Cooperative Routing for an Air-Ground Vehicle Team--Exact Algorithm, Transformation Method, and Heuristics},\n doi={10.1109/TASE.2019.2931894},\n number={1},\n pages={537--547},\n volume={17},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={1804.09546},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
@@ -489,7 +489,7 @@
     "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "Computers & Operations Research",
     "year": "2016",
-    "paperTitle": "Generalized Multiple Depot Traveling Salesmen Problem--Polyhedral Study and Exact Algorithm",
+    "paperTitle": "Generalized Multiple Depot Traveling Salesmen Problem—Polyhedral Study and Exact Algorithm",
     "doi": "10.1016/j.cor.2015.12.014",
     "arxiv": "1508.01813",
     "cite": "@Article{caor2016_gmdtsp,\n author={Kaarthik Sundar and Sivakumar Rathinam},\n date={2016-06},\n journaltitle={Computers \\& Operations Research},\n title={Generalized Multiple Depot Traveling Salesmen Problem--Polyhedral Study and Exact Algorithm},\n doi={10.1016/j.cor.2015.12.014},\n pages={39--55},\n volume={70},\n publisher={Elsevier BV},\n eprint={1508.01813},\n eprintclass={cs.DS},\n eprinttype={arXiv},\n }"

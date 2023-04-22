@@ -5,22 +5,15 @@ var SummerStudentView = function (student) {
     var icon = m('span', { class: 'fa-li' },
         m('i', { class: 'fas fa-user-graduate light-red'}));
 
-    var name; 
-    if (student.linkedin) {
-        name = m('a', {
-            class: 'link black hover-blue',
-            href: student.linkedin, 
-            target: "_blank", 
-            rel: "noopener noreferrer"
-            }, student.name
-        ) 
-    }
-    else name = student.name
-
     var children = [
-        icon, m('span', {class: 'black'}, name), ', ', 
-        student.start, m('br'), '   ', student.research
+        icon, m('span', {class: 'black'}, student.name), ', ', 
+        student.start, m('br'), '   ', student.research, m('br')
     ]
+
+    if (student.linkedin != "") {
+        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red', 
+            href: student.linkedin}, 'LinkedIn'));
+    }
     
     return m('li', { class: 'pa2 lh-copy'}, children)
 };
@@ -29,23 +22,17 @@ var PostdocView = function (student) {
     var icon = m('span', { class: 'fa-li' },
         m('i', { class: 'fas fa-user-graduate green'}));
 
-    var name; 
-    if (student.linkedin) {
-        name = m('a', {
-            class: 'link black hover-blue',
-            href: student.linkedin, 
-            target: "_blank", 
-            rel: "noopener noreferrer"
-            }, student.name
-        ) 
-    }
-    else name = student.name
 
     var children = [
-        icon, m('span', {class: 'black'}, name), ', ', 
-        student.start, ' -- ', student.end, 
-        m('br'), '   ', student.research
+        icon, m('span', {class: 'black'}, student.name), ', ', 
+        student.start, ' — ', student.end, 
+        m('br'), '   ', student.research, m('br')
     ]
+
+    if (student.linkedin != "") {
+        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green', 
+            href: student.linkedin}, 'LinkedIn'));
+    }
     
     return m('li', { class: 'pa2 lh-copy'}, children)
 };

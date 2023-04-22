@@ -6,10 +6,16 @@ var educationView = function (ed) {
     var icon = m('span', { class: 'fa-li' },
         m('i', { class: 'fas fa-graduation-cap' }))
 
+    university = m('a', {
+        href: ed.link, 
+        class: 'link gray hover-blue', 
+        target: "_blank", rel: "noopener noreferrer"
+    }, ed.university)
+
     var children = [
         icon,
         m('span', {class: 'black'}, ed.degree), ' in ', ed.department, ', ', ed.year,
-        m('br'), m('div', {class: 'gray f7 f6-ns'}, ed.university)]
+        m('br'), m('div', {class: 'gray f7 f6-ns'}, university)]
 
     return m('li', { class: 'pa1 f6 f5-ns lh-copy'}, children)
 }
