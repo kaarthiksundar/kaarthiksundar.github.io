@@ -4,21 +4,12 @@ var Bio = {
     pic: '../assets/profile-pic.jpg',
 
     biography: [
-        'Kaarthik is a scientst in the ',
-        m('a', {
-            href: 'https://organizations.lanl.gov/a-1/',
-            class: 'link dim gray hover-blue', 
-            target: "_blank", rel: "noopener noreferrer"
-        }, 'Information Systems and Modeling'),
-        ' at ',
-        m('a', {
-            href: 'https://www.lanl.gov/', 
-            class: 'link dim gray hover-dark-blue', 
-            target: "_blank", rel: "noopener noreferrer"
-        }, 'Los Alamos National Laboratory (LANL)'),
+        'Kaarthik is a scientst in the',
+        ' Information Systems and Modeling',
+        ' at Los Alamos National Laboratory (LANL)',
         '. At LANL, he is also a part of the ',
         m('a', { href: 'https://lanl-ansi.github.io', 
-        class: 'link dim gray hover-dark-blue',
+        class: 'link gray hover-dark-blue',
         target: "_blank", rel: "noopener noreferrer"}, 
         'Advanced Network Science Initiative'), 
         '.',
