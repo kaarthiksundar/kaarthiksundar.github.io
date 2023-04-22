@@ -11,9 +11,11 @@ var Bio = {
             target: "_blank", rel: "noopener noreferrer"
         }, 'Information Systems and Modeling'),
         ' at ',
-        m('a', {href: 'https://www.lanl.gov/', class: 'link dim gray hover-dark-blue', 
-        target: "_blank", rel: "noopener noreferrer"}, 
-        'Los Alamos National Laboratory (LANL)'),
+        m('a', {
+            href: 'https://www.lanl.gov/', 
+            class: 'link dim gray hover-dark-blue', 
+            target: "_blank", rel: "noopener noreferrer"
+        }, 'Los Alamos National Laboratory (LANL)'),
         '. At LANL, he is also a part of the ',
         m('a', { href: 'https://lanl-ansi.github.io', 
         class: 'link dim gray hover-dark-blue',
@@ -42,6 +44,8 @@ var Bio = {
 
     scholar: 'https://scholar.google.com/citations?user=jAAj8DAAAAAJ&hl=en',
 
+    linkedin: 'https://www.linkedin.com/in/kaarthiksundar/',
+    
     theoryInterests: [
         'Mathematical Programming',
         'Global Optimization',
@@ -67,9 +71,9 @@ var Bio = {
         ' He has written code in C, C++, Java, Julia, Kotlin, and Python for his ',
         'research work. Furthermore, he also maintains and/or develops a number of Julia packages.', 
         ' Some of them are ',
-        m('a', { href: 'https://github.com/kaarthiksundar/Dubins.jl', class: 'link dim gray hover-dark-blue',
+        m('a', { href: 'https://github.com/kaarthiksundar/Dubins.jl', class: 'link gray hover-dark-blue',
         target: "_blank", rel: "noopener noreferrer"}, 'Dubins.jl'), ' and ',
-        m('a', { href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl', class: 'link dim gray hover-dark-blue', target: "_blank", rel: "noopener noreferrer"}, 
+        m('a', { href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl', class: 'link gray hover-dark-blue', target: "_blank", rel: "noopener noreferrer"}, 
         'PolyhedralRelaxations.jl'), '.'
     ]
 }

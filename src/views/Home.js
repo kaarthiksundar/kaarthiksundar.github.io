@@ -29,13 +29,13 @@ module.exports = {
         
         var lanl = m('a', {
             href: 'https://www.lanl.gov/', 
-            class: 'link dim gray hover-blue', 
+            class: 'link gray hover-blue', 
             target: "_blank", rel: "noopener noreferrer"
         }, 'Los Alamos National Laboratory')
 
         var group = m('a', {
             href: 'https://organizations.lanl.gov/a-1/',
-            class: 'link dim gray hover-blue', 
+            class: 'link gray hover-blue', 
             target: "_blank", rel: "noopener noreferrer"
         }, 'Information Systems and Modeling')
 
@@ -78,12 +78,21 @@ module.exports = {
             m('i', {class: 'fa fa-envelope fa-2x black-70 hover-blue grow'})
         );
 
+        var linkedin = m('a', {
+            href: Bio.linkedin, 
+            target: "_blank", 
+            rel: "noopener noreferrer"
+            },
+            m('i', {class: 'fab fa-linkedin-in fa-2x black-70 hover-blue grow'})
+        );
+
 
         var icons = m('div', {class: 'tc'}, [ m('br'),
             m('span', {class: 'pr3'}, email),
             m('span', {class: 'pr3'}, github),
             m('span', {class: 'pr3'}, cv),
             m('span', {class: 'pr3'}, scholar), 
+            m('span', {class: 'pr3'}, linkedin), 
         ]);
 
         var card = m('article', {class: 'fl-ns w-50-ns mw6 right bg-white br3 pa2 mv3'}, 

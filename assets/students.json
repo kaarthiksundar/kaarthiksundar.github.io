@@ -4,97 +4,111 @@
         "name": "Abhay Singh Bhadoriya",
         "start": "2023",
         "end": "2023",
-        "research": "Quantifying safety in automated highway systems"
+        "research": "Quantifying safety in automated highway systems",
+        "linkedin": "https://www.linkedin.com/in/abhay-singh11/"
         },
     {
         "type": "summer",
         "name": "Venkata Sirimuvva Chirala",
         "start": "2023",
         "end": "2023",
-        "research": "A reinforcement learning approach for container shipping supply chain problem"
+        "research": "A reinforcement learning approach for container shipping supply chain problem",
+        "linkedin": "https://www.linkedin.com/in/sirimuvva-chirala/"
     },
     {
         "type": "summer",
         "name": "Mo Sodwatana",
         "start": "2022",
         "end": "2022",
-        "research": "Economics of blending hydrogen and natural gas in pipeline networks"
+        "research": "Economics of blending hydrogen and natural gas in pipeline networks",
+        "linkedin": "https://www.linkedin.com/in/jsodwatana/"
     },
     {
         "type": "summer",
         "name": "Yuqi Zhou",
         "start": "2022",
         "end": "2022",
-        "research": "Power systems topology control under wildfire"
+        "research": "Power systems topology control under wildfire", 
+        "linkedin": "https://www.linkedin.com/in/yuqi-zhou/"
     },
     {
         "type": "summer",
         "name": "Christopher Montez",
         "start": "2022",
         "end": "2022",
-        "research": "Global optimization for Nonlinear Programs (NLPs) with trigonometric functions"
+        "research": "Global optimization for Nonlinear Programs (NLPs) with trigonometric functions",
+        "linkedin": "https://www.linkedin.com/in/christopher-montez-a210b51b3/"
     },
     {
         "type": "summer",
         "name": "Christopher Montez",
         "start": "2021",
         "end": "2021",
-        "research": "Sensitivity analysis for Mixed-Integer Linear Programs (MILPs)"
+        "research": "Sensitivity analysis for Mixed-Integer Linear Programs (MILPs)",
+        "linkedin": "https://www.linkedin.com/in/christopher-montez-a210b51b3/"
     },
     {
         "type": "summer",
         "name": "Sudarshan Rajan",
         "start": "2020",
         "end": "2020",
-        "research": "An ADMM approach to solving steady state natural gas optimization problems"
+        "research": "An ADMM approach to solving steady state natural gas optimization problems",
+        "linkedin": "https://www.linkedin.com/in/srajan76/"
     },
     {
         "type": "summer",
         "name": "Sungho Shin",
         "start": "2020",
         "end": "2020",
-        "research": "Graph-based modeling and decomposition of energy infrastructures"
+        "research": "Graph-based modeling and decomposition of energy infrastructures",
+        "linkedin": "https://www.linkedin.com/in/sshin23/"
     },
     {
         "type": "summer",
         "name": "Ignacio Losada Carreño",
         "start": "2019",
         "end": "2019",
-        "research": "An adversarial model for attack vector vulnerability analysis on power and gas delivery operations"
+        "research": "An adversarial model for attack vector vulnerability analysis on power and gas delivery operations",
+        "linkedin": "https://www.linkedin.com/in/ignacio-losada/"
     },
     {
         "type": "summer",
         "name": "Mareldi Ahumada-Paras",
         "start": "2019",
         "end": "2019",
-        "research": "N-k contingency analysis for natural gas networks"
+        "research": "N-k contingency analysis for natural gas networks",
+        "linkedin": "https://www.linkedin.com/in/mareldi-ahumada-paras-78bab217a/"
     },
     {
         "type": "postdoc",
         "name": "Saif R. Kazi",
         "start": "2021",
         "end": "current",
-        "research": "Blending of hydrogen in natural gas pipeline networks"
+        "research": "Blending of hydrogen in natural gas pipeline networks",
+        "linkedin": "https://www.linkedin.com/in/saif-rahaman-7b895379/"
     },
     {
         "type": "postdoc",
         "name": "Sai Krishna Kanth Hari",
         "start": "2019",
         "end": "2022",
-        "research": "Optimization of natural gas pipeline operations"
+        "research": "Optimization of natural gas pipeline operations",
+        "linkedin": "https://www.linkedin.com/in/hskkanth/"
     },
     {
         "type": "postdoc",
         "name": "Fuyu Hu",
         "start": "2019",
         "end": "2021",
-        "research": "Natural gas demand response"
+        "research": "Natural gas demand response",
+        "linkedin": ""
     },
     {
         "type": "postdoc",
         "name": "Elena Khlebnikova",
         "start": "2019",
         "end": "2021",
-        "research": "Optimization of petroleum pipeline operations"
+        "research": "Optimization of petroleum pipeline operations", 
+        "linkedin": "https://www.linkedin.com/in/elena-khlebnikova-007b72b5/"
     }
 ]
