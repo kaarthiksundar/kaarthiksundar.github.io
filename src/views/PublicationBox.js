@@ -2,9 +2,25 @@ var m = require('mithril');
 var Publication = require('../models/Publications');
 var runSearch = require('./PublicationSearch')
 
+const icons = {
+    'search': (cssClass) => `<svg class="${cssClass}" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>`,
+    'file': (cssClass) => `<svg class="${cssClass}" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>`
+}
+  
+const Icon = {
+    view: (v) => {
+        if (v.attrs.name in icons) {
+            let cssClass = v.attrs.class || ''
+            return m.trust(icons[v.attrs.name](cssClass))
+        }
+        return ''
+    }
+}
+
 var JView = function (paper) {
-    var icon = m('span', { class: 'fa-li' },
-        m('i', { class: 'fas fa-file-alt light-red'}));
+    // 'fa-li' is replaced by 'left--2 absolute w2 tc' 
+    var icon = m('span', { class: 'left--2 absolute w2 tc' },
+        m(Icon, { name: 'file', class: 'light-red'}));
 
     var children = [
         icon,
@@ -39,8 +55,9 @@ var JView = function (paper) {
 };
 
 var CView = function (paper) {
-    var icon = m('span', { class: 'fa-li' },
-        m('i', { class: 'fas fa-file-alt green'}));
+    // 'fa-li' is replaced by 'left--2 absolute w2 tc' 
+    var icon = m('span', { class: 'left--2 absolute w2 tc' },
+        m(Icon, { name: 'file', class: 'green'}));
 
     var children = [
         icon,
@@ -75,8 +92,9 @@ var CView = function (paper) {
 };
 
 var PreprintView = function (paper) {
-    var icon = m('span', { class: 'fa-li' },
-        m('i', {class: 'fas fa-file-alt blue'}));
+    // 'fa-li' is replaced by 'left--2 absolute w2 tc' 
+    var icon = m('span', { class: 'left--2 absolute w2 tc' },
+        m(Icon, { name: 'file', class: 'blue'}));
 
     var children = [
         icon,
@@ -135,7 +153,11 @@ module.exports = {
             } 
         });
 
-        var searchdiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Search :'), searchbox])
+        var searchdiv = m('div', {class: 'f6 dib ml4 mb4'}, [
+            m(Icon, {name: 'search'}), 
+            m('span', {class: 'f6 f5-ns pr2'}, ' '), 
+            searchbox
+        ])
         var dddiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Select year :'), dropdown])
         
         var chosenYear = options.filter( (item) => (parseInt(item.value) == Publication.selectedYearValue))[0].name;
@@ -152,15 +174,18 @@ module.exports = {
         }
 
         var conftitle = m('h3', {class: 'f6 ttu tracked nt2 green'}, 'CONFERENCE PROCEEDINGS');
-        var conflist = m('ul', { class: 'fa-ul f6 f5-ns' }, conferences.map(CView));
+        // 'fa-ul' replaced by 'list pl0 ml4 relative'
+        var conflist = m('ul', { class: 'list pl0 ml4 relative f6 f5-ns' }, conferences.map(CView));
         var confdiv = m('div', {id: 'conference', class: 'pa3 ph5-ns w-100' }, [conftitle, conflist]);
 
-        var journaltitle = m('h3', {class: 'f6 ttu tracked nt2 light-red'}, 'PEER-REVIEWED JOURNAL ARTICLES');
-        var journallist = m('ul', { class: 'fa-ul f6 f5-ns' }, journals.map(JView));
+        var journaltitle = m('h3', {class: 'f6 ttu tracked nt2 light-red'}, 'JOURNAL ARTICLES');
+        // 'fa-ul' replaced by 'list pl0 ml4 relative'
+        var journallist = m('ul', { class: 'list pl0 ml4 relative f6 f5-ns' }, journals.map(JView));
         var journaldiv = m('div', {id: 'journal', class: 'pa3 ph5-ns w-100' }, [journaltitle, journallist]);
 
         var preprinttitle = m('h3', {class: 'f6 ttu tracked nt2 blue'}, 'PREPRINTS');
-        var preprintlist = m('ul', {class: 'fa-ul f6 f5-ns' }, preprints.map(PreprintView))
+        // 'fa-ul' replaced by 'list pl0 ml4 relative'
+        var preprintlist = m('ul', {class: 'list pl0 ml4 relative f6 f5-ns' }, preprints.map(PreprintView))
         var preprintdiv = m('div', {id: 'preprint', class: 'pa3 ph5-ns w-100' }, [preprinttitle, preprintlist])
 
         var paperdiv = []

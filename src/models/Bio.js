@@ -9,7 +9,7 @@ var Bio = {
         ' at Los Alamos National Laboratory (LANL)',
         '. At LANL, he is also a part of the ',
         m('a', { href: 'https://lanl-ansi.github.io', 
-        class: 'link gray hover-dark-blue',
+        class: 'link dark-gray hover-blue',
         target: "_blank", rel: "noopener noreferrer"}, 
         'Advanced Network Science Initiative'), 
         '.',
@@ -62,9 +62,9 @@ var Bio = {
         ' He has written code in C, C++, Java, Julia, Kotlin, and Python for his ',
         'research work. Furthermore, he also maintains and/or develops a number of Julia packages.', 
         ' Some of them are ',
-        m('a', { href: 'https://github.com/kaarthiksundar/Dubins.jl', class: 'link gray hover-dark-blue',
+        m('a', { href: 'https://github.com/kaarthiksundar/Dubins.jl', class: 'link dark-gray hover-dark-blue',
         target: "_blank", rel: "noopener noreferrer"}, 'Dubins.jl'), ' and ',
-        m('a', { href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl', class: 'link gray hover-dark-blue', target: "_blank", rel: "noopener noreferrer"}, 
+        m('a', { href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl', class: 'link dark-gray hover-dark-blue', target: "_blank", rel: "noopener noreferrer"}, 
         'PolyhedralRelaxations.jl'), '.'
     ]
 }

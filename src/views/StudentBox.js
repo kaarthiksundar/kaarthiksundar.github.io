@@ -1,9 +1,24 @@
 var m = require('mithril');
 var Student = require('../models/Students');
 
+const icons = {
+    'user': (cssClass) => `<svg class="${cssClass}" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>`
+}
+  
+const Icon = {
+    view: (v) => {
+        if (v.attrs.name in icons) {
+            let cssClass = v.attrs.class || ''
+            return m.trust(icons[v.attrs.name](cssClass))
+        }
+        return ''
+    }
+}
+
 var SummerStudentView = function (student) {
-    var icon = m('span', { class: 'fa-li' },
-        m('i', { class: 'fas fa-user-graduate light-red'}));
+    // 'fa-li' is replaced by 'left--2 absolute w2 tc' 
+    var icon = m('span', { class: 'left--2 absolute w2 tc' },
+        m(Icon, { name: 'user', class: 'light-red'}));
 
     var children = [
         icon, m('span', {class: 'black'}, student.name), ', ', 
@@ -19,8 +34,9 @@ var SummerStudentView = function (student) {
 };
 
 var PostdocView = function (student) {
-    var icon = m('span', { class: 'fa-li' },
-        m('i', { class: 'fas fa-user-graduate green'}));
+    // 'fa-li' is replaced by 'left--2 absolute w2 tc' 
+    var icon = m('span', { class: 'left--2 absolute w2 tc' },
+        m(Icon, { name: 'user', class: 'green'}));
 
 
     var children = [
@@ -50,11 +66,13 @@ module.exports = {
         var desc = m('div', {class: 'lh-copy f6 f5-ns pa3 ph5-ns'}, 'At LANL, Kaarthik has had the pleasure of mentoring an excellent set of graduate research assistants and post-doctoral researchers whose list is given below:')
 
         var pdtitle = m('h3', {class: 'f6 ttu tracked nt2 green'}, 'POST-DOCTORAL RESEARCHERS');
-        var pdlist = m('ul', { class: 'fa-ul f6 f5-ns' }, pd.map(PostdocView));
+        // 'fa-ul' replaced by 'list pl0 ml4 relative'
+        var pdlist = m('ul', { class: 'list pl0 ml4 relative f6 f5-ns' }, pd.map(PostdocView));
         var pddiv = m('div', {id: 'pd', class: 'pa3 ph5-ns w-100' }, [pdtitle, pdlist]);
 
         var summertitle = m('h3', {class: 'f6 ttu tracked nt2 light-red'}, 'GRADUATE RESEARCH ASSISTANTS');
-        var summerlist = m('ul', { class: 'fa-ul f6 f5-ns' }, summer.map(SummerStudentView));
+        // 'fa-ul' replaced by 'list pl0 ml4 relative'
+        var summerlist = m('ul', { class: 'list pl0 ml4 relative f6 f5-ns' }, summer.map(SummerStudentView));
         var summerdiv = m('div', {id: 'journal', class: 'pa3 ph5-ns w-100' }, [summertitle, summerlist]);
         
         return m('div', {class: 'pb3 nt3 nt6-ns'}, [desc, pddiv, summerdiv])
