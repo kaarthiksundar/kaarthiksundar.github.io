@@ -47,12 +47,12 @@ var Bio = {
     ],
 
     appliedInterests: [
+        'Autonomous Systems',
         'Pipeline Infrastructure Systems',
         'Transportation Systems',
         'Interdependent Energy Infrastructure Systems',
         'Supply Chain Systems',
-        'Decarbonization Planning', 
-        'Dynamical Systems'
+        'Decarbonization Planning'
     ],
 
     softwares: [
