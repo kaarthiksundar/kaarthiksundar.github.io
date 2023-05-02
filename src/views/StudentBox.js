@@ -20,8 +20,20 @@ var SummerStudentView = function (student) {
     var icon = m('span', { class: 'left--2 absolute w2 tc' },
         m(Icon, { name: 'user', class: 'light-red'}));
 
+    var name; 
+    if (student.linkedin) {
+        name = m('a', {
+            class: 'link black hover-blue',
+            href: student.linkedin, 
+            target: "_blank", 
+            rel: "noopener noreferrer"
+            }, student.name
+        ) 
+    }
+    else name = student.name
+
     var children = [
-        icon, m('span', {class: 'black'}, student.name), ', ', 
+        icon, m('span', {class: 'black'}, name), ', ', 
         student.start, m('br'), '   ', student.research, m('br')
     ]
 
@@ -38,9 +50,20 @@ var PostdocView = function (student) {
     var icon = m('span', { class: 'left--2 absolute w2 tc' },
         m(Icon, { name: 'user', class: 'green'}));
 
+    var name; 
+    if (student.linkedin) {
+        name = m('a', {
+            class: 'link black hover-blue',
+            href: student.linkedin, 
+            target: "_blank", 
+            rel: "noopener noreferrer"
+            }, student.name
+        ) 
+    }
+    else name = student.name
 
     var children = [
-        icon, m('span', {class: 'black'}, student.name), ', ', 
+        icon, m('span', {class: 'black'}, name), ', ', 
         student.start, ' — ', student.end, 
         m('br'), '   ', student.research, m('br')
     ]
