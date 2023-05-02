@@ -25,10 +25,10 @@ var SummerStudentView = function (student) {
         student.start, m('br'), '   ', student.research, m('br')
     ]
 
-    if (student.linkedin != "") {
-        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red', 
-            href: student.linkedin}, 'LinkedIn'));
-    }
+    // if (student.linkedin != "") {
+    //     children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red', 
+    //         href: student.linkedin}, 'LinkedIn'));
+    // }
     
     return m('li', { class: 'pa2 lh-copy'}, children)
 };
@@ -45,10 +45,10 @@ var PostdocView = function (student) {
         m('br'), '   ', student.research, m('br')
     ]
 
-    if (student.linkedin != "") {
-        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green', 
-            href: student.linkedin}, 'LinkedIn'));
-    }
+    // if (student.linkedin != "") {
+    //     children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green', 
+    //         href: student.linkedin}, 'LinkedIn'));
+    // }
     
     return m('li', { class: 'pa2 lh-copy'}, children)
 };
