@@ -17,7 +17,7 @@ var view = function (vnode) {
         [content]);
 
     return m('div',
-        { class: 'andika' },
+        { class: 'firasans' },
         [m(Header), body, m(Footer)]
         );
 };
