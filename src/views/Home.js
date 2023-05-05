@@ -143,7 +143,7 @@ module.exports = {
             edRow
         ]);
 
-        var home = m('div', {class: 'flex flex-column flex-row-ns flex-column-m cf-ns nl2 nr2 nt6-ns justify-center items-center-m'}, [card, desc])
+        var home = m('div', {class: 'flex flex-column flex-row-l cf-ns nl2 nr2 nt6-ns justify-center items-center-m'}, [card, desc])
 
         return home
     }

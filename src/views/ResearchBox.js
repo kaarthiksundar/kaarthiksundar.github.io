@@ -27,15 +27,15 @@ module.exports = {
         var theoryItems = Bio.theoryInterests.map(function(item) {
             return m('li', {class: 'pa2 lh-copy'}, [icon, item])
         });
-        var theorylist = m('ul', {class: 'list pl2 ml4 relative f6 f5-ns' }, theoryItems);
-        var theorydiv = m('div', {id: 'theory', class: 'fl-l pa2 ph5-l w-50-l center' }, [theoryTitle, theorylist]);
+        var theorylist = m('ul', {class: 'list pl0 ml4 relative f6 f5-ns' }, theoryItems);
+        var theorydiv = m('div', {id: 'theory', class: 'fl pa2 ph5-l' }, [theoryTitle, theorylist]);
 
         var appliedItems = Bio.appliedInterests.map(function(item) {
             return m('li', {class: 'pa2 lh-copy'}, [icon, item])
         });
         var appliedlist = m('ul', { class: 'list pl0 ml4 relative f6 f5-ns' }, appliedItems);
-        var applieddiv = m('div', {id: 'theory', class: 'fl-l pa2 ph5-l w-50-l center' }, [appliedTitle, appliedlist]);
+        var applieddiv = m('div', {id: 'applied', class: 'fl pa2 ph5-l' }, [appliedTitle, appliedlist]);
 
-        return m('div', {class: 'nt3 cf-ns nl2 nr2 nt5-l nt6-m pt4 pl3 pl4-ns'}, [theorydiv, applieddiv]);
+        return m('div', {class: 'flex flex-column items-start nt6-ns nt3 cf-ns nl2 nr2  pt4 pl3'}, [theorydiv, applieddiv]);
     }
 }
