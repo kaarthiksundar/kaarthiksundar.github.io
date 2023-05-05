@@ -127,7 +127,7 @@ module.exports = {
             m('span', {class: 'pr3'}, linkedin), 
         ]);
 
-        var card = m('article', {class: 'fl-ns w-50-ns mw6 right bg-white br3 pa2 mv3'}, 
+        var card = m('article', {class: 'w-50-ns w-100-m mw6 bg-white br3 pa2 mv3'}, 
             [pic, icons]
         );
 
@@ -136,14 +136,14 @@ module.exports = {
         var edTitle = m('h4', {class: 'f5-ns f6 ttu tracked mb2 black'}, 'EDUCATION')
         var edRow = m('div', {class: 'dt-row'}, [edTitle, education])
         
-        var desc = m('p', {class: 'measure-wide fl-ns w-50-ns f6 f5-ns lh-copy pa2 tl'}, [
+        var desc = m('p', {class: 'measure-wide w-50-ns w-100-m f6 f5-ns lh-copy pa2 tl'}, [
             Bio.biography, ' ', 
             Bio.research, //' ', 
             // Bio.softwares,
             edRow
         ]);
 
-        var home = m('div', {class: 'cf-ns nl2 nr2 nt6-ns'}, [card, desc])
+        var home = m('div', {class: 'flex flex-column flex-row-ns flex-column-m cf-ns nl2 nr2 nt6-ns justify-center items-center-m'}, [card, desc])
 
         return home
     }
