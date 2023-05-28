@@ -712,7 +712,7 @@
     "paperTitle": "Heuristics for Multi-Vehicle Routing Problem Considering Human-Robot Interactions",
     "doi": "10.1109/TIV.2023.3261274",
     "arxiv": "2208.09607",
-    "cite": "@Article{tvt2023_multivehiclehr,\n author={Venkata Sirimuvva Chirala and Kaarthik Sundar and Saravanan Venkatachalam and Jonathon M. Smereka and Sam Kassoumeh},\n author+an={1=student},\n date={2023-03-24},\n journaltitle={IEEE Transactions on Intelligent Vehicles},\n title={Heuristics for Multi-Vehicle Routing Problem Considering Human-Robot Interactions},\n doi={10.1109/TIV.2023.3261274},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{tvt2023_multivehiclehr,\n author={Venkata Sirimuvva Chirala and Kaarthik Sundar and Saravanan Venkatachalam and Jonathon M. Smereka and Sam Kassoumeh},\n author+an={1=student},\n date={2023-03-24},\n journaltitle={IEEE Transactions on Intelligent Vehicles},\n title={Heuristics for Multi-Vehicle Routing Problem Considering Human-Robot Interactions},\n volume={8},\n number={5},\n pages={3228--3238},\n doi={10.1109/TIV.2023.3261274},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
