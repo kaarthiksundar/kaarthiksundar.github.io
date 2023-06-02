@@ -715,6 +715,17 @@
     "cite": "@Article{tvt2023_multivehiclehr,\n author={Venkata Sirimuvva Chirala and Kaarthik Sundar and Saravanan Venkatachalam and Jonathon M. Smereka and Sam Kassoumeh},\n author+an={1=student},\n date={2023-03-24},\n journaltitle={IEEE Transactions on Intelligent Vehicles},\n title={Heuristics for Multi-Vehicle Routing Problem Considering Human-Robot Interactions},\n volume={8},\n number={5},\n pages={3228--3238},\n doi={10.1109/TIV.2023.3261274},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2208.09607},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
+    "type": "conference",
+    "authors": "A. Zlotnik, S. R. Kazi, K. Sundar, V. Gyrya, L. Baker, M. Sodwatana and Y. Brodskyi",
+    "fullAuthors": "Anatoly Zlotnik, Saif R Kazi, Kaarthik Sundar, Vitaliy Gyrya, Luke Baker, Mo Sodwatana and Yan Brodskyi",
+    "JCTitle": "PSIG Annual Meeting",
+    "year": "2023",
+    "paperTitle": "Effects of Hydrogen Blending on Natural Gas Pipeline Transients, Capacity, and Economics",
+    "doi": "",
+    "arxiv": "",
+    "cite": "@InProceedings{psig2023_gas,\n author={Anatoly Zlotnik and Saif R Kazi and Kaarthik Sundar and Vitaliy Gyrya and Luke Baker and Mo Sodwatana and Yan Brodskyi},\n author+an={2=postdoc;6=student},\n booktitle={PSIG Annual Meeting},\n date={2023-05-16},\n title={Effects of Hydrogen Blending on Natural Gas Pipeline Transients, Capacity, and Economics},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-pdf/PSIG23/All-PSIG23/PSIG-2312/3115333/psig-2312.pdf},\n }"
+  },
+  {
     "type": "preprint",
     "authors": "M. Sodwatana, S. R. Kazi, K. Sundar and A. Zlotnik",
     "fullAuthors": "Mo Sodwatana, Saif R. Kazi, Kaarthik Sundar and Anatoly Zlotnik",
@@ -723,7 +734,7 @@
     "paperTitle": "Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction",
     "doi": "",
     "arxiv": "2210.16385",
-    "cite": "@Article{arxiv2022_hydrogenemissions,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=student,2=postdoc},\n date={2022-10-28},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n eprint={2210.16385},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2022_hydrogenemissions,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=student;2=postdoc},\n date={2022-10-28},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n eprint={2210.16385},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
