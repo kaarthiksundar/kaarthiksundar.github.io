@@ -768,5 +768,16 @@
     "doi": "",
     "arxiv": "2303.07558",
     "cite": "@Article{arxiv2023_wildfire,\n author={Yuqi Zhou and Kaarthik Sundar and Deepjyoti Deka and Hao Zhu},\n author+an={1=student},\n date={2023-03-14},\n title={Optimal Power System Topology Control Under Uncertain Wildfire Risk},\n eprint={2303.07558},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. K. K. Hari, K. Sundar, S. Srinivasan and R. Bent",
+    "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Shriram Srinivasan and Russell Bent",
+    "JCTitle": "",
+    "year": "2023",
+    "paperTitle": "Relaxations of the Steady Optimal Gas Flow Problem for a Non-Ideal Gas",
+    "doi": "",
+    "arxiv": "2308.13009",
+    "cite": "@Article{arxiv2023_ss_gas_lp,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2023-08-24},\n title={Relaxations of the Steady Optimal Gas Flow Problem for a Non-Ideal Gas},\n eprint={2308.13009},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
