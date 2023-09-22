@@ -697,11 +697,11 @@
     "authors": "S. Srinivasan, K. Sundar, V. Gyrya and A. Zlotnik",
     "fullAuthors": "Shriram Srinivasan, Kaarthik Sundar, Vitaliy Gyrya and Anatoly Zlotnik",
     "JCTitle": "IEEE Transactions on Control of Network Systems",
-    "year": "2022",
+    "year": "2023",
     "paperTitle": "Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas",
     "doi": "10.1109/TCNS.2022.3232524",
     "arxiv": "2204.00071",
-    "cite": "@Article{tcns2022_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and Vitaliy Gyrya and Anatoly Zlotnik},\n date={2022-12-27},\n journaltitle={IEEE Transactions on Control of Network Systems},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n doi={10.1109/TCNS.2022.3232524},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{tcns2023_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and Vitaliy Gyrya and Anatoly Zlotnik},\n date={2023},\n journaltitle={IEEE Transactions on Control of Network Systems},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n volume={10},\n number={3},\n pages={1449--1461},\n doi={10.1109/TCNS.2022.3232524},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "journal",
@@ -779,5 +779,16 @@
     "doi": "",
     "arxiv": "2308.13009",
     "cite": "@Article{arxiv2023_ss_gas_lp,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2023-08-24},\n title={Relaxations of the Steady Optimal Gas Flow Problem for a Non-Ideal Gas},\n eprint={2308.13009},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. Srinivasan, N. Panda and K. Sundar",
+    "fullAuthors": "Shriram Srinivasan, Nishant Panda and Kaarthik Sundar",
+    "JCTitle": "",
+    "year": "2023",
+    "paperTitle": "On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks",
+    "doi": "",
+    "arxiv": "2309.04494",
+    "cite": "@Article{arxiv2023_ss_gas_existence,\n author={Shriram Srinivasan and Nishant Panda and Kaarthik Sundar},\n date={2023-09-06},\n title={On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks},\n eprint={2309.04494},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
   }
 ]
