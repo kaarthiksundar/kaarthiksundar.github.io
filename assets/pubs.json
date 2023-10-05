@@ -790,5 +790,16 @@
     "doi": "",
     "arxiv": "2309.04494",
     "cite": "@Article{arxiv2023_ss_gas_existence,\n author={Shriram Srinivasan and Nishant Panda and Kaarthik Sundar},\n date={2023-09-06},\n title={On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks},\n eprint={2309.04494},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "K. Sundar, D. Deka and R. Bent",
+    "fullAuthors": "Kaarthik Sundar, Deepjyoti Deka and Russell Bent",
+    "JCTitle": "",
+    "year": "2023",
+    "paperTitle": "Fairly Extreme: Minimizing Outages Equitably",
+    "doi": "",
+    "arxiv": "2310.01348",
+    "cite": "@Article{arxiv2023_fairly_extreme,\n author={Kaarthik Sundar and Deepjyoti Deka and Russell Bent},\n date={2023-10-02},\n title={Fairly Extreme: Minimizing Outages Equitably},\n eprint={2310.01348},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
