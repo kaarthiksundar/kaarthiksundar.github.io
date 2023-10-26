@@ -801,5 +801,16 @@
     "doi": "",
     "arxiv": "2310.01348",
     "cite": "@Article{arxiv2023_fairly_extreme,\n author={Kaarthik Sundar and Deepjyoti Deka and Russell Bent},\n date={2023-10-02},\n title={Fairly Extreme: Minimizing Outages Equitably},\n eprint={2310.01348},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "M. Sodwatana, S. R. Kazi, K. Sundar, A. Brandt and A. Zlotnik",
+    "fullAuthors": "Mo Sodwatana, Saif R. Kazi, Kaarthik Sundar, Adam Brandt and Anatoly Zlotnik",
+    "JCTitle": "",
+    "year": "2023",
+    "paperTitle": "Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives",
+    "doi": "",
+    "arxiv": "2310.13181",
+    "cite": "@Article{arxiv2023_carbon_offsets,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Adam Brandt and Anatoly Zlotnik},\n author+an={1=student;2=postdoc},\n date={2023-10-19},\n title={Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives},\n eprint={2310.13181},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
