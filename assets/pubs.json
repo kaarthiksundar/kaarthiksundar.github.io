@@ -594,17 +594,6 @@
     "cite": "@Article{arxiv2016_bp,\n author={Saravanan Venkatachalam and Kaarthik Sundar},\n date={2016-05-29},\n title={Branch-and-Price Algorithm for an Auto-Carrier Transportation Problem},\n eprint={1605.09030},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
-    "type": "preprint",
-    "authors": "K. Sundar, H. Nagarajan, S. Misra, M. Lu, C. Coffrin and R. Bent",
-    "fullAuthors": "Kaarthik Sundar, Harsha Nagarajan, Sidhant Misra, Mowen Lu, Carleton Coffrin and Russell Bent",
-    "JCTitle": "",
-    "year": "2018",
-    "paperTitle": "Optimization-Based Bound Tightening Using a Strengthened QC-Relaxation of the Optimal Power Flow Problem",
-    "doi": "",
-    "arxiv": "1809.04565",
-    "cite": "@Article{arxiv2018_obbt,\n author={Kaarthik Sundar and Harsha Nagarajan and Sidhant Misra and Mowen Lu and Carleton Coffrin and Russell Bent},\n date={2018-09-12},\n title={Optimization-Based Bound Tightening Using a Strengthened QC-Relaxation of the Optimal Power Flow Problem},\n eprint={1809.04565},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
-  },
-  {
     "type": "journal",
     "authors": "K. Sundar, S. Misra, R. Bent and F. Pan",
     "fullAuthors": "Kaarthik Sundar, Sidhant Misra, Russell Bent and Feng Pan",
@@ -697,11 +686,11 @@
     "authors": "S. Srinivasan, K. Sundar, V. Gyrya and A. Zlotnik",
     "fullAuthors": "Shriram Srinivasan, Kaarthik Sundar, Vitaliy Gyrya and Anatoly Zlotnik",
     "JCTitle": "IEEE Transactions on Control of Network Systems",
-    "year": "2022",
+    "year": "2023",
     "paperTitle": "Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas",
     "doi": "10.1109/TCNS.2022.3232524",
     "arxiv": "2204.00071",
-    "cite": "@Article{tcns2022_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and Vitaliy Gyrya and Anatoly Zlotnik},\n date={2022-12-27},\n journaltitle={IEEE Transactions on Control of Network Systems},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n doi={10.1109/TCNS.2022.3232524},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{tcns2023_gasflow,\n author={Shriram Srinivasan and Kaarthik Sundar and Vitaliy Gyrya and Anatoly Zlotnik},\n date={2023},\n journaltitle={IEEE Transactions on Control of Network Systems},\n title={Numerical Solution of the Steady-State Network Flow Equations for a Non-Ideal Gas},\n volume={10},\n number={3},\n pages={1449--1461},\n doi={10.1109/TCNS.2022.3232524},\n publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n eprint={2204.00071},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "journal",
@@ -737,15 +726,26 @@
     "cite": "@Article{acc2023_hydrogenemissions,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=student;2=postdoc},\n booktitle={American Control Conference (ACC)},\n date={2023-07},\n title={Optimization of Hydrogen Blending in Natural Gas Networks for Carbon Emissions Reduction},\n doi={10.23919/ACC55779.2023.10156202},\n organization={IEEE},\n pages={1229--1236},\n eprint={2210.16385},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
-    "type": "preprint",
+    "type": "conference",
+    "authors": "K. Sundar, H. Nagarajan, S. Misra, M. Lu, C. Coffrin and R. Bent",
+    "fullAuthors": "Kaarthik Sundar, Harsha Nagarajan, Sidhant Misra, Mowen Lu, Carleton Coffrin and Russell Bent",
+    "JCTitle": "IEEE 62th Conference on Decision and Control (CDC)",
+    "year": "2023",
+    "paperTitle": "Optimization-Based Bound Tightening Using a Strengthened QC-Relaxation of the Optimal Power Flow Problem",
+    "doi": "10.1109/CDC49753.2023.10384116",
+    "arxiv": "1809.04565",
+    "cite": "@InProceedings{cdc2023_obbt,\n author={Kaarthik Sundar and Harsha Nagarajan and Sidhant Misra and Mowen Lu and Carleton Coffrin and Russell Bent},\n booktitle={IEEE 62th Conference on Decision and Control (CDC)},\n date={2023-12},\n title={Optimization-Based Bound Tightening Using a Strengthened QC-Relaxation of the Optimal Power Flow Problem},\n doi={10.1109/CDC49753.2023.10384116},\n publisher={IEEE},\n eprint={1809.04565},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "journal",
     "authors": "S. R. Kazi, K. Sundar, S. Srinivasan and A. Zlotnik",
     "fullAuthors": "Saif R. Kazi, Kaarthik Sundar, Shriram Srinivasan and Anatoly Zlotnik",
-    "JCTitle": "",
-    "year": "2022",
+    "JCTitle": "International Journal of Hydrogen Energy",
+    "year": "2024",
     "paperTitle": "Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks",
-    "doi": "",
+    "doi": "10.1016/j.ijhydene.2023.12.054",
     "arxiv": "2212.00961",
-    "cite": "@Article{arxiv2022_hydrogen_ss,\n author={Saif R. Kazi and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2022-12-02},\n title={Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks},\n eprint={2212.00961},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{jhe2024_hydrogen_ss,\n author={Saif R. Kazi and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2024-02-07},\n journaltitle={International Journal of Hydrogen Energy},\n title={Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks},\n volume={54},\n pages={14--24},\n doi={10.1016/j.ijhydene.2023.12.054},\n eprint={2212.00961},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -779,5 +779,38 @@
     "doi": "",
     "arxiv": "2308.13009",
     "cite": "@Article{arxiv2023_ss_gas_lp,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2023-08-24},\n title={Relaxations of the Steady Optimal Gas Flow Problem for a Non-Ideal Gas},\n eprint={2308.13009},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. Srinivasan, N. Panda and K. Sundar",
+    "fullAuthors": "Shriram Srinivasan, Nishant Panda and Kaarthik Sundar",
+    "JCTitle": "",
+    "year": "2023",
+    "paperTitle": "On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks",
+    "doi": "",
+    "arxiv": "2309.04494",
+    "cite": "@Article{arxiv2023_ss_gas_existence,\n author={Shriram Srinivasan and Nishant Panda and Kaarthik Sundar},\n date={2023-09-06},\n title={On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks},\n eprint={2309.04494},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "K. Sundar, D. Deka and R. Bent",
+    "fullAuthors": "Kaarthik Sundar, Deepjyoti Deka and Russell Bent",
+    "JCTitle": "",
+    "year": "2023",
+    "paperTitle": "Fairly Extreme: Minimizing Outages Equitably",
+    "doi": "",
+    "arxiv": "2310.01348",
+    "cite": "@Article{arxiv2023_fairly_extreme,\n author={Kaarthik Sundar and Deepjyoti Deka and Russell Bent},\n date={2023-10-02},\n title={Fairly Extreme: Minimizing Outages Equitably},\n eprint={2310.01348},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "M. Sodwatana, S. R. Kazi, K. Sundar, A. Brandt and A. Zlotnik",
+    "fullAuthors": "Mo Sodwatana, Saif R. Kazi, Kaarthik Sundar, Adam Brandt and Anatoly Zlotnik",
+    "JCTitle": "",
+    "year": "2023",
+    "paperTitle": "Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives",
+    "doi": "",
+    "arxiv": "2310.13181",
+    "cite": "@Article{arxiv2023_carbon_offsets,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Adam Brandt and Anatoly Zlotnik},\n author+an={1=student;2=postdoc},\n date={2023-10-19},\n title={Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives},\n eprint={2310.13181},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]

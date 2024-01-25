@@ -5,7 +5,7 @@ var Bio = {
 
     biography: [
         'Kaarthik is a scientst in the',
-        ' Information Systems and Modeling',
+        ' Information Systems and Modeling Group',
         ' at Los Alamos National Laboratory (LANL)',
         '. At LANL, he is also a part of the ',
         m('a', { href: 'https://lanl-ansi.github.io', 
@@ -16,14 +16,15 @@ var Bio = {
     ],
     
     research: [
-        'His research interests lie at the intersection of optimization,',
-        ' control, and machine learning applied to complex systems. In particular,',
+        'His research interests lie at the Safe, Efficient, Equitable and Resilient',
+        ' (SEER) operations and decarbonization planning for infrastucture and autonomous',
+        ' systems. In particular,',
         ' his expertise lies in the areas of mathematical programming, large scale', 
         ' deterministic and stochastic optimization, optimal control, heuristics,', 
         ' approximation algorithms and reinforcement learning. He applies these',
         ' techniques to solve problems that arise in the domains of pipeline', 
         ' infrastucture systems transportation systems, decarbonization of', 
-        ' energy infrastucture systems, improving the resiliency of infrastucture',
+        ' energy infrastucture systems, improving the resiliency of infrastructure',
         ' systems in the face of climate impacts, robotics, and autonomous systems. '
     ],
 
