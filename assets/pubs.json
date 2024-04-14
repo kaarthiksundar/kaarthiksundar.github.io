@@ -812,5 +812,38 @@
     "doi": "",
     "arxiv": "2310.13181",
     "cite": "@Article{arxiv2023_carbon_offsets,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Adam Brandt and Anatoly Zlotnik},\n author+an={1=student;2=postdoc},\n date={2023-10-19},\n title={Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives},\n eprint={2310.13181},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "K. Sundar, A. Mastin, M. Garcia, R. Bent and J. Watson",
+    "fullAuthors": "Kaarthik Sundar, Andrew Mastin, Manuel Garcia, Russell Bent and Jean-Paul Watson",
+    "JCTitle": "",
+    "year": "2024",
+    "paperTitle": "Exact and Heuristic Approaches for the Stochastic N-k Interdiction in Power Grids",
+    "doi": "",
+    "arxiv": "2402.00217",
+    "cite": "@Article{arxiv2024_stoch_nk,\n author={Kaarthik Sundar and Andrew Mastin and Manuel Garcia and Russell Bent and Jean-Paul Watson},\n date={2024-01-31},\n title={Exact and Heuristic Approaches for the Stochastic N-k Interdiction in Power Grids},\n eprint={2402.00217},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. R. Kazi, S. Misra, S. Tokareva, K. Sundar and A. Zlotnik",
+    "fullAuthors": "Saif R. Kazi, Sidhant Misra, Svetlana Tokareva, Kaarthik Sundar and Anatoly Zlotnik",
+    "JCTitle": "",
+    "year": "2024",
+    "paperTitle": "Stochastic Finite Volume Method for Uncertainty Management in Gas Pipeline Network Flows",
+    "doi": "",
+    "arxiv": "2403.18124",
+    "cite": "@Article{arxiv2024_sfv_ss_gas,\n author={Saif R. Kazi and Sidhant Misra and Svetlana Tokareva and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2024-03-26},\n title={Stochastic Finite Volume Method for Uncertainty Management in Gas Pipeline Network Flows},\n eprint={2403.18124},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "H. Bana, M. Mishra, S. Sarkar, S. Sanjeevi, P. B. Sujit and K. Sundar",
+    "fullAuthors": "Hritik Bana, Manav Mishra, Saswata Sarkar, Sujeevraja Sanjeevi, PB Sujit and Kaarthik Sundar",
+    "JCTitle": "",
+    "year": "2024",
+    "paperTitle": "Deep Reinforcement Learning-Based Approach for a Single Vehicle Persistent Surveillance Problem with Fuel Constraints ",
+    "doi": "",
+    "arxiv": "2404.06423",
+    "cite": "@Article{arxiv2024_rl_persistent,\n author={Hritik Bana and Manav Mishra and Saswata Sarkar and Sujeevraja Sanjeevi and PB Sujit and Kaarthik Sundar},\n date={2024-04-09},\n title={Deep Reinforcement Learning-Based Approach for a Single Vehicle Persistent Surveillance Problem with Fuel Constraints },\n eprint={2404.06423},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
   }
 ]

@@ -23,9 +23,10 @@ var Bio = {
         ' deterministic and stochastic optimization, optimal control, heuristics,', 
         ' approximation algorithms and reinforcement learning. He applies these',
         ' techniques to solve problems that arise in the domains of pipeline', 
-        ' infrastucture systems transportation systems, decarbonization of', 
-        ' energy infrastucture systems, improving the resiliency of infrastructure',
-        ' systems in the face of climate impacts, robotics, and autonomous systems. '
+        ' infrastucture systems, transportation systems, robotics,',
+        ' autonomous systems, decarbonization of energy infrastucture systems,',
+        ' and improving the resiliency of infrastructure',
+        ' systems in the face of climate impacts. '
     ],
 
     cv: '../assets/kaarthik-sundar-cv.pdf',
@@ -50,10 +51,10 @@ var Bio = {
     appliedInterests: [
         'Autonomous Systems',
         'Pipeline Infrastructure Systems',
-        'Transportation Systems',
         'Interdependent Energy Infrastructure Systems',
-        'Supply Chain Systems',
-        'Decarbonization Planning'
+        'Transportation Systems',
+        'Decarbonization Planning',
+        'Supply Chain Systems'
     ],
 
     softwares: [
