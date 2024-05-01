@@ -748,6 +748,17 @@
     "cite": "@Article{jhe2024_hydrogen_ss,\n author={Saif R. Kazi and Kaarthik Sundar and Shriram Srinivasan and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2024-02-07},\n journaltitle={International Journal of Hydrogen Energy},\n title={Modeling and Optimization of Steady Flow of Natural Gas and Hydrogen Mixtures in Pipeline Networks},\n volume={54},\n pages={14--24},\n doi={10.1016/j.ijhydene.2023.12.054},\n eprint={2212.00961},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
+    "type": "journal",
+    "authors": "S. Srinivasan, N. Panda and K. Sundar",
+    "fullAuthors": "Shriram Srinivasan, Nishant Panda and Kaarthik Sundar",
+    "JCTitle": "IEEE Control Systems Letters",
+    "year": "2024",
+    "paperTitle": "On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks",
+    "doi": "10.1109/LCSYS.2024.3394317",
+    "arxiv": "2309.04494",
+    "cite": "@Article{lcss2024_ss_gas_existence,\n author={Shriram Srinivasan and Nishant Panda and Kaarthik Sundar},\n date={2024-04-26},\n journaltitle={IEEE Control Systems Letters},\n title={On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks},\n volume={},\n number={},\n pages={1--1},\n doi={10.1109/LCSYS.2024.3394317},\n eprint={2309.04494},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
+  },
+  {
     "type": "preprint",
     "authors": "S. R. Kazi, K. Sundar and A. Zlotnik",
     "fullAuthors": "Saif R. Kazi, Kaarthik Sundar and Anatoly Zlotnik",
@@ -779,17 +790,6 @@
     "doi": "",
     "arxiv": "2308.13009",
     "cite": "@Article{arxiv2023_ss_gas_lp,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2023-08-24},\n title={Relaxations of the Steady Optimal Gas Flow Problem for a Non-Ideal Gas},\n eprint={2308.13009},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
-  },
-  {
-    "type": "preprint",
-    "authors": "S. Srinivasan, N. Panda and K. Sundar",
-    "fullAuthors": "Shriram Srinivasan, Nishant Panda and Kaarthik Sundar",
-    "JCTitle": "",
-    "year": "2023",
-    "paperTitle": "On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks",
-    "doi": "",
-    "arxiv": "2309.04494",
-    "cite": "@Article{arxiv2023_ss_gas_existence,\n author={Shriram Srinivasan and Nishant Panda and Kaarthik Sundar},\n date={2023-09-06},\n title={On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks},\n eprint={2309.04494},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -856,5 +856,16 @@
     "doi": "",
     "arxiv": "2404.08157",
     "cite": "@Article{arxiv2024_fmtsp,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n date={2024-04-11},\n title={Equitable Routing - Rethinking the Multiple Traveling Salesman Problem},\n eprint={2404.08157},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. K. K. Hari, . A. Zlotnik, S. Srinivasan, K. Sundar and M. Ewers",
+    "fullAuthors": "Sai Krishna Kanth Hari,  Anatoly Zlotnik, Shriram Srinivasan, Kaarthik Sundar and Mary Ewers",
+    "JCTitle": "",
+    "year": "2024",
+    "paperTitle": "Optimization of District Heating Network Parameters in Steady-State Operation",
+    "doi": "",
+    "arxiv": "2404.18868",
+    "cite": "@Article{arxiv2024_heating,\n author={Sai Krishna Kanth Hari and  Anatoly Zlotnik and Shriram Srinivasan and Kaarthik Sundar and Mary Ewers},\n date={2024-04-29},\n title={Optimization of District Heating Network Parameters in Steady-State Operation},\n eprint={2404.18868},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
