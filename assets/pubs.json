@@ -837,14 +837,14 @@
   },
   {
     "type": "preprint",
-    "authors": "H. Bana, M. Mishra, S. Sarkar, S. Sanjeevi, P. B. Sujit and K. Sundar",
-    "fullAuthors": "Hritik Bana, Manav Mishra, Saswata Sarkar, Sujeevraja Sanjeevi, PB Sujit and Kaarthik Sundar",
+    "authors": "M. Mishra, H. Bana, S. Sarkar, S. Sanjeevi, P. B. Sujit and K. Sundar",
+    "fullAuthors": "Manav Mishra, Hritik Bana, Saswata Sarkar, Sujeevraja Sanjeevi, PB Sujit and Kaarthik Sundar",
     "JCTitle": "",
     "year": "2024",
     "paperTitle": "Deep Reinforcement Learning-Based Approach for a Single Vehicle Persistent Surveillance Problem with Fuel Constraints",
     "doi": "",
     "arxiv": "2404.06423",
-    "cite": "@Article{arxiv2024_rl_persistent,\n author={Hritik Bana and Manav Mishra and Saswata Sarkar and Sujeevraja Sanjeevi and PB Sujit and Kaarthik Sundar},\n date={2024-04-09},\n title={Deep Reinforcement Learning-Based Approach for a Single Vehicle Persistent Surveillance Problem with Fuel Constraints},\n eprint={2404.06423},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2024_rl_persistent,\n author={Manav Mishra and Hritik Bana and Saswata Sarkar and Sujeevraja Sanjeevi and PB Sujit and Kaarthik Sundar},\n date={2024-04-09},\n title={Deep Reinforcement Learning-Based Approach for a Single Vehicle Persistent Surveillance Problem with Fuel Constraints},\n eprint={2404.06423},\n eprintclass={cs.RO},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
