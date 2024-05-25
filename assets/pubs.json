@@ -759,6 +759,17 @@
     "cite": "@Article{lcss2024_ss_gas_existence,\n author={Shriram Srinivasan and Nishant Panda and Kaarthik Sundar},\n date={2024-04-26},\n journaltitle={IEEE Control Systems Letters},\n title={On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks},\n volume={},\n number={},\n pages={1--1},\n doi={10.1109/LCSYS.2024.3394317},\n eprint={2309.04494},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
   },
   {
+    "type": "conference",
+    "authors": "S. Srinivasan, K. Sundar, S. K. K. Hari, A. Zlotnik, A. Pandey, M. Ewers, D. Fobes, A. Mate and R. Bent",
+    "fullAuthors": "Shriram Srinivasan, Kaarthik Sundar, Sai Krishna Kanth Hari, Anatoly Zlotnik, Anup Pandey, Mary Ewers, David Fobes, Adam Mate and Russell Bent",
+    "JCTitle": "PSIG Annual Meeting",
+    "year": "2024",
+    "paperTitle": "Capabilities and Advantages of the GasModels Package",
+    "doi": "",
+    "arxiv": "",
+    "cite": "@InProceedings{psig2024_gas_models,\n author={Shriram Srinivasan and Kaarthik Sundar and Sai Krishna Kanth Hari and Anatoly Zlotnik and Anup Pandey and Mary Ewers and David Fobes and Adam Mate and Russell Bent},\n booktitle={PSIG Annual Meeting},\n date={2024-05},\n title={Capabilities and Advantages of the GasModels Package},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-pdf/PSIG24/All-PSIG24/PSIG-2414/3408235/psig-2414.pdf},\n }"
+  },
+  {
     "type": "preprint",
     "authors": "S. R. Kazi, K. Sundar and A. Zlotnik",
     "fullAuthors": "Saif R. Kazi, Kaarthik Sundar and Anatoly Zlotnik",
