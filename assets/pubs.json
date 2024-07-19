@@ -770,6 +770,17 @@
     "cite": "@InProceedings{psig2024_gas_models,\n author={Shriram Srinivasan and Kaarthik Sundar and Sai Krishna Kanth Hari and Anatoly Zlotnik and Anup Pandey and Mary Ewers and David Fobes and Adam Mate and Russell Bent},\n booktitle={PSIG Annual Meeting},\n date={2024-05},\n title={Capabilities and Advantages of the GasModels Package},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-pdf/PSIG24/All-PSIG24/PSIG-2414/3408235/psig-2414.pdf},\n }"
   },
   {
+    "type": "journal",
+    "authors": "S. R. Kazi, K. Sundar, S. Misra, S. Tokareva and A. Zlotnik",
+    "fullAuthors": "Saif R. Kazi, Kaarthik Sundar, Sidhant Misra, Svetlana Tokareva and Anatoly Zlotnik",
+    "JCTitle": "Electric Power Systems Research",
+    "year": "2024",
+    "paperTitle": "Intertemporal Uncertainty Management in Gas-Electric Energy Systems Using Stochastic Finite Volumes",
+    "doi": "10.1016/j.epsr.2024.110748",
+    "arxiv": "",
+    "cite": "@Article{pscc2024_sfv_gas_electric,\n author={Saif R. Kazi and Kaarthik Sundar and Sidhant Misra and Svetlana Tokareva and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2024},\n journaltitle={Electric Power Systems Research},\n title={Intertemporal Uncertainty Management in Gas-Electric Energy Systems Using Stochastic Finite Volumes},\n doi={10.1016/j.epsr.2024.110748},\n eid={110748},\n volume={235},\n publisher={Elsevier BV},\n }"
+  },
+  {
     "type": "preprint",
     "authors": "S. R. Kazi, K. Sundar and A. Zlotnik",
     "fullAuthors": "Saif R. Kazi, Kaarthik Sundar and Anatoly Zlotnik",
