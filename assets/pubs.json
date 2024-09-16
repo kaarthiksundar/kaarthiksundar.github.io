@@ -781,26 +781,37 @@
     "cite": "@Article{pscc2024_sfv_gas_electric,\n author={Saif R. Kazi and Kaarthik Sundar and Sidhant Misra and Svetlana Tokareva and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2024},\n journaltitle={Electric Power Systems Research},\n title={Intertemporal Uncertainty Management in Gas-Electric Energy Systems Using Stochastic Finite Volumes},\n doi={10.1016/j.epsr.2024.110748},\n eid={110748},\n volume={235},\n publisher={Elsevier BV},\n }"
   },
   {
-    "type": "preprint",
+    "type": "conference",
     "authors": "S. R. Kazi, K. Sundar and A. Zlotnik",
     "fullAuthors": "Saif R. Kazi, Kaarthik Sundar and Anatoly Zlotnik",
-    "JCTitle": "",
-    "year": "2023",
+    "JCTitle": "American Control Conference (ACC)",
+    "year": "2024",
     "paperTitle": "Dynamic Optimization and Optimal Control of Hydrogen Blending Operations in Natural Gas Networks",
-    "doi": "",
+    "doi": "10.23919/ACC60939.2024.10644751",
     "arxiv": "2304.02716",
-    "cite": "@Article{arxiv2023_hydrogen_tr,\n author={Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2023-04-05},\n title={Dynamic Optimization and Optimal Control of Hydrogen Blending Operations in Natural Gas Networks},\n eprint={2304.02716},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{acc2024_hydrogen_tr,\n author={Saif R. Kazi and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=postdoc},\n booktitle={American Control Conference (ACC)},\n date={2024-07},\n title={Dynamic Optimization and Optimal Control of Hydrogen Blending Operations in Natural Gas Networks},\n pages={5357--5363},\n doi={10.23919/ACC60939.2024.10644751},\n organization={IEEE},\n eprint={2304.02716},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
-    "type": "preprint",
+    "type": "conference",
     "authors": "Y. Zhou, K. Sundar, D. Deka and H. Zhu",
     "fullAuthors": "Yuqi Zhou, Kaarthik Sundar, Deepjyoti Deka and Hao Zhu",
-    "JCTitle": "",
-    "year": "2023",
-    "paperTitle": "Optimal Power System Topology Control Under Uncertain Wildfire Risk",
-    "doi": "",
+    "JCTitle": "18th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS)",
+    "year": "2024",
+    "paperTitle": "Mitigating the Impact of Uncertain Wildfire Risk on Power Grids through Topology Control",
+    "doi": "10.1109/PMAPS61648.2024.10667072",
     "arxiv": "2303.07558",
-    "cite": "@Article{arxiv2023_wildfire,\n author={Yuqi Zhou and Kaarthik Sundar and Deepjyoti Deka and Hao Zhu},\n author+an={1=student},\n date={2023-03-14},\n title={Optimal Power System Topology Control Under Uncertain Wildfire Risk},\n eprint={2303.07558},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{pmaps2024_wildfire,\n author={Yuqi Zhou and Kaarthik Sundar and Deepjyoti Deka and Hao Zhu},\n author+an={1=student},\n booktitle={18th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS)},\n date={2024},\n title={Mitigating the Impact of Uncertain Wildfire Risk on Power Grids through Topology Control},\n doi={10.1109/PMAPS61648.2024.10667072},\n organization={IEEE},\n eprint={2303.07558},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "conference",
+    "authors": "K. Sundar, A. Mastin, M. Garcia, R. Bent and J. Watson",
+    "fullAuthors": "Kaarthik Sundar, Andrew Mastin, Manuel Garcia, Russell Bent and Jean-Paul Watson",
+    "JCTitle": "18th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS)",
+    "year": "2024",
+    "paperTitle": "Exact and Heuristic Approaches for the Stochastic N-k Interdiction in Power Grids",
+    "doi": "10.1109/PMAPS61648.2024.10667269",
+    "arxiv": "2402.00217",
+    "cite": "@Article{pmaps2024_stoch_nk,\n author={Kaarthik Sundar and Andrew Mastin and Manuel Garcia and Russell Bent and Jean-Paul Watson},\n booktitle={18th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS)},\n date={2024},\n title={Exact and Heuristic Approaches for the Stochastic N-k Interdiction in Power Grids},\n doi={10.1109/PMAPS61648.2024.10667269},\n organization={IEEE},\n eprint={2402.00217},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -834,17 +845,6 @@
     "doi": "",
     "arxiv": "2310.13181",
     "cite": "@Article{arxiv2023_carbon_offsets,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Adam Brandt and Anatoly Zlotnik},\n author+an={1=student;2=postdoc},\n date={2023-10-19},\n title={Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives},\n eprint={2310.13181},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
-  },
-  {
-    "type": "preprint",
-    "authors": "K. Sundar, A. Mastin, M. Garcia, R. Bent and J. Watson",
-    "fullAuthors": "Kaarthik Sundar, Andrew Mastin, Manuel Garcia, Russell Bent and Jean-Paul Watson",
-    "JCTitle": "",
-    "year": "2024",
-    "paperTitle": "Exact and Heuristic Approaches for the Stochastic N-k Interdiction in Power Grids",
-    "doi": "",
-    "arxiv": "2402.00217",
-    "cite": "@Article{arxiv2024_stoch_nk,\n author={Kaarthik Sundar and Andrew Mastin and Manuel Garcia and Russell Bent and Jean-Paul Watson},\n date={2024-01-31},\n title={Exact and Heuristic Approaches for the Stochastic N-k Interdiction in Power Grids},\n eprint={2402.00217},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -889,5 +889,16 @@
     "doi": "",
     "arxiv": "2404.18868",
     "cite": "@Article{arxiv2024_heating,\n author={Sai Krishna Kanth Hari and  Anatoly Zlotnik and Shriram Srinivasan and Kaarthik Sundar and Mary Ewers},\n date={2024-04-29},\n title={Optimization of District Heating Network Parameters in Steady-State Operation},\n eprint={2404.18868},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "K. Sundar and S. Rathinam",
+    "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
+    "JCTitle": "",
+    "year": "2024",
+    "paperTitle": "$A^*$ for Graphs of Convex Sets",
+    "doi": "",
+    "arxiv": "2407.17413",
+    "cite": "@Article{arxiv2024_gcs,\n author={Kaarthik Sundar and Sivakumar Rathinam},\n date={2024-07-25},\n title={$A^*$ for Graphs of Convex Sets},\n eprint={2407.17413},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
