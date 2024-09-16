@@ -40,6 +40,7 @@ var getYear = function(date) {
 
 var cleanTitle = function(title) {
     var temp = title.replace('--', '—')
+    temp = temp.replace('$A^*$', 'A\u002A')
     return temp.replace('\\&', '&');
 };
 
