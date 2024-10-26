@@ -814,6 +814,17 @@
     "cite": "@Article{pmaps2024_stoch_nk,\n author={Kaarthik Sundar and Andrew Mastin and Manuel Garcia and Russell Bent and Jean-Paul Watson},\n booktitle={18th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS)},\n date={2024},\n title={Exact and Heuristic Approaches for the Stochastic N-k Interdiction in Power Grids},\n doi={10.1109/PMAPS61648.2024.10667269},\n organization={IEEE},\n eprint={2402.00217},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
+    "type": "journal",
+    "authors": "S. K. K. Hari, . A. Zlotnik, S. Srinivasan, K. Sundar and M. Ewers",
+    "fullAuthors": "Sai Krishna Kanth Hari,  Anatoly Zlotnik, Shriram Srinivasan, Kaarthik Sundar and Mary Ewers",
+    "JCTitle": "Journal of Thermal Science and Engineering Applications",
+    "year": "2024",
+    "paperTitle": "Optimization of District Heating Network Parameters in Steady-State Operation",
+    "doi": "10.1115/1.4066908",
+    "arxiv": "2404.18868",
+    "cite": "@Article{tsea2024_heating,\n author={Sai Krishna Kanth Hari and  Anatoly Zlotnik and Shriram Srinivasan and Kaarthik Sundar and Mary Ewers},\n date={2024},\n title={Optimization of District Heating Network Parameters in Steady-State Operation},\n journaltitle={Journal of Thermal Science and Engineering Applications},\n doi={10.1115/1.4066908},\n eprint={2404.18868},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
     "type": "preprint",
     "authors": "S. K. K. Hari, K. Sundar, S. Srinivasan and R. Bent",
     "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Shriram Srinivasan and Russell Bent",
@@ -881,24 +892,24 @@
   },
   {
     "type": "preprint",
-    "authors": "S. K. K. Hari, . A. Zlotnik, S. Srinivasan, K. Sundar and M. Ewers",
-    "fullAuthors": "Sai Krishna Kanth Hari,  Anatoly Zlotnik, Shriram Srinivasan, Kaarthik Sundar and Mary Ewers",
-    "JCTitle": "",
-    "year": "2024",
-    "paperTitle": "Optimization of District Heating Network Parameters in Steady-State Operation",
-    "doi": "",
-    "arxiv": "2404.18868",
-    "cite": "@Article{arxiv2024_heating,\n author={Sai Krishna Kanth Hari and  Anatoly Zlotnik and Shriram Srinivasan and Kaarthik Sundar and Mary Ewers},\n date={2024-04-29},\n title={Optimization of District Heating Network Parameters in Steady-State Operation},\n eprint={2404.18868},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
-  },
-  {
-    "type": "preprint",
     "authors": "K. Sundar and S. Rathinam",
     "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "",
     "year": "2024",
-    "paperTitle": "A* for Graphs of Convex Sets",
+    "paperTitle": "A$^*$ for Graphs of Convex Sets",
     "doi": "",
     "arxiv": "2407.17413",
-    "cite": "@Article{arxiv2024_gcs,\n author={Kaarthik Sundar and Sivakumar Rathinam},\n date={2024-07-25},\n title={$A^*$ for Graphs of Convex Sets},\n eprint={2407.17413},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2024_gcs,\n author={Kaarthik Sundar and Sivakumar Rathinam},\n date={2024-07-25},\n title={A$^*$ for Graphs of Convex Sets},\n eprint={2407.17413},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "P. Pareek, K. Sundar, D. Deka and S. Misra",
+    "fullAuthors": "Parikshit Pareek, Kaarthik Sundar, Deepjyoti Deka and Sidhant Misra",
+    "JCTitle": "",
+    "year": "2024",
+    "paperTitle": "Optimization Proxies using Limited Labeled Data and Training Time—A Semi-Supervised Bayesian Neural Network Approach",
+    "doi": "",
+    "arxiv": "2410.03085",
+    "cite": "@Article{arxiv2024_bnn,\n author={Parikshit Pareek and Kaarthik Sundar and Deepjyoti Deka and Sidhant Misra},\n date={2024-10-04},\n title={Optimization Proxies using Limited Labeled Data and Training Time--A Semi-Supervised Bayesian Neural Network Approach},\n eprint={2410.03085},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
   }
 ]

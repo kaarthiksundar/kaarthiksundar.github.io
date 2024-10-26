@@ -112,6 +112,14 @@
     },
     {
         "type": "postdoc",
+        "name": "Abhay Singh Bhadoriya",
+        "start": "2024",
+        "end": "current",
+        "research": "Bayesian surrogates for energy infrastucture optimization problems",
+        "linkedin": "https://www.linkedin.com/in/abhay-singh11/"
+    },
+    {
+        "type": "postdoc",
         "name": "Saif R. Kazi",
         "start": "2021",
         "end": "current",
