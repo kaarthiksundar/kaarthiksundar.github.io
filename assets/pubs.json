@@ -896,7 +896,7 @@
     "fullAuthors": "Kaarthik Sundar and Sivakumar Rathinam",
     "JCTitle": "",
     "year": "2024",
-    "paperTitle": "A$^*$ for Graphs of Convex Sets",
+    "paperTitle": "A* for Graphs of Convex Sets",
     "doi": "",
     "arxiv": "2407.17413",
     "cite": "@Article{arxiv2024_gcs,\n author={Kaarthik Sundar and Sivakumar Rathinam},\n date={2024-07-25},\n title={A$^*$ for Graphs of Convex Sets},\n eprint={2407.17413},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
