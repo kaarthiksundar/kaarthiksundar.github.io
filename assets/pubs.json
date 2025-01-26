@@ -756,7 +756,7 @@
     "paperTitle": "On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks",
     "doi": "10.1109/LCSYS.2024.3394317",
     "arxiv": "2309.04494",
-    "cite": "@Article{lcss2024_ss_gas_existence,\n author={Shriram Srinivasan and Nishant Panda and Kaarthik Sundar},\n date={2024-04-26},\n journaltitle={IEEE Control Systems Letters},\n title={On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks},\n volume={},\n number={},\n pages={1--1},\n doi={10.1109/LCSYS.2024.3394317},\n eprint={2309.04494},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{lcss2024_ss_gas_existence,\n author={Shriram Srinivasan and Nishant Panda and Kaarthik Sundar},\n date={2024-04-26},\n journaltitle={IEEE Control Systems Letters},\n title={On the Existence of Steady-State Solutions to the Equations Governing Fluid Flow in Networks},\n volume={8},\n number={},\n pages={646--651},\n doi={10.1109/LCSYS.2024.3394317},\n eprint={2309.04494},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
@@ -815,6 +815,17 @@
   },
   {
     "type": "journal",
+    "authors": "M. Sodwatana, S. R. Kazi, K. Sundar, A. Brandt and A. Zlotnik",
+    "fullAuthors": "Mo Sodwatana, Saif R. Kazi, Kaarthik Sundar, Adam Brandt and Anatoly Zlotnik",
+    "JCTitle": "International Journal of Hydrogen Energy",
+    "year": "2024",
+    "paperTitle": "Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives",
+    "doi": "10.1016/j.ijhydene.2024.11.191",
+    "arxiv": "2310.13181",
+    "cite": "@Article{ije2024_carbon_offsets,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Adam Brandt and Anatoly Zlotnik},\n author+an={1=student;2=postdoc},\n journaltitle={International Journal of Hydrogen Energy},\n date={2024},\n title={Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives},\n volume={96},\n pages={574--588},\n doi={10.1016/j.ijhydene.2024.11.191},\n publisher={Elsevier},\n eprint={2310.13181},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "journal",
     "authors": "S. K. K. Hari, . A. Zlotnik, S. Srinivasan, K. Sundar and M. Ewers",
     "fullAuthors": "Sai Krishna Kanth Hari,  Anatoly Zlotnik, Shriram Srinivasan, Kaarthik Sundar and Mary Ewers",
     "JCTitle": "Journal of Thermal Science and Engineering Applications",
@@ -826,14 +837,14 @@
   },
   {
     "type": "journal",
-    "authors": "M. Sodwatana, S. R. Kazi, K. Sundar, A. Brandt and A. Zlotnik",
-    "fullAuthors": "Mo Sodwatana, Saif R. Kazi, Kaarthik Sundar, Adam Brandt and Anatoly Zlotnik",
-    "JCTitle": "International Journal of Hydrogen Energy",
-    "year": "2024",
-    "paperTitle": "Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives",
-    "doi": "10.1016/j.ijhydene.2024.11.191",
-    "arxiv": "2310.13181",
-    "cite": "@Article{ije2024_carbon_offsets,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Adam Brandt and Anatoly Zlotnik},\n author+an={1=student;2=postdoc},\n journaltitle={International Journal of Hydrogen Energy},\n date={2024},\n title={Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives},\n volume={96},\n pages={574--588},\n doi={10.1016/j.ijhydene.2024.11.191},\n publisher={Elsevier},\n eprint={2310.13181},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "authors": "S. Srinivasan and K. Sundar",
+    "fullAuthors": "Shriram Srinivasan and Kaarthik Sundar",
+    "JCTitle": "IEEE Control Systems Letters",
+    "year": "2025",
+    "paperTitle": "Hierarchical Network Partitioning for Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations",
+    "doi": "10.1109/LCSYS.2025.3533383",
+    "arxiv": "2410.19850",
+    "cite": "@Article{lcss2025_ng_partitioning,\n author={Shriram Srinivasan and Kaarthik Sundar},\n date={2025-01-23},\n journaltitle={IEEE Control Systems Letters},\n title={Hierarchical Network Partitioning for Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations},\n volume={},\n number={},\n pages={1--1},\n doi={10.1109/LCSYS.2025.3533383},\n eprint={2410.19850},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -888,7 +899,7 @@
     "paperTitle": "Equitable Routing - Rethinking the Multiple Traveling Salesman Problem",
     "doi": "",
     "arxiv": "2404.08157",
-    "cite": "@Article{arxiv2024_fmtsp,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n date={2024-04-11},\n title={Equitable Routing - Rethinking the Multiple Traveling Salesman Problem},\n eprint={2404.08157},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2024_fmtsp,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n author+an={1=student},\n date={2024-04-11},\n title={Equitable Routing - Rethinking the Multiple Traveling Salesman Problem},\n eprint={2404.08157},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -911,16 +922,5 @@
     "doi": "",
     "arxiv": "2410.03085",
     "cite": "@Article{arxiv2024_bnn,\n author={Parikshit Pareek and Kaarthik Sundar and Deepjyoti Deka and Sidhant Misra},\n date={2024-10-04},\n title={Optimization Proxies using Limited Labeled Data and Training Time--A Semi-Supervised Bayesian Neural Network Approach},\n eprint={2410.03085},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
-  },
-  {
-    "type": "preprint",
-    "authors": "S. Srinivasan and K. Sundar",
-    "fullAuthors": "Shriram Srinivasan and Kaarthik Sundar",
-    "JCTitle": "",
-    "year": "2024",
-    "paperTitle": "Hierarchical Network Partitioning for Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations",
-    "doi": "",
-    "arxiv": "2410.19850",
-    "cite": "@Article{arxiv2024_ng_partitioning,\n author={Shriram Srinivasan and Kaarthik Sundar},\n date={2024-10-22},\n title={Hierarchical Network Partitioning for Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations},\n eprint={2410.19850},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
   }
 ]
