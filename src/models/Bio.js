@@ -16,17 +16,16 @@ var Bio = {
     ],
     
     research: [
-        'His research interests lie at the Safe, Efficient, Equitable and Resilient',
-        ' (SEER) operations and decarbonization planning for infrastucture and autonomous',
-        ' systems. In particular,',
-        ' his expertise lies in the areas of mathematical programming, large scale', 
-        ' deterministic and stochastic optimization, optimal control, heuristics,', 
-        ' approximation algorithms and reinforcement learning. He applies these',
+        'His research interests lie at the Safe, Efficient and Resilient',
+        ' operations, control and decarbonization planning for interdependent',
+        ' energy infrastucture sytems. From a theoretical stand-point,',
+        ' his expertise lies in the areas of nonlinear control, boundary',
+        ' control of partial differential equations, mathematical programming,',
+        ' large scale deterministic and stochastic optimization,', 
+        ' approximation algorithms and Bayesian learning. He has applied these',
         ' techniques to solve problems that arise in the domains of pipeline', 
-        ' infrastucture systems, transportation systems, robotics,',
-        ' autonomous systems, decarbonization of energy infrastucture systems,',
-        ' and improving the resiliency of infrastructure',
-        ' systems in the face of climate impacts. '
+        ' infrastucture systems, electric grids, transportation systems, robotics,',
+        ' and autonomous systems.'
     ],
 
     cv: '../assets/kaarthik-sundar-cv.pdf',
@@ -40,20 +39,19 @@ var Bio = {
     linkedin: 'https://www.linkedin.com/in/kaarthiksundar/',
     
     theoryInterests: [
+        'Boundary Control of Partial Differential Equations',
         'Mathematical Programming',
         'Global Optimization',
-        'Optimal Control Theory',
         'Dynamics and Control',
         'Approximation Algorithms', 
-        'Reinforcement Learning'
+        'Bayesian Learning'
     ],
 
     appliedInterests: [
-        'Autonomous Systems',
         'Pipeline Infrastructure Systems',
-        'Interdependent Energy Infrastructure Systems',
+        'Power Grids',
+        'Autonomous Systems',
         'Transportation Systems',
-        'Decarbonization Planning',
         'Supply Chain Systems'
     ],
 
