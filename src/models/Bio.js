@@ -16,7 +16,7 @@ var Bio = {
     ],
     
     research: [
-        'His research interests lie at the Safe, Efficient and Resilient',
+        'His research interests lie at the safe, efficient and resilient',
         ' operations, control and decarbonization planning for interdependent',
         ' energy infrastucture sytems. From a theoretical stand-point,',
         ' his expertise lies in the areas of nonlinear control, boundary',
