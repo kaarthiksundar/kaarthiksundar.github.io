@@ -825,6 +825,17 @@
     "cite": "@Article{ije2024_carbon_offsets,\n author={Mo Sodwatana and Saif R. Kazi and Kaarthik Sundar and Adam Brandt and Anatoly Zlotnik},\n author+an={1=student;2=postdoc},\n journaltitle={International Journal of Hydrogen Energy},\n date={2024},\n title={Locational Marginal Pricing of Energy in Pipeline Transport of Natural Gas and Hydrogen with Carbon Offset Incentives},\n volume={96},\n pages={574--588},\n doi={10.1016/j.ijhydene.2024.11.191},\n publisher={Elsevier},\n eprint={2310.13181},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
+    "type": "conference",
+    "authors": "S. R. Kazi, S. Misra, S. Tokareva, K. Sundar and A. Zlotnik",
+    "fullAuthors": "Saif R. Kazi, Sidhant Misra, Svetlana Tokareva, Kaarthik Sundar and Anatoly Zlotnik",
+    "JCTitle": "IEEE 63th Conference on Decision and Control (CDC)",
+    "year": "2024",
+    "paperTitle": "Stochastic Finite Volume Method for Uncertainty Management in Gas Pipeline Network Flows",
+    "doi": "10.1109/CDC56724.2024.10886706",
+    "arxiv": "2403.18124",
+    "cite": "@InProceedings{cdc2024_sfv_gas_ss,\n author={Saif R. Kazi and Sidhant Misra and Svetlana Tokareva and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=postdoc},\n booktitle={IEEE 63th Conference on Decision and Control (CDC)},\n date={2024-12},\n title={Stochastic Finite Volume Method for Uncertainty Management in Gas Pipeline Network Flows},\n doi={10.1109/CDC56724.2024.10886706},\n publisher={IEEE},\n eprint={2403.18124},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
     "type": "journal",
     "authors": "S. K. K. Hari, . A. Zlotnik, S. Srinivasan, K. Sundar and M. Ewers",
     "fullAuthors": "Sai Krishna Kanth Hari,  Anatoly Zlotnik, Shriram Srinivasan, Kaarthik Sundar and Mary Ewers",
@@ -847,6 +858,28 @@
     "cite": "@Article{lcss2025_ng_partitioning,\n author={Shriram Srinivasan and Kaarthik Sundar},\n date={2025-01-23},\n journaltitle={IEEE Control Systems Letters},\n title={Hierarchical Network Partitioning for Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations},\n volume={},\n number={},\n pages={1--1},\n doi={10.1109/LCSYS.2025.3533383},\n eprint={2410.19850},\n eprintclass={math.NA},\n eprinttype={arXiv},\n }"
   },
   {
+    "type": "conference",
+    "authors": "A. Chio, R. Bent, K. Sundar and N. Venkatasubramanian",
+    "fullAuthors": "Andrew Chio, Russell Bent, Kaarthik Sundar and Nalini Venkatasubramanian",
+    "JCTitle": "16th ACM/IEEE International Conference on Cyber-Physical Systems (ACM/IEEE ICCPS)",
+    "year": "2025",
+    "paperTitle": "SEQUIN: A Network Science and Physics-based Approach to Identify Sequential N-k Attacks in Electric Power Grids",
+    "doi": "10.1145/3716550.3722029",
+    "arxiv": "",
+    "cite": "@InProceedings{iccps2025_sequin,\n author={Andrew Chio and Russell Bent and Kaarthik Sundar and Nalini Venkatasubramanian},\n author+an={1=student},\n booktitle={16th ACM/IEEE International Conference on Cyber-Physical Systems (ACM/IEEE ICCPS)},\n date={2025},\n title={SEQUIN: A Network Science and Physics-based Approach to Identify Sequential N-k Attacks in Electric Power Grids},\n doi={10.1145/3716550.3722029},\n publisher={ACM/IEEE},\n }"
+  },
+  {
+    "type": "journal",
+    "authors": "K. Sundar, D. Deka and R. Bent",
+    "fullAuthors": "Kaarthik Sundar, Deepjyoti Deka and Russell Bent",
+    "JCTitle": "Optimization and Engineering",
+    "year": "2025",
+    "paperTitle": "A Parametric, Second-Order Cone Representable Model of Fairness for Decision-Making Problems",
+    "doi": "10.1007/s11081-024-09946-9",
+    "arxiv": "2412.05143",
+    "cite": "@Article{oe2025_fairness,\n author={Kaarthik Sundar and Deepjyoti Deka and Russell Bent},\n date={2025},\n journaltitle={Optimization and Engineering},\n title={A Parametric, Second-Order Cone Representable Model of Fairness for Decision-Making Problems},\n pages={1--16},\n doi={10.1007/s11081-024-09946-9},\n publisher={Springer},\n eprint={2412.05143},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
     "type": "preprint",
     "authors": "S. K. K. Hari, K. Sundar, S. Srinivasan and R. Bent",
     "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Shriram Srinivasan and Russell Bent",
@@ -867,17 +900,6 @@
     "doi": "",
     "arxiv": "2310.01348",
     "cite": "@Article{arxiv2023_fairly_extreme,\n author={Kaarthik Sundar and Deepjyoti Deka and Russell Bent},\n date={2023-10-02},\n title={Fairly Extreme: Minimizing Outages Equitably},\n eprint={2310.01348},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
-  },
-  {
-    "type": "preprint",
-    "authors": "S. R. Kazi, S. Misra, S. Tokareva, K. Sundar and A. Zlotnik",
-    "fullAuthors": "Saif R. Kazi, Sidhant Misra, Svetlana Tokareva, Kaarthik Sundar and Anatoly Zlotnik",
-    "JCTitle": "",
-    "year": "2024",
-    "paperTitle": "Stochastic Finite Volume Method for Uncertainty Management in Gas Pipeline Network Flows",
-    "doi": "",
-    "arxiv": "2403.18124",
-    "cite": "@Article{arxiv2024_sfv_ss_gas,\n author={Saif R. Kazi and Sidhant Misra and Svetlana Tokareva and Kaarthik Sundar and Anatoly Zlotnik},\n author+an={1=postdoc},\n date={2024-03-26},\n title={Stochastic Finite Volume Method for Uncertainty Management in Gas Pipeline Network Flows},\n eprint={2403.18124},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -914,13 +936,13 @@
   },
   {
     "type": "preprint",
-    "authors": "P. Pareek, K. Sundar, D. Deka and S. Misra",
-    "fullAuthors": "Parikshit Pareek, Kaarthik Sundar, Deepjyoti Deka and Sidhant Misra",
+    "authors": "P. Pareek, A. Jayakumar, K. Sundar, D. Deka and S. Misra",
+    "fullAuthors": "Parikshit Pareek, Abhijith Jayakumar, Kaarthik Sundar, Deepjyoti Deka and Sidhant Misra",
     "JCTitle": "",
     "year": "2024",
     "paperTitle": "Optimization Proxies using Limited Labeled Data and Training Time—A Semi-Supervised Bayesian Neural Network Approach",
     "doi": "",
     "arxiv": "2410.03085",
-    "cite": "@Article{arxiv2024_bnn,\n author={Parikshit Pareek and Kaarthik Sundar and Deepjyoti Deka and Sidhant Misra},\n date={2024-10-04},\n title={Optimization Proxies using Limited Labeled Data and Training Time--A Semi-Supervised Bayesian Neural Network Approach},\n eprint={2410.03085},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2024_bnn,\n author={Parikshit Pareek and Abhijith Jayakumar and Kaarthik Sundar and Deepjyoti Deka and Sidhant Misra},\n date={2024-10-04},\n title={Optimization Proxies using Limited Labeled Data and Training Time--A Semi-Supervised Bayesian Neural Network Approach},\n eprint={2410.03085},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
   }
 ]
