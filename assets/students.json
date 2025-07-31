@@ -1,6 +1,14 @@
 [   
     {
         "type": "summer",
+        "name": "Prahlad Narasimhan",
+        "start": "2025",
+        "end": "2025",
+        "research": "Approximation algorithms for geometric partitioning problems",
+        "linkedin": "https://kprahlad.github.io"
+    },
+    {
+        "type": "summer",
         "name": "Aparna Kishore",
         "start": "2024",
         "end": "2024",
@@ -114,15 +122,15 @@
         "type": "postdoc",
         "name": "Abhay Singh Bhadoriya",
         "start": "2024",
-        "end": "current",
-        "research": "Bayesian surrogates for energy infrastucture optimization problems",
+        "end": "2025",
+        "research": "Dispersion-aware optimization",
         "linkedin": "https://www.linkedin.com/in/abhay-singh11/"
     },
     {
         "type": "postdoc",
         "name": "Saif R. Kazi",
         "start": "2021",
-        "end": "current",
+        "end": "2024",
         "research": "Blending of hydrogen in natural gas pipeline networks",
         "linkedin": "https://www.linkedin.com/in/saif-rahaman-7b895379/"
     },
