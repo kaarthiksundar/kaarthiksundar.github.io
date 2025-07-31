@@ -385,17 +385,6 @@
     "cite": "@InProceedings{cdc2019_gas,\n author={Anatoly Zlotnik and Kaarthik Sundar and Aleksandr M. Rudkevich and Aleksandr Beylin and Xindi Li},\n booktitle={IEEE 58th Conference on Decision and Control (CDC)},\n date={2019-12},\n title={Optimal Control for Scheduling and Pricing Intra-day Natural Gas Transport on Pipeline Networks},\n doi={10.1109/cdc40024.2019.9030009},\n publisher={IEEE},\n eprint={1912.02895},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
-    "type": "preprint",
-    "authors": "S. K. K. Hari, K. Sundar, J. Braga, J. Teixeira, J. Sousa and S. Darbha",
-    "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Jose Braga, Joao Teixeira, Joao Sousa and Swaroop Darbha",
-    "JCTitle": "",
-    "year": "2018",
-    "paperTitle": "Estimation of Location and Orientation for Underwater Vehicles from Range Measurements",
-    "doi": "",
-    "arxiv": "1808.03198",
-    "cite": "@Article{arxiv2018_localization,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Jose Braga and Joao Teixeira and Joao Sousa and Swaroop Darbha},\n author+an={1=student},\n date={2018-08-09},\n title={Estimation of Location and Orientation for Underwater Vehicles from Range Measurements},\n eprint={1808.03198},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
-  },
-  {
     "type": "conference",
     "authors": "K. Sundar, M. Vallem, R. Bent, N. Samaan, B. Vyakaranam and Y. Makarov",
     "fullAuthors": "Kaarthik Sundar, Mallikarjuna Vallem, Russell Bent, Nader Samaan, Bharat Vyakaranam and Yury Makarov",
@@ -880,6 +869,28 @@
     "cite": "@Article{oe2025_fairness,\n author={Kaarthik Sundar and Deepjyoti Deka and Russell Bent},\n date={2025},\n journaltitle={Optimization and Engineering},\n title={A Parametric, Second-Order Cone Representable Model of Fairness for Decision-Making Problems},\n pages={1--16},\n doi={10.1007/s11081-024-09946-9},\n publisher={Springer},\n eprint={2412.05143},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
+    "type": "journal",
+    "authors": "A. Rosemberg, F. Pacaud, J. {. Garcia}, R. B. Parker, K. Sundar, R. Bent and P. {. Hentenryck}",
+    "fullAuthors": "Andrew Rosemberg, Francois Pacaud, Joaquim {Dias Garcia}, Robert B. Parker, Kaarthik Sundar, Russell Bent and Pascal {Van Hentenryck}",
+    "JCTitle": "",
+    "year": "2025",
+    "paperTitle": "Strategic Bidding in Energy Markets with Gradient-Based Iterative Methods",
+    "doi": "10.1016/j.segan.2025.101878",
+    "arxiv": "5043309",
+    "cite": "@Article{segan2025_bidding,\n author={Andrew Rosemberg and Francois Pacaud and Joaquim {Dias Garcia} and Robert B. Parker and Kaarthik Sundar and Russell Bent and Pascal {Van Hentenryck}},\n author+an={1=student},\n journtitle={Sustainable Energy, Grids and Networks},\n title={Strategic Bidding in Energy Markets with Gradient-Based Iterative Methods},\n pages={101878},\n date={2025},\n issn={2352-4677},\n doi={10.1016/j.segan.2025.101878},\n eprint={5043309},\n eprinttype={ssrn},\n }"
+  },
+  {
+    "type": "journal",
+    "authors": "S. K. K. Hari, K. Sundar, J. Braga, J. Teixeira, S. Darbha and J. Sousa",
+    "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Jos\\'e Braga, Jo\\~ao Teixeira, Swaroop Darbha and Jo\\~ao Sousa",
+    "JCTitle": "Remote Sensing",
+    "year": "2025",
+    "paperTitle": "Robust Underwater Vehicle Pose Estimation via Convex Optimization Using Range-Only Remote Sensing Data",
+    "doi": "10.3390/rs17152637",
+    "arxiv": "1808.03198",
+    "cite": "@Article{rs2025_localization,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Jos\\'e Braga and Jo\\~ao Teixeira and Swaroop Darbha and Jo\\~ao Sousa},\n date={2025},\n journaltitle={Remote Sensing},\n title={Robust Underwater Vehicle Pose Estimation via Convex Optimization Using Range-Only Remote Sensing Data},\n doi={10.3390/rs17152637},\n volume={17},\n number={15},\n issn={2072-4292},\n eprint={1808.03198},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
     "type": "preprint",
     "authors": "S. K. K. Hari, K. Sundar, S. Srinivasan and R. Bent",
     "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Shriram Srinivasan and Russell Bent",
@@ -918,10 +929,10 @@
     "fullAuthors": "Abhay Singh Bhadoriya, Deepjyoti Deka and Kaarthik Sundar",
     "JCTitle": "",
     "year": "2024",
-    "paperTitle": "Equitable Routing - Rethinking the Multiple Traveling Salesman Problem",
+    "paperTitle": "Equitable Routing — Rethinking the Multiple Traveling Salesman Problem",
     "doi": "",
     "arxiv": "2404.08157",
-    "cite": "@Article{arxiv2024_fmtsp,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n author+an={1=student},\n date={2024-04-11},\n title={Equitable Routing - Rethinking the Multiple Traveling Salesman Problem},\n eprint={2404.08157},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{arxiv2024_fmtsp,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n author+an={1=student},\n date={2024-04-11},\n title={Equitable Routing -- Rethinking the Multiple Traveling Salesman Problem},\n eprint={2404.08157},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -944,5 +955,16 @@
     "doi": "",
     "arxiv": "2410.03085",
     "cite": "@Article{arxiv2024_bnn,\n author={Parikshit Pareek and Abhijith Jayakumar and Kaarthik Sundar and Deepjyoti Deka and Sidhant Misra},\n date={2024-10-04},\n title={Optimization Proxies using Limited Labeled Data and Training Time--A Semi-Supervised Bayesian Neural Network Approach},\n eprint={2410.03085},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. Venkatachalam, K. Sundar and A. Narayanan",
+    "fullAuthors": "Saravanan Venkatachalam, Kaarthik Sundar and Arunachalam Narayanan",
+    "JCTitle": "",
+    "year": "2025",
+    "paperTitle": "Inventory Balancing in Operations Planning — an Application to Supply Chain Replenishment",
+    "doi": "",
+    "arxiv": "5349428",
+    "cite": "@Article{ssrn2025_inventory,\n author={Saravanan Venkatachalam and Kaarthik Sundar and Arunachalam Narayanan},\n title={Inventory Balancing in Operations Planning -- an Application to Supply Chain Replenishment},\n date={2025},\n eprint={5349428},\n eprinttype={ssrn},\n }"
   }
 ]
