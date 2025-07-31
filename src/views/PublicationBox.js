@@ -101,10 +101,16 @@ var PreprintView = function (paper) {
         m('span', {class: 'black'}, paper.paperTitle), m('br'),
         '   ', paper.authors, '. ', paper.year, m('br')
     ]
-    if (paper.arxiv != "") {
+
+    if (paper.arxiv[1] == "arXiv") {
         children.push('  ');
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib blue', 
-            href: 'https://arxiv.org/abs/' + paper.arxiv}, 'arXiv'));
+            href: 'https://arxiv.org/abs/' + paper.arxiv[0]}, 'arXiv'));
+    }
+    if (paper.arxiv[1] == "ssrn") {
+        children.push('  ');
+        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib blue', 
+            href: 'https://ssrn.com/abstract=' + paper.arxiv[0]}, 'SSRN'));
     }
     children.push(' ');
     var btn = m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib blue', href: 'javascript:void(0)',

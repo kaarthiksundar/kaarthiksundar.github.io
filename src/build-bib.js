@@ -2,7 +2,12 @@ var bibtexParse = require('@orcid/bibtex-parse-js');
 var fs = require('fs'); 
 
 var getNamesWithInits = function (authors) {
-    var names = authors.split(' ');
+    var names = authors.split(' ').map(
+        function(name) {
+            return name.replace(/^\{|\}$/g, '')
+        }
+    );
+    
     var shortName = "";
     for (var i = 0; i < names.length - 1; i++) {
         if (names[i].slice(-1) == ".") {
@@ -75,8 +80,8 @@ function getDOI(entry) {
 
 function getArxivId(entry) {
     if (entry.hasOwnProperty('eprint'))
-        return entry['eprint'];
-    return '';
+        return [entry['eprint'], entry['eprinttype']];
+    return ['', ''];
 };
 
 var rawData = fs.readFileSync('./assets/kspubs.bib').toString();
@@ -97,6 +102,7 @@ for(var i = 0; i < bibEntries.length; ++i) {
     var JCtitle = getJCTitle(entryTags);
     var authors = parseAuthors(entryTags['author']);
     var fullAuthors = parseFullAuthors(entryTags['author']);
+
     jsonEntry = {
         'type': entryType,
         'authors': authors.slice(0, -1).join(', ')+' and '+ authors.slice(-1),
