@@ -33,20 +33,29 @@ var JView = function (paper) {
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red', 
             href: 'https://www.doi.org/' + paper.doi}, 'DOI'));
     }
-    if (paper.arxiv != "") {
+    if (paper.arxiv[1] == "arXiv") {
         children.push('  ');
-        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red', 
-            href: 'https://arxiv.org/abs/' + paper.arxiv}, 'arXiv'));
+        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red',  
+            href: 'https://arxiv.org/abs/' + paper.arxiv[0]}, 'arXiv'));
+    }
+    if (paper.arxiv[1] == "ssrn") {
+        children.push('  ');
+        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red',  
+            href: 'https://ssrn.com/abstract=' + paper.arxiv[0]}, 'SSRN'));
     }
     children.push(' ');
-    var btn = m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red', href: 'javascript:void(0)',
-        onclick: function() {
-            const dummy = document.createElement('textarea');
-            dummy.value = paper.cite;
-            document.body.appendChild(dummy);
-            dummy.select();
-            document.execCommand('copy');
-            document.body.removeChild(dummy);
+    var btn = m('a', {
+        class: 'f7 link dim br2 ba ph1 mb2 dib light-red',
+        href: '#',
+        onclick: function (e) {
+            e.preventDefault(); // Prevent default link behavior
+            navigator.clipboard.writeText(paper.cite)
+                .then(() => {
+                    console.log('Copied to clipboard successfully!');
+                })
+                .catch(err => {
+                    console.error('Failed to copy text: ', err);
+                });
         }
     }, 'Copy BibTeX');
     children.push(btn);
@@ -70,20 +79,29 @@ var CView = function (paper) {
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green', 
             href: 'https://www.doi.org/' + paper.doi}, 'DOI'));
     }
-    if (paper.arxiv != "") {
+    if (paper.arxiv[1] == "arXiv") {
         children.push('  ');
-        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green', 
-            href: 'https://arxiv.org/abs/' + paper.arxiv}, 'arXiv'));
+        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green',  
+            href: 'https://arxiv.org/abs/' + paper.arxiv[0]}, 'arXiv'));
+    }
+    if (paper.arxiv[1] == "ssrn") {
+        children.push('  ');
+        children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green',  
+            href: 'https://ssrn.com/abstract=' + paper.arxiv[0]}, 'SSRN'));
     }
     children.push(' ');
-    var btn = m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green', href: 'javascript:void(0)',
-        onclick: function() {
-            const dummy = document.createElement('textarea');
-            dummy.value = paper.cite;
-            document.body.appendChild(dummy);
-            dummy.select();
-            document.execCommand('copy');
-            document.body.removeChild(dummy);
+    var btn = m('a', {
+        class: 'f7 link dim br2 ba ph1 mb2 dib green',
+        href: '#',
+        onclick: function (e) {
+            e.preventDefault(); // Prevent default link behavior
+            navigator.clipboard.writeText(paper.cite)
+                .then(() => {
+                    console.log('Copied to clipboard successfully!');
+                })
+                .catch(err => {
+                    console.error('Failed to copy text: ', err);
+                });
         }
     }, 'Copy BibTeX');
     children.push(btn);
@@ -101,7 +119,7 @@ var PreprintView = function (paper) {
         m('span', {class: 'black'}, paper.paperTitle), m('br'),
         '   ', paper.authors, '. ', paper.year, m('br')
     ]
-
+    
     if (paper.arxiv[1] == "arXiv") {
         children.push('  ');
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib blue', 
@@ -113,16 +131,20 @@ var PreprintView = function (paper) {
             href: 'https://ssrn.com/abstract=' + paper.arxiv[0]}, 'SSRN'));
     }
     children.push(' ');
-    var btn = m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib blue', href: 'javascript:void(0)',
-    onclick: function() {
-        const dummy = document.createElement('textarea');
-        dummy.value = paper.cite;
-        document.body.appendChild(dummy);
-        dummy.select();
-        document.execCommand('copy');
-        document.body.removeChild(dummy);
-    }
-}, 'Copy BibTeX');
+    var btn = m('a', {
+        class: 'f7 link dim br2 ba ph1 mb2 dib blue',
+        href: '#',
+        onclick: function (e) {
+            e.preventDefault(); // Prevent default link behavior
+            navigator.clipboard.writeText(paper.cite)
+                .then(() => {
+                    console.log('Copied to clipboard successfully!');
+                })
+                .catch(err => {
+                    console.error('Failed to copy text: ', err);
+                });
+        }
+    }, 'Copy BibTeX');
     children.push(btn);
 
     return m('li', { class: 'pa2 lh-copy'}, children)
@@ -203,7 +225,6 @@ module.exports = {
             paperdiv.push(confdiv)
 
         var numentries = preprints.length + journals.length + conferences.length
-        console.log(numentries)
         var numentriesdiv = m('div', {class: 'f6 dib ml4 mb4'}, 
             m('span', {class: 'f6 f5-ns pr2'}, 'Number of entries : ' + numentries))
         
