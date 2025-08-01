@@ -36,12 +36,12 @@ var Bio = {
     linkedin: 'https://www.linkedin.com/in/kaarthiksundar/',
     
     theoryInterests: [
-        'Boundary Control of Partial Differential Equations',
         'Mathematical Programming',
         'Global Optimization',
         'Dynamics and Control',
         'Approximation Algorithms', 
-        'Bayesian Learning'
+        'Bayesian Learning',
+        'Boundary Control of Partial Differential Equations',
     ],
 
     appliedInterests: [
