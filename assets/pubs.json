@@ -1230,5 +1230,19 @@
       "ssrn"
     ],
     "cite": "@Article{ssrn2025_inventory,\n author={Saravanan Venkatachalam and Kaarthik Sundar and Arunachalam Narayanan},\n title={Inventory Balancing in Operations Planning -- an Application to Supply Chain Replenishment},\n date={2025},\n eprint={5349428},\n eprinttype={ssrn},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "V. D. Vito, K. Sundar, F. Fioretto and D. Deka",
+    "fullAuthors": "Vincenzo Di Vito, Kaarthik Sundar, Ferdinando Fioretto and Deepjyoti Deka",
+    "JCTitle": "",
+    "year": "2025",
+    "paperTitle": "Stability-Constrained AC Optimal Power Flow — A Gaussian Process-Based Approach",
+    "doi": "",
+    "arxiv": [
+      "2507.23094",
+      "arXiv"
+    ],
+    "cite": "@Article{arxiv2025_gpacopf,\n author={Vincenzo Di Vito and Kaarthik Sundar and Ferdinando Fioretto and Deepjyoti Deka},\n author+an={1=student},\n date={2025-07-30},\n title={Stability-Constrained AC Optimal Power Flow -- A Gaussian Process-Based Approach},\n eprint={2507.23094},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
