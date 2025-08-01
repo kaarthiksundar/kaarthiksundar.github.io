@@ -4,7 +4,7 @@ var Bio = {
     pic: '../assets/profile-pic.jpg',
 
     biography: [
-        'Kaarthik is a scientst in the',
+        'Kaarthik is a scientist in the',
         ' Information Systems and Modeling Group',
         ' at Los Alamos National Laboratory (LANL)',
         '. At LANL, he is also a part of the ',
@@ -16,16 +16,13 @@ var Bio = {
     ],
     
     research: [
-        'His research interests lie at the safe, efficient and resilient',
-        ' operations, control and decarbonization planning for interdependent',
-        ' energy infrastucture sytems. From a theoretical stand-point,',
-        ' his expertise lies in the areas of nonlinear control, boundary',
+        'His research interests are centered around the following',
+        ' applications: interdependent energy infrastucture systems,',
+        ' transportation systems, and autonomous systems. From a theoretical,', 
+        ' stand-point his expertise lies in the areas of nonlinear control, boundary',
         ' control of partial differential equations, mathematical programming,',
         ' large scale deterministic and stochastic optimization,', 
-        ' approximation algorithms and Bayesian learning. He has applied these',
-        ' techniques to solve problems that arise in the domains of pipeline', 
-        ' infrastucture systems, electric grids, transportation systems, robotics,',
-        ' and autonomous systems.'
+        ' approximation algorithms and Bayesian learning.'
     ],
 
     cv: '../assets/kaarthik-sundar-cv.pdf',
