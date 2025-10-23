@@ -1140,12 +1140,40 @@
     "JCTitle": "Proceedings of the International Conference on Automated Planning and Scheduling",
     "year": "2025",
     "paperTitle": "A* for Bounding Shortest Paths in the Graphs of Convex Sets",
-    "doi": "",
+    "doi": "10.1609/icaps.v35i1.36127",
     "arxiv": [
       "2407.17413",
       "arXiv"
     ],
-    "cite": "@Article{icaps2025_gcs,\n author={Kaarthik Sundar and Sivakumar Rathinam},\n date={2025},\n title={A$^*$ for Bounding Shortest Paths in the Graphs of Convex Sets},\n booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},\n volume={35},\n number={1},\n pages={260--268},\n eprint={2407.17413},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{icaps2025_gcs,\n author={Kaarthik Sundar and Sivakumar Rathinam},\n date={2025},\n title={A$^*$ for Bounding Shortest Paths in the Graphs of Convex Sets},\n booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},\n doi={10.1609/icaps.v35i1.36127},\n volume={35},\n number={1},\n pages={260--268},\n eprint={2407.17413},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "journal",
+    "authors": "C. Montez, S. Sanjeevi and K. Sundar",
+    "fullAuthors": "Christopher Montez, Sujeevraja Sanjeevi and Kaarthik Sundar",
+    "JCTitle": "Journal of Global Optimization",
+    "year": "2025",
+    "paperTitle": "Global Optimization Algorithm for Mixed-Integer Nonlinear Programs with Trigonometric Functions",
+    "doi": "10.1007/s10898-025-01547-9",
+    "arxiv": [
+      "2509.26516",
+      "arXiv"
+    ],
+    "cite": "@Article{jogo2025_trig,\n author={Christopher Montez and Sujeevraja Sanjeevi and Kaarthik Sundar},\n author+an={1=student},\n date={2025},\n journaltitle={Journal of Global Optimization},\n title={Global Optimization Algorithm for Mixed-Integer Nonlinear Programs with Trigonometric Functions},\n doi={10.1007/s10898-025-01547-9},\n eprint={2509.26516},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "conference",
+    "authors": "P. Pareek, A. Jayakumar, K. Sundar, D. Deka and S. Misra",
+    "fullAuthors": "Parikshit Pareek, Abhijith Jayakumar, Kaarthik Sundar, Deepjyoti Deka and Sidhant Misra",
+    "JCTitle": "Advances in Neural Information Processing Systems",
+    "year": "2025",
+    "paperTitle": "Optimization Proxies using Limited Labeled Data and Training Time—A Semi-Supervised Bayesian Neural Network Approach",
+    "doi": "",
+    "arxiv": [
+      "2410.03085",
+      "arXiv"
+    ],
+    "cite": "@InProceedings{neurips2025_bnn,\n author={Parikshit Pareek and Abhijith Jayakumar and Kaarthik Sundar and Deepjyoti Deka and Sidhant Misra},\n date={2025},\n title={Optimization Proxies using Limited Labeled Data and Training Time--A Semi-Supervised Bayesian Neural Network Approach},\n booktitle={Advances in Neural Information Processing Systems},\n publisher={Curran Associates, Inc.},\n volume={38},\n eprint={2410.03085},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -1205,20 +1233,6 @@
   },
   {
     "type": "preprint",
-    "authors": "P. Pareek, A. Jayakumar, K. Sundar, D. Deka and S. Misra",
-    "fullAuthors": "Parikshit Pareek, Abhijith Jayakumar, Kaarthik Sundar, Deepjyoti Deka and Sidhant Misra",
-    "JCTitle": "",
-    "year": "2024",
-    "paperTitle": "Optimization Proxies using Limited Labeled Data and Training Time—A Semi-Supervised Bayesian Neural Network Approach",
-    "doi": "",
-    "arxiv": [
-      "2410.03085",
-      "arXiv"
-    ],
-    "cite": "@Article{arxiv2024_bnn,\n author={Parikshit Pareek and Abhijith Jayakumar and Kaarthik Sundar and Deepjyoti Deka and Sidhant Misra},\n date={2024-10-04},\n title={Optimization Proxies using Limited Labeled Data and Training Time--A Semi-Supervised Bayesian Neural Network Approach},\n eprint={2410.03085},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
-  },
-  {
-    "type": "preprint",
     "authors": "S. Venkatachalam, K. Sundar and A. Narayanan",
     "fullAuthors": "Saravanan Venkatachalam, Kaarthik Sundar and Arunachalam Narayanan",
     "JCTitle": "",
@@ -1244,19 +1258,5 @@
       "arXiv"
     ],
     "cite": "@Article{arxiv2025_gpacopf,\n author={Vincenzo Di Vito and Kaarthik Sundar and Ferdinando Fioretto and Deepjyoti Deka},\n author+an={1=student},\n date={2025-07-30},\n title={Stability-Constrained AC Optimal Power Flow--A Gaussian Process-Based Approach},\n eprint={2507.23094},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
-  },
-  {
-    "type": "preprint",
-    "authors": "C. Montez, S. Sanjeevi and K. Sundar",
-    "fullAuthors": "Christopher Montez, Sujeevraja Sanjeevi and Kaarthik Sundar",
-    "JCTitle": "",
-    "year": "2025",
-    "paperTitle": "Global Optimization Algorithm for Mixed-Integer Nonlinear Programs with Trigonometric Functions",
-    "doi": "",
-    "arxiv": [
-      "2509.26516",
-      "arXiv"
-    ],
-    "cite": "@Article{arxiv2025_trig,\n author={Christopher Montez and Sujeevraja Sanjeevi and Kaarthik Sundar},\n author+an={1=student},\n date={2025-09-30},\n title={Global Optimization Algorithm for Mixed-Integer Nonlinear Programs with Trigonometric Functions},\n eprint={2509.26516},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   }
 ]
