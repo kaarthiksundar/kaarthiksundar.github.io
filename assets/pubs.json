@@ -1145,7 +1145,7 @@
       "2407.17413",
       "arXiv"
     ],
-    "cite": "@Article{icaps2025_gcs,\n author={Kaarthik Sundar and Sivakumar Rathinam},\n date={2025},\n title={A$^*$ for Bounding Shortest Paths in the Graphs of Convex Sets},\n booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},\n doi={10.1609/icaps.v35i1.36127},\n volume={35},\n number={1},\n pages={260--268},\n eprint={2407.17413},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{icaps2025_gcs,\n author={Kaarthik Sundar and Sivakumar Rathinam},\n date={2025},\n title={A$^*$ for Bounding Shortest Paths in the Graphs of Convex Sets},\n booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},\n doi={10.1609/icaps.v35i1.36127},\n volume={35},\n number={1},\n pages={260--268},\n eprint={2407.17413},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "journal",
@@ -1159,13 +1159,13 @@
       "2509.26516",
       "arXiv"
     ],
-    "cite": "@Article{jogo2025_trig,\n author={Christopher Montez and Sujeevraja Sanjeevi and Kaarthik Sundar},\n author+an={1=student},\n date={2025},\n journaltitle={Journal of Global Optimization},\n title={Global Optimization Algorithm for Mixed-Integer Nonlinear Programs with Trigonometric Functions},\n doi={10.1007/s10898-025-01547-9},\n eprint={2509.26516},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{jogo2025_trig,\n author={Christopher Montez and Sujeevraja Sanjeevi and Kaarthik Sundar},\n author+an={1=student},\n date={2025},\n journaltitle={Journal of Global Optimization},\n title={Global Optimization Algorithm for Mixed-Integer Nonlinear Programs with Trigonometric Functions},\n doi={10.1007/s10898-025-01547-9},\n volume={93},\n pages={605--650},\n eprint={2509.26516},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "conference",
     "authors": "P. Pareek, A. Jayakumar, K. Sundar, D. Deka and S. Misra",
     "fullAuthors": "Parikshit Pareek, Abhijith Jayakumar, Kaarthik Sundar, Deepjyoti Deka and Sidhant Misra",
-    "JCTitle": "Advances in Neural Information Processing Systems",
+    "JCTitle": "International Conference on Learning Representations (ICLR)",
     "year": "2025",
     "paperTitle": "Optimization Proxies using Limited Labeled Data and Training Time—A Semi-Supervised Bayesian Neural Network Approach",
     "doi": "",
@@ -1173,21 +1173,35 @@
       "2410.03085",
       "arXiv"
     ],
-    "cite": "@InProceedings{neurips2025_bnn,\n author={Parikshit Pareek and Abhijith Jayakumar and Kaarthik Sundar and Deepjyoti Deka and Sidhant Misra},\n date={2025},\n title={Optimization Proxies using Limited Labeled Data and Training Time--A Semi-Supervised Bayesian Neural Network Approach},\n booktitle={Advances in Neural Information Processing Systems},\n publisher={Curran Associates, Inc.},\n volume={38},\n eprint={2410.03085},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
+    "cite": "@InProceedings{iclr2025_bnn,\n author={Parikshit Pareek and Abhijith Jayakumar and Kaarthik Sundar and Deepjyoti Deka and Sidhant Misra},\n date={2025},\n title={Optimization Proxies using Limited Labeled Data and Training Time--A Semi-Supervised Bayesian Neural Network Approach},\n booktitle={International Conference on Learning Representations (ICLR)},\n publisher={Curran Associates, Inc.},\n eprint={2410.03085},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
   },
   {
-    "type": "preprint",
+    "type": "journal",
     "authors": "S. K. K. Hari, K. Sundar, S. Srinivasan and R. Bent",
     "fullAuthors": "Sai Krishna Kanth Hari, Kaarthik Sundar, Shriram Srinivasan and Russell Bent",
-    "JCTitle": "",
-    "year": "2023",
+    "JCTitle": "Chemical Engineering Science",
+    "year": "2026",
     "paperTitle": "Relaxations of the Steady Optimal Gas Flow Problem for a Non-Ideal Gas",
-    "doi": "",
+    "doi": "10.1016/j.ces.2026.123511",
     "arxiv": [
       "2308.13009",
       "arXiv"
     ],
-    "cite": "@Article{arxiv2023_ss_gas_lp,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2023-08-24},\n title={Relaxations of the Steady Optimal Gas Flow Problem for a Non-Ideal Gas},\n eprint={2308.13009},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{ces2026_ss_gas_lp,\n author={Sai Krishna Kanth Hari and Kaarthik Sundar and Shriram Srinivasan and Russell Bent},\n date={2026},\n title={Relaxations of the Steady Optimal Gas Flow Problem for a Non-Ideal Gas},\n journaltitle={Chemical Engineering Science},\n volume={326},\n pages={123511},\n doi={10.1016/j.ces.2026.123511},\n eprint={2308.13009},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "journal",
+    "authors": "S. Srinivasan and K. Sundar",
+    "fullAuthors": "Shriram Srinivasan and Kaarthik Sundar",
+    "JCTitle": "IEEE Control Systems Letters",
+    "year": "2026",
+    "paperTitle": "The Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations via Graph Partitioning",
+    "doi": "10.1109/LCSYS.2026.3674163",
+    "arxiv": [
+      "2512.22124",
+      "arXiv"
+    ],
+    "cite": "@Article{lcss2026_ng_partitioning,\n author={Shriram Srinivasan and Kaarthik Sundar},\n date={2026-03-16},\n journaltitle={IEEE Control Systems Letters},\n title={The Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations via Graph Partitioning},\n volume={},\n number={},\n pages={},\n doi={10.1109/LCSYS.2026.3674163},\n eprint={2512.22124},\n eprintclass={physics.comp-ph},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
@@ -1258,5 +1272,47 @@
       "arXiv"
     ],
     "cite": "@Article{arxiv2025_gpacopf,\n author={Vincenzo Di Vito and Kaarthik Sundar and Ferdinando Fioretto and Deepjyoti Deka},\n author+an={1=student},\n date={2025-07-30},\n title={Stability-Constrained AC Optimal Power Flow--A Gaussian Process-Based Approach},\n eprint={2507.23094},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "A. S. Bhadoriya, D. Deka and K. Sundar",
+    "fullAuthors": "Abhay Singh Bhadoriya, Deepjyoti Deka and Kaarthik Sundar",
+    "JCTitle": "",
+    "year": "2025",
+    "paperTitle": "A Family of Convex Models to Achieve Fairness through Dispersion Control",
+    "doi": "",
+    "arxiv": [
+      "2510.23791",
+      "arXiv"
+    ],
+    "cite": "@Article{arxiv2025_fairnesstheory,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n author+an={1=postdoc},\n date={2025-10-27},\n title={A Family of Convex Models to Achieve Fairness through Dispersion Control},\n eprint={2510.23791},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "A. W. Rosemberg, J. D. Garcia, F. Pacaud, R. B. Parker, B. Legat, K. Sundar, R. Bent and P. V. Hentenryck",
+    "fullAuthors": "Andrew W Rosemberg, Joaquim Dias Garcia, Fran\\c{c}ois Pacaud, Robert B Parker, Beno\\^it Legat, Kaarthik Sundar, Russell Bent and Pascal Van Hentenryck",
+    "JCTitle": "",
+    "year": "2025",
+    "paperTitle": "A General and Streamlined Differentiable Optimization Framework",
+    "doi": "",
+    "arxiv": [
+      "2510.25986",
+      "arXiv"
+    ],
+    "cite": "@Article{arxiv2025_sipopt,\n author={Andrew W Rosemberg and Joaquim Dias Garcia and Fran\\c{c}ois Pacaud and Robert B Parker and Beno\\^it Legat and Kaarthik Sundar and Russell Bent and Pascal Van Hentenryck},\n author+an={1=student},\n date={2025-10-29},\n title={A General and Streamlined Differentiable Optimization Framework},\n eprint={2510.25986},\n eprintclass={cs.LG},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "S. Srinivasan and K. Sundar",
+    "fullAuthors": "Shriram Srinivasan and Kaarthik Sundar",
+    "JCTitle": "",
+    "year": "2026",
+    "paperTitle": "Steady Flow of Natural Gas in Pipeline Networks via Solution of a Nonlinear Differential-Algebraic System of Equations",
+    "doi": "",
+    "arxiv": [
+      "2602.17840",
+      "arXiv"
+    ],
+    "cite": "@Article{arxiv2026_gasdae,\n author={Shriram Srinivasan and Kaarthik Sundar},\n date={2026-02-19},\n title={Steady Flow of Natural Gas in Pipeline Networks via Solution of a Nonlinear Differential-Algebraic System of Equations},\n eprint={2602.17840},\n eprintclass={math.GM},\n eprinttype={arXiv},\n }"
   }
 ]
