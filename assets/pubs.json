@@ -1204,6 +1204,48 @@
     "cite": "@Article{lcss2026_ng_partitioning,\n author={Shriram Srinivasan and Kaarthik Sundar},\n date={2026-03-16},\n journaltitle={IEEE Control Systems Letters},\n title={The Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations via Graph Partitioning},\n volume={},\n number={},\n pages={},\n doi={10.1109/LCSYS.2026.3674163},\n eprint={2512.22124},\n eprintclass={physics.comp-ph},\n eprinttype={arXiv},\n }"
   },
   {
+    "type": "journal",
+    "authors": "V. D. Vito, K. Sundar, F. Fioretto and D. Deka",
+    "fullAuthors": "Vincenzo Di Vito, Kaarthik Sundar, Ferdinando Fioretto and Deepjyoti Deka",
+    "JCTitle": "Sustainable Energy, Grids and Networks",
+    "year": "2026",
+    "paperTitle": "Stability-Constrained AC Optimal Power Flow—A Gaussian Process-Based Approach",
+    "doi": "10.1016/j.segan.2026.102300",
+    "arxiv": [
+      "2507.23094",
+      "arXiv"
+    ],
+    "cite": "@Article{segan2026_gpacopf,\n author={Vincenzo Di Vito and Kaarthik Sundar and Ferdinando Fioretto and Deepjyoti Deka},\n author+an={1=student},\n date={2026},\n journaltitle={Sustainable Energy, Grids and Networks},\n title={Stability-Constrained AC Optimal Power Flow--A Gaussian Process-Based Approach},\n pages={102300},\n issn={2352-4677},\n doi={10.1016/j.segan.2026.102300},\n eprint={2507.23094},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "journal",
+    "authors": "A. Kishore, K. Sundar, D. Deka and M. Marathe",
+    "fullAuthors": "Aparna Kishore, Kaarthik Sundar, Deepjyoti Deka and Madhav Marathe",
+    "JCTitle": "PNAS Nexus",
+    "year": "2026",
+    "paperTitle": "Tunable and computationally efficient framework for retrofitting: Budget allocation using income and spatial equity",
+    "doi": "10.1093/pnasnexus/pgag162",
+    "arxiv": [
+      "",
+      ""
+    ],
+    "cite": "@Article{pnas2026_retrofitting,\n author={Aparna Kishore and Kaarthik Sundar and Deepjyoti Deka and Madhav Marathe},\n author+an={1=student},\n date={2026},\n journaltitle={PNAS Nexus},\n title={Tunable and computationally efficient framework for retrofitting: Budget allocation using income and spatial equity},\n issn={2752-6542},\n doi={10.1093/pnasnexus/pgag162},\n }"
+  },
+  {
+    "type": "conference",
+    "authors": "L. S. Baker, K. Sundar, S. Srinivasan, S. Shivakumar, N. Rhodes, A. Zlotnik, V. Gyrya, S. Misra, S. Tokareva, S. R. Kazi and R. Bent",
+    "fullAuthors": "Luke S Baker, Kaarthik Sundar, Shriram Srinivasan, Sachin Shivakumar, Noah Rhodes, Anatoly Zlotnik, Vitaliy Gyrya, Sidhant Misra, Svetlana Tokareva, Saif R Kazi and Russell Bent",
+    "JCTitle": "PSIG Annual Meeting",
+    "year": "2026",
+    "paperTitle": "BLING: Bounded Linearized Iteration for Natural Gas–Large-Scale Optimization, Market Simulation, and Uncertainty Quantification",
+    "doi": "",
+    "arxiv": [
+      "",
+      ""
+    ],
+    "cite": "@InProceedings{psig2026_gas,\n author={Luke S Baker and Kaarthik Sundar and Shriram Srinivasan and Sachin Shivakumar and Noah Rhodes and Anatoly Zlotnik and Vitaliy Gyrya and Sidhant Misra and Svetlana Tokareva and Saif R Kazi and Russell Bent},\n booktitle={PSIG Annual Meeting},\n date={2026-05},\n title={BLING: Bounded Linearized Iteration for Natural Gas–Large-Scale Optimization, Market Simulation, and Uncertainty Quantification},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-abstract/PSIG26/799797},\n }"
+  },
+  {
     "type": "preprint",
     "authors": "K. Sundar, D. Deka and R. Bent",
     "fullAuthors": "Kaarthik Sundar, Deepjyoti Deka and Russell Bent",
@@ -1261,20 +1303,6 @@
   },
   {
     "type": "preprint",
-    "authors": "V. D. Vito, K. Sundar, F. Fioretto and D. Deka",
-    "fullAuthors": "Vincenzo Di Vito, Kaarthik Sundar, Ferdinando Fioretto and Deepjyoti Deka",
-    "JCTitle": "",
-    "year": "2025",
-    "paperTitle": "Stability-Constrained AC Optimal Power Flow—A Gaussian Process-Based Approach",
-    "doi": "",
-    "arxiv": [
-      "2507.23094",
-      "arXiv"
-    ],
-    "cite": "@Article{arxiv2025_gpacopf,\n author={Vincenzo Di Vito and Kaarthik Sundar and Ferdinando Fioretto and Deepjyoti Deka},\n author+an={1=student},\n date={2025-07-30},\n title={Stability-Constrained AC Optimal Power Flow--A Gaussian Process-Based Approach},\n eprint={2507.23094},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
-  },
-  {
-    "type": "preprint",
     "authors": "A. S. Bhadoriya, D. Deka and K. Sundar",
     "fullAuthors": "Abhay Singh Bhadoriya, Deepjyoti Deka and Kaarthik Sundar",
     "JCTitle": "",
@@ -1314,5 +1342,19 @@
       "arXiv"
     ],
     "cite": "@Article{arxiv2026_gasdae,\n author={Shriram Srinivasan and Kaarthik Sundar},\n date={2026-02-19},\n title={Steady Flow of Natural Gas in Pipeline Networks via Solution of a Nonlinear Differential-Algebraic System of Equations},\n eprint={2602.17840},\n eprintclass={math.GM},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "preprint",
+    "authors": "N. Rhodes, S. Shivakumar, L. S. Baker, K. Sundar and A. Zlotnik",
+    "fullAuthors": "Noah Rhodes, Sachin Shivakumar, Luke S. Baker, Kaarthik Sundar and Anatoly Zlotnik",
+    "JCTitle": "",
+    "year": "2026",
+    "paperTitle": "Simulating Arbitrage Optimization for Market Monitoring in Gas and Electricity Transmission Networks",
+    "doi": "",
+    "arxiv": [
+      "2604.16229",
+      "arXiv"
+    ],
+    "cite": "@Article{arxiv2026_arbitrage,\n author={Noah Rhodes and Sachin Shivakumar and Luke S. Baker and Kaarthik Sundar and Anatoly Zlotnik},\n date={2026-04-20},\n title={Simulating Arbitrage Optimization for Market Monitoring in Gas and Electricity Transmission Networks},\n eprint={2604.16229},\n eprintclass={eess.SY},\n eprinttype={arXiv},\n }"
   }
 ]
