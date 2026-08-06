@@ -1201,7 +1201,7 @@
       "2512.22124",
       "arXiv"
     ],
-    "cite": "@Article{lcss2026_ng_partitioning,\n author={Shriram Srinivasan and Kaarthik Sundar},\n date={2026-03-16},\n journaltitle={IEEE Control Systems Letters},\n title={The Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations via Graph Partitioning},\n volume={},\n number={},\n pages={},\n doi={10.1109/LCSYS.2026.3674163},\n eprint={2512.22124},\n eprintclass={physics.comp-ph},\n eprinttype={arXiv},\n }"
+    "cite": "@Article{lcss2026_ng_partitioning,\n author={Shriram Srinivasan and Kaarthik Sundar},\n date={2026-03-16},\n journaltitle={IEEE Control Systems Letters},\n title={The Solution of Potential-Driven, Steady-State Nonlinear Network Flow Equations via Graph Partitioning},\n volume={10},\n number={},\n pages={151--156},\n doi={10.1109/LCSYS.2026.3674163},\n eprint={2512.22124},\n eprintclass={physics.comp-ph},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "journal",
@@ -1246,6 +1246,34 @@
     "cite": "@InProceedings{psig2026_gas,\n author={Luke S Baker and Kaarthik Sundar and Shriram Srinivasan and Sachin Shivakumar and Noah Rhodes and Anatoly Zlotnik and Vitaliy Gyrya and Sidhant Misra and Svetlana Tokareva and Saif R Kazi and Russell Bent},\n booktitle={PSIG Annual Meeting},\n date={2026-05},\n title={BLING: Bounded Linearized Iteration for Natural Gas–Large-Scale Optimization, Market Simulation, and Uncertainty Quantification},\n organization={Pipeline Simulation Interest Group},\n url={https://onepetro.org/PSIGAM/proceedings-abstract/PSIG26/799797},\n }"
   },
   {
+    "type": "journal",
+    "authors": "A. S. Bhadoriya, D. Deka and K. Sundar",
+    "fullAuthors": "Abhay Singh Bhadoriya, Deepjyoti Deka and Kaarthik Sundar",
+    "JCTitle": "Operations Research Forum",
+    "year": "2026",
+    "paperTitle": "A Family of Convex Models to Achieve Fairness through Dispersion Control",
+    "doi": "10.1007/s43069-026-00672-9",
+    "arxiv": [
+      "2510.23791",
+      "arXiv"
+    ],
+    "cite": "@Article{orforum2026_fairnesstheory,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n author+an={1=postdoc},\n date={2026},\n journaltitle={Operations Research Forum},\n title={A Family of Convex Models to Achieve Fairness through Dispersion Control},\n volume={7},\n doi={10.1007/s43069-026-00672-9},\n eprint={2510.23791},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
+    "type": "journal",
+    "authors": "A. S. Bhadoriya, D. Deka and K. Sundar",
+    "fullAuthors": "Abhay Singh Bhadoriya, Deepjyoti Deka and Kaarthik Sundar",
+    "JCTitle": "Journal of the Operational Research Society",
+    "year": "2026",
+    "paperTitle": "Equitable Routing—Rethinking the Multiple Traveling Salesman Problem",
+    "doi": "10.1080/01605682.2026.2708027",
+    "arxiv": [
+      "2404.08157",
+      "arXiv"
+    ],
+    "cite": "@Article{jors2026_fmtsp,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n author+an={1=student},\n date={2026},\n journaltitle={Journal of the Operational Research Society},\n title={Equitable Routing--Rethinking the Multiple Traveling Salesman Problem},\n publisher={Taylor \\& Francis},\n doi={10.1080/01605682.2026.2708027},\n eprint={2404.08157},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
+  },
+  {
     "type": "preprint",
     "authors": "K. Sundar, D. Deka and R. Bent",
     "fullAuthors": "Kaarthik Sundar, Deepjyoti Deka and Russell Bent",
@@ -1275,20 +1303,6 @@
   },
   {
     "type": "preprint",
-    "authors": "A. S. Bhadoriya, D. Deka and K. Sundar",
-    "fullAuthors": "Abhay Singh Bhadoriya, Deepjyoti Deka and Kaarthik Sundar",
-    "JCTitle": "",
-    "year": "2024",
-    "paperTitle": "Equitable Routing—Rethinking the Multiple Traveling Salesman Problem",
-    "doi": "",
-    "arxiv": [
-      "2404.08157",
-      "arXiv"
-    ],
-    "cite": "@Article{arxiv2024_fmtsp,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n author+an={1=student},\n date={2024-04-11},\n title={Equitable Routing--Rethinking the Multiple Traveling Salesman Problem},\n eprint={2404.08157},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
-  },
-  {
-    "type": "preprint",
     "authors": "S. Venkatachalam, K. Sundar and A. Narayanan",
     "fullAuthors": "Saravanan Venkatachalam, Kaarthik Sundar and Arunachalam Narayanan",
     "JCTitle": "",
@@ -1300,20 +1314,6 @@
       "ssrn"
     ],
     "cite": "@Article{ssrn2025_inventory,\n author={Saravanan Venkatachalam and Kaarthik Sundar and Arunachalam Narayanan},\n title={Inventory Balancing in Operations Planning--an Application to Supply Chain Replenishment},\n date={2025},\n eprint={5349428},\n eprinttype={ssrn},\n }"
-  },
-  {
-    "type": "preprint",
-    "authors": "A. S. Bhadoriya, D. Deka and K. Sundar",
-    "fullAuthors": "Abhay Singh Bhadoriya, Deepjyoti Deka and Kaarthik Sundar",
-    "JCTitle": "",
-    "year": "2025",
-    "paperTitle": "A Family of Convex Models to Achieve Fairness through Dispersion Control",
-    "doi": "",
-    "arxiv": [
-      "2510.23791",
-      "arXiv"
-    ],
-    "cite": "@Article{arxiv2025_fairnesstheory,\n author={Abhay Singh Bhadoriya and Deepjyoti Deka and Kaarthik Sundar},\n author+an={1=postdoc},\n date={2025-10-27},\n title={A Family of Convex Models to Achieve Fairness through Dispersion Control},\n eprint={2510.23791},\n eprintclass={math.OC},\n eprinttype={arXiv},\n }"
   },
   {
     "type": "preprint",
