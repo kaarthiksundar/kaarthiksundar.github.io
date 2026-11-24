@@ -7,16 +7,102 @@
     <meta http-equiv="Cache-control" content="public" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="This is Kaarthik's personal website. It contains his bio, research interests, list of publications and students/post-docs he has mentored." />
+    <meta name="theme-color" content="#ffffff" />
+
+    <script>
+        (function () {
+            var savedTheme = null;
+            try {
+                savedTheme = window.localStorage.getItem('site-theme');
+            } catch (error) {
+                // Use the operating-system preference when storage is unavailable.
+            }
+
+            var systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            var theme = savedTheme == 'dark' || savedTheme == 'light'
+                ? savedTheme
+                : (systemPrefersDark ? 'dark' : 'light');
+
+            document.documentElement.setAttribute('data-theme', theme);
+            document.querySelector('meta[name="theme-color"]').setAttribute(
+                'content', theme == 'dark' ? '#12161c' : '#ffffff'
+            );
+        })();
+    </script>
 
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Fira+Sans&display=swap);.firasans{font-family: Fira Sans, sans-serif}
+        :root{
+            color-scheme:light;
+            --page-bg:#fff;
+            --surface:#f4f4f4;
+            --card-bg:#f5f8fb;
+            --text:#4a4a4a;
+            --heading:#111;
+            --muted:#666;
+            --border:#d6e1ea;
+            --header-bg:#111;
+            --header-text:#fff;
+            --link:#1769a6;
+            --accent-blue:#245a9e;
+            --accent-green:#26734d;
+            --accent-red:#b8323c;
+            --control-bg:#fff;
+            --focus:#1769a6
+        }
+        html[data-theme="dark"]{
+            color-scheme:dark;
+            --page-bg:#12161c;
+            --surface:#1b2129;
+            --card-bg:#18232d;
+            --text:#d5dbe3;
+            --heading:#f3f5f7;
+            --muted:#a7b0bb;
+            --border:#394552;
+            --header-bg:#090c10;
+            --header-text:#f7f8fa;
+            --link:#83bff2;
+            --accent-blue:#83bff2;
+            --accent-green:#70d49a;
+            --accent-red:#ff9999;
+            --control-bg:#1b2129;
+            --focus:#83bff2
+        }
+        html,body,.site-shell,.site-content{background:var(--page-bg);color:var(--text)}
+        body{margin:0}
+        .site-header-bar{background:var(--header-bg);color:var(--header-text)}
+        .site-nav,.site-footer{background:var(--surface);color:var(--text);border-color:var(--border)}
+        .site-nav-link{color:var(--heading)}
+        .site-nav-link[aria-current="page"]{color:var(--link)}
+        .site-footer a{color:var(--link)}
+        .theme-toggle{width:2rem;height:2rem;background:transparent;border:1px solid #8b949e;color:var(--header-text);font-family:inherit}
+        .theme-toggle:hover{border-color:var(--header-text)}
+        .theme-toggle:focus-visible,*:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
         .experience-section-title{font-size:.875rem!important;line-height:1.25}
         .experience-entry{font-size:1rem!important;line-height:1.5}
         .experience-list{max-width:48rem}
-        .research-interest-card{background:#f5f8fb;border-color:#d6e1ea}
-        .research-interest-title{color:#245a7a}
+        .research-interest-card{background:var(--card-bg);border-color:var(--border)}
+        .research-interest-title{color:var(--accent-blue)}
         .publication-section{scroll-margin-top:7rem}
         .group-section{scroll-margin-top:7rem}
+        input,select{background:var(--control-bg);color:var(--text);border-color:var(--border)}
+        code{color:var(--heading)}
+        html[data-theme="dark"] .bg-white{background-color:var(--page-bg)}
+        html[data-theme="dark"] .bg-near-white{background-color:var(--surface)}
+        html[data-theme="dark"] .bg-near-black{background-color:var(--header-bg)}
+        html[data-theme="dark"] .black,
+        html[data-theme="dark"] .black-70{color:var(--heading)}
+        html[data-theme="dark"] .black-60,
+        html[data-theme="dark"] .dark-gray{color:var(--muted)}
+        html[data-theme="dark"] .blue,
+        html[data-theme="dark"] .dark-blue{color:var(--accent-blue)}
+        html[data-theme="dark"] .green,
+        html[data-theme="dark"] .dark-green{color:var(--accent-green)}
+        html[data-theme="dark"] .light-red,
+        html[data-theme="dark"] .dark-red{color:var(--accent-red)}
+        html[data-theme="dark"] .hover-blue:hover{color:var(--link)}
+        html[data-theme="dark"] .b--black-10,
+        html[data-theme="dark"] .b--black-20{border-color:var(--border)}
     </style>
 
     <!-- Tachyons style sheet. -->

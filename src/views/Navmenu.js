@@ -20,7 +20,7 @@ module.exports = {
             var isCurrent = m.route.get() == item.route
             return m(m.route.Link, {
                 href: item.route,
-                class: 'pv1-ns f6 fw6 dim link black mr3 mr3-m mr4-l dib',
+                class: 'site-nav-link pv1-ns f6 fw6 dim link mr3 mr3-m mr4-l dib',
                 'aria-current': isCurrent ? 'page' : null
             },
                 item.name)
@@ -29,7 +29,7 @@ module.exports = {
         var nav = m('div', {class: 'nowrap left'}, items);
         
         return m('nav', 
-            {class: 'ph3 ph5-ns w-100 bg-near-white pv3 mb3 mb5-ns bt bb b--black-10 overflow-auto'}, 
+            {class: 'site-nav ph3 ph5-ns w-100 pv3 mb3 mb5-ns bt bb overflow-auto'},
             nav
         ); 
     }

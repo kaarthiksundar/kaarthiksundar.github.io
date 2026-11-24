@@ -13,11 +13,11 @@ var view = function (vnode) {
     var content = m(Content, vnode.children)
 
     var body = m('div',
-        { class: 'bg-white black-70' },
+        { class: 'site-content' },
         [content]);
 
     return m('div',
-        { class: 'firasans' },
+        { class: 'site-shell firasans' },
         [m(Header), body, m(Footer)]
         );
 };
