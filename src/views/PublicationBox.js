@@ -174,17 +174,17 @@ module.exports = {
 
         var conftitle = m('h3', {class: 'f6 ttu tracked nt2 green'}, 'CONFERENCE PROCEEDINGS');
         // 'fa-ul' replaced by 'list pl0 ml4 relative'
-        var conflist = m('ul', { class: 'list pl0 ml4 relative f6 f5-ns' }, conferences.map(CView));
+        var conflist = m('ul', { class: 'site-copy list pl0 ml4 relative' }, conferences.map(CView));
         var confdiv = m('div', {id: 'conference', class: 'publication-section pa3 ph5-ns w-100', tabindex: '-1'}, [conftitle, conflist]);
 
         var journaltitle = m('h3', {class: 'f6 ttu tracked nt2 light-red'}, 'JOURNAL ARTICLES');
         // 'fa-ul' replaced by 'list pl0 ml4 relative'
-        var journallist = m('ul', { class: 'list pl0 ml4 relative f6 f5-ns' }, journals.map(JView));
+        var journallist = m('ul', { class: 'site-copy list pl0 ml4 relative' }, journals.map(JView));
         var journaldiv = m('div', {id: 'journal', class: 'publication-section pa3 ph5-ns w-100', tabindex: '-1'}, [journaltitle, journallist]);
 
         var preprinttitle = m('h3', {class: 'f6 ttu tracked nt2 blue'}, 'PREPRINTS');
         // 'fa-ul' replaced by 'list pl0 ml4 relative'
-        var preprintlist = m('ul', {class: 'list pl0 ml4 relative f6 f5-ns' }, preprints.map(PreprintView))
+        var preprintlist = m('ul', {class: 'site-copy list pl0 ml4 relative' }, preprints.map(PreprintView))
         var preprintdiv = m('div', {id: 'preprint', class: 'publication-section pa3 ph5-ns w-100', tabindex: '-1'}, [preprinttitle, preprintlist])
 
         var paperdiv = []

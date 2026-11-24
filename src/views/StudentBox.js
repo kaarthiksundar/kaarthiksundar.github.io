@@ -42,7 +42,7 @@ module.exports = {
         if (!Group.loaded) Group.loadLists()
     },
     view: function () {
-        var intro = m('p', {class: 'lh-copy f6 f5-ns'},
+        var intro = m('p', {class: 'site-copy lh-copy'},
             'Mentoring is an integral part of Kaarthik\'s research. At LANL, he has worked with postdoctoral researchers and student interns on problems spanning optimization, energy systems, transportation, and autonomous systems.')
 
         var sectionLinks = m('nav', {
@@ -56,18 +56,18 @@ module.exports = {
 
         var postdocs = m('section', {id: 'postdoctoral-researchers', class: 'group-section pt3'}, [
             m('h3', {class: 'f6 ttu tracked green'}, 'Postdoctoral Researchers'),
-            m('ul', {class: 'list pl0 ml4 relative f6 f5-ns'}, Group.postdocs.map(researcherView('green', false)))
+            m('ul', {class: 'site-copy list pl0 ml4 relative'}, Group.postdocs.map(researcherView('green', false)))
         ])
 
         var students = m('section', {id: 'student-interns', class: 'group-section pt3'}, [
             m('h3', {class: 'f6 ttu tracked light-red'}, 'Student Interns'),
             m('p', {class: 'f7 f6-ns black-60'}, '† Undergraduate researcher'),
-            m('ul', {class: 'list pl0 ml4 relative f6 f5-ns'}, Group.students.map(researcherView('light-red', true)))
+            m('ul', {class: 'site-copy list pl0 ml4 relative'}, Group.students.map(researcherView('light-red', true)))
         ])
 
         var committees = m('section', {id: 'doctoral-committee', class: 'group-section pt3'}, [
             m('h3', {class: 'f6 ttu tracked dark-blue'}, 'Doctoral Dissertation Committee Service'),
-            m('ul', {class: 'list pl0 ml4 relative f6 f5-ns'}, Group.committees.map(committeeView))
+            m('ul', {class: 'site-copy list pl0 ml4 relative'}, Group.committees.map(committeeView))
         ])
 
         return m('div', {class: 'pb3 nt3 nt6-ns pa3 ph5-ns'}, [

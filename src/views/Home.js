@@ -20,7 +20,7 @@ var researchAreaView = function (area) {
     return m('div', {class: 'w-100 w-50-m w-25-l pa2'},
         m('article', {class: 'research-interest-card h-100 ba br2 pa3'}, [
             m('h3', {class: 'research-interest-title f5 mt0 mb2'}, area.title),
-            m('p', {class: 'f6 lh-copy mv0 dark-gray'}, area.description)
+            m('p', {class: 'site-copy lh-copy mv0 dark-gray'}, area.description)
         ])
     )
 }
@@ -90,7 +90,7 @@ module.exports = {
         );
 
 
-        var desc = m('div', {class: 'measure-wide w-50-ns w-100-m f6 f5-ns lh-copy pa2 tl'}, [
+        var desc = m('div', {class: 'site-copy measure-wide w-50-ns w-100-m lh-copy pa2 tl'}, [
             m('p', Bio.biography),
             m('p', Bio.research)
         ]);

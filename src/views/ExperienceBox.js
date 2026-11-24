@@ -50,8 +50,8 @@ module.exports = {
     },
     view: function () {
         var sectionHeadingClass = 'experience-section-title ttu tracked black fw6'
-        var appointments = m('ul', {class: 'experience-list list pl0 ml4 relative f6 f5-ns'}, Experience.list.map(experienceView))
-        var education = m('ul', {class: 'experience-list list pl0 ml4 relative f6 f5-ns'}, Education.list.map(educationView))
+        var appointments = m('ul', {class: 'site-copy experience-list list pl0 ml4 relative'}, Experience.list.map(experienceView))
+        var education = m('ul', {class: 'site-copy experience-list list pl0 ml4 relative'}, Education.list.map(educationView))
 
         return m('div', {class: 'nt6-ns nt2 pa3 ph5-ns'}, [
             m('h2', {class: 'f3-ns f4 mb4 black'}, 'Experience'),
