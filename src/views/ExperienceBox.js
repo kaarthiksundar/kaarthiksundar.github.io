@@ -18,7 +18,7 @@ const Icon = {
 
 var experienceView = function (entry) {
     var icon = m('span', {class: 'left--2 absolute w2 tc dark-blue'}, m(Icon, {name: 'work'}))
-    return m('li', {class: 'experience-entry pa2 lh-copy'}, [
+    return m('li', {class: 'pa2 lh-copy'}, [
         icon,
         m('span', {class: 'dark-blue b'}, entry.role),
         m('br'), entry.group,
@@ -36,7 +36,7 @@ var educationView = function (entry) {
         rel: 'noopener noreferrer'
     }, entry.university)
 
-    return m('li', {class: 'experience-entry pa2 lh-copy'}, [
+    return m('li', {class: 'pa2 lh-copy'}, [
         icon,
         m('span', {class: 'dark-green fw6'}, [entry.degree, ' in ', entry.department]),
         m('br'), university, ', ', entry.year
@@ -50,8 +50,8 @@ module.exports = {
     },
     view: function () {
         var sectionHeadingClass = 'experience-section-title ttu tracked black fw6'
-        var appointments = m('ul', {class: 'experience-list list pl0 ml4 relative'}, Experience.list.map(experienceView))
-        var education = m('ul', {class: 'experience-list list pl0 ml4 relative'}, Education.list.map(educationView))
+        var appointments = m('ul', {class: 'experience-list list pl0 ml4 relative f6 f5-ns'}, Experience.list.map(experienceView))
+        var education = m('ul', {class: 'experience-list list pl0 ml4 relative f6 f5-ns'}, Education.list.map(educationView))
 
         return m('div', {class: 'nt6-ns nt2 pa3 ph5-ns'}, [
             m('h2', {class: 'f3-ns f4 mb4 black'}, 'Experience'),
