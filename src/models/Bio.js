@@ -11,7 +11,7 @@ var Bio = {
     
     research: [
         'His research investigates how disturbances propagate through networked physical systems, which operating conditions are safe, and how control policies and infrastructure can improve resilience. ',
-        'He combines network topology, governing physical equations, dynamical systems, control, and optimization to develop scalable methods for power-system security and flexibility, transient natural-gas networks and gas-electric coordination, nonlinear network flows, and graph-structured decomposition. ',
+        'He combines network topology, governing equations, dynamical systems, control, and optimization to develop scalable methods for power-system security and flexibility, the analysis and control of inter-area oscillations, transient natural-gas networks and gas-electric coordination, nonlinear potential-driven flows on large networks, and graph-structured decomposition. ',
         'Applications include contingency analysis, large and rapidly changing loads, inverter-rich grids, uncertainty management, dispatch and reserve decisions, storage and microgrids, infrastructure planning, and autonomous systems.'
     ],
 
@@ -25,8 +25,8 @@ var Bio = {
             description: 'Transient gas-network dynamics, uncertainty management, and coordinated operation of interconnected energy infrastructure.'
         },
         {
-            title: 'Network Optimization',
-            description: 'Structure-exploiting algorithms and mathematical foundations for nonlinear flows and large networked systems.'
+            title: 'Flows on Networks',
+            description: 'Structure-exploiting algorithms and mathematical foundations for nonlinear potential-driven flows on large networks.'
         },
         {
             title: 'Autonomous Systems',

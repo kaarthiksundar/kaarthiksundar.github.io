@@ -12,8 +12,8 @@ var view = function (vnode) {
     // m(component) consumes the component to generate a view.
     var content = m(Content, vnode.children)
 
-    var body = m('div',
-        { class: 'site-content' },
+    var body = m('main',
+        { class: 'site-content', id: 'main-content' },
         [content]);
 
     return m('div',
