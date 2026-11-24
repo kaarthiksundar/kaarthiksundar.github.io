@@ -10,6 +10,13 @@
 
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Fira+Sans&display=swap);.firasans{font-family: Fira Sans, sans-serif}
+        .experience-section-title{font-size:.875rem!important;line-height:1.25}
+        .experience-entry{font-size:1rem!important;line-height:1.5}
+        .experience-list{max-width:48rem}
+        .research-interest-card{background:#f5f8fb;border-color:#d6e1ea}
+        .research-interest-title{color:#245a7a}
+        .publication-section{scroll-margin-top:7rem}
+        .group-section{scroll-margin-top:7rem}
     </style>
 
     <!-- Tachyons style sheet. -->
@@ -37,6 +44,24 @@
 </head>
 
 <body>
+    <script>
+        (function (location) {
+            // Restore clean routes redirected through 404.html on GitHub Pages.
+            if (location.search.length > 1 && location.search[1] === '/') {
+                var route = location.search.slice(1)
+                    .split('&')
+                    .map(function (part) { return part.replace(/~and~/g, '&'); })
+                    .join('?');
+                window.history.replaceState(null, '', location.pathname.slice(0, -1) + route + location.hash);
+            }
+
+            // Migrate bookmarks using the previous #!/ or #/ route format.
+            var legacyRoute = location.hash.match(/^#!?(\/.*)$/);
+            if (legacyRoute) {
+                window.history.replaceState(null, '', legacyRoute[1]);
+            }
+        })(window.location);
+    </script>
     <script src="bin/app.js"></script>
 </body>
 

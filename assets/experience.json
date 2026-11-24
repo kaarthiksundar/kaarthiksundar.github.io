@@ -1,50 +1,30 @@
 [
     {
-        "role": "Staff Scientist - III",
-        "group": "Information Systems & Modeling",
+        "role": "Staff Scientist III",
+        "group": "Computational Intelligence & Modeling",
         "organization": "Los Alamos National Laboratory",
-        "location": "Los Alamos, New Mexico, USA",
-        "start": "April 2023",
+        "start": "2023",
         "end": "present"
     },
     {
-        "role": "Staff Scientist - II",
-        "group": "Information Systems & Modeling",
+        "role": "Staff Scientist II",
+        "group": "Computational Intelligence & Modeling",
         "organization": "Los Alamos National Laboratory",
-        "location": "Los Alamos, New Mexico, USA",
-        "start": "August 2018",
-        "end": "March 2023"
+        "start": "2018",
+        "end": "2023"
     },
     {
-        "role": "Post-doctoral Researcher",
+        "role": "Postdoctoral Researcher",
         "group": "Center for Nonlinear Studies",
         "organization": "Los Alamos National Laboratory",
-        "location": "Los Alamos, New Mexico, USA",
-        "start": "July 2016",
-        "end": "July 2018"
-    },
-    {
-        "role": "Graduate Student Intern",
-        "group": "Center for Nonlinear Studies",
-        "organization": "Los Alamos National Laboratory",
-        "location": "Los Alamos, New Mexico, USA",
-        "start": "May 2015",
-        "end": "June 2015"
-    },
-    {
-        "role": "Algorithms & Software Development Intern",
-        "group": "Network Optimization Team",
-        "organization": "US AutoLogistics LLC",
-        "location": "Houston, Texas, USA",
-        "start": "May 2013",
-        "end": "June 2013"
+        "start": "2016",
+        "end": "2018"
     },
     {
         "role": "Graduate Research Assistant",
         "group": "Autonomous Systems Laboratory",
         "organization": "Texas A&M University",
-        "location": "College Station, TX, USA",
-        "start": "August 2012",
-        "end": "May 2016"
+        "start": "2010",
+        "end": "2016"
     }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Aparna Kishore",
+    "university": "University of Virginia",
+    "thesis": "Computational frameworks for synthesizing and deploying digital twins for integrated energy systems"
+  },
+  {
+    "name": "Venkata Sirimuvva Chirala",
+    "university": "Wayne State University",
+    "thesis": "Novel data-driven algorithms for autonomous vehicle path planning problems during planning and evaluation stages"
+  },
+  {
+    "name": "Sohum Misra",
+    "university": "University of Cincinnati",
+    "thesis": "Motion planning for unmanned vehicles in GPS-denied environments"
+  }
+]

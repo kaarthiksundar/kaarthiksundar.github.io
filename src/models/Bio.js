@@ -1,69 +1,44 @@
-var m = require("mithril")
-
 var Bio = {
     pic: '../assets/profile-pic.jpg',
 
     biography: [
-        'Kaarthik is a scientist in the',
-        ' Information Systems and Modeling Group',
-        ' at Los Alamos National Laboratory (LANL)',
-        '. At LANL, he is also a part of the ',
-        m('a', { href: 'https://lanl-ansi.github.io', 
-        class: 'link dark-gray hover-blue',
-        target: "_blank", rel: "noopener noreferrer"}, 
-        'Advanced Network Science Initiative'), 
-        '.',
+        'Kaarthik Sundar is a Staff Scientist III in the Computational Intelligence & Modeling group at Los Alamos National Laboratory (LANL). ',
+        'He joined LANL in 2016 as a postdoctoral researcher in the Center for Nonlinear Studies and became a staff scientist in 2018. ',
+        'He earned a Ph.D. in Mechanical Engineering and an M.S. in Electrical Engineering from Texas A&M University, and a B.E. in Electrical Engineering from Anna University. ',
+        'At LANL, he develops mathematical foundations and scalable computational methods for resilient critical infrastructure, leads research on graph-structured optimization and interconnected energy systems, and mentors students and postdoctoral researchers. ',
+        'His contributions to severe-contingency analysis were part of the Severe Contingency Solver, which received a 2019 R&D 100 Award.'
     ],
     
     research: [
-        'His research interests are centered around the following',
-        ' applications: interdependent energy infrastucture systems,',
-        ' transportation systems, and autonomous systems. From a theoretical,', 
-        ' stand-point his expertise lies in the areas of nonlinear control, boundary',
-        ' control of partial differential equations, mathematical programming,',
-        ' large scale deterministic and stochastic optimization,', 
-        ' approximation algorithms and Bayesian learning.'
+        'His research investigates how disturbances propagate through networked physical systems, which operating conditions are safe, and how control policies and infrastructure can improve resilience. ',
+        'He combines network topology, governing physical equations, dynamical systems, control, and optimization to develop scalable methods for power-system security and flexibility, transient natural-gas networks and gas-electric coordination, nonlinear network flows, and graph-structured decomposition. ',
+        'Applications include contingency analysis, large and rapidly changing loads, inverter-rich grids, uncertainty management, dispatch and reserve decisions, storage and microgrids, infrastructure planning, and autonomous systems.'
     ],
 
-    cv: '../assets/kaarthik-sundar-cv.pdf',
+    researchAreas: [
+        {
+            title: 'Power-System Security',
+            description: 'Dynamic security, contingency analysis, flexibility, and resilient operation of inverter-rich electric grids.'
+        },
+        {
+            title: 'Gas-Electric Systems',
+            description: 'Transient gas-network dynamics, uncertainty management, and coordinated operation of interconnected energy infrastructure.'
+        },
+        {
+            title: 'Network Optimization',
+            description: 'Structure-exploiting algorithms and mathematical foundations for nonlinear flows and large networked systems.'
+        },
+        {
+            title: 'Autonomous Systems',
+            description: 'Optimization, routing, path planning, and localization for unmanned and autonomous vehicles.'
+        }
+    ],
        
     email: 'mailto:kaarthik@lanl.gov',
 
     github: 'https://github.com/kaarthiksundar',
 
-    scholar: 'https://scholar.google.com/citations?user=jAAj8DAAAAAJ&hl=en',
-
-    linkedin: 'https://www.linkedin.com/in/kaarthiksundar/',
-    
-    theoryInterests: [
-        'Mathematical Programming',
-        'Global Optimization',
-        'Dynamics and Control',
-        'Approximation Algorithms', 
-        'Bayesian Learning',
-        'Boundary Control of Partial Differential Equations',
-    ],
-
-    appliedInterests: [
-        'Pipeline Infrastructure Systems',
-        'Power Grids',
-        'Autonomous Systems',
-        'Transportation Systems',
-        'Supply Chain Systems'
-    ],
-
-    softwares: [
-        'He also loves to write production-quality code, even for his research work.', 
-        ' He writes production code in C++, Kotlin, Python and Julia.',
-        ' He extensively uses gnuplot for plotting.',
-        ' He has written code in C, C++, Java, Julia, Kotlin, and Python for his ',
-        'research work. Furthermore, he also maintains and/or develops a number of Julia packages.', 
-        ' Some of them are ',
-        m('a', { href: 'https://github.com/kaarthiksundar/Dubins.jl', class: 'link dark-gray hover-dark-blue',
-        target: "_blank", rel: "noopener noreferrer"}, 'Dubins.jl'), ' and ',
-        m('a', { href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl', class: 'link dark-gray hover-dark-blue', target: "_blank", rel: "noopener noreferrer"}, 
-        'PolyhedralRelaxations.jl'), '.'
-    ]
+    scholar: 'https://scholar.google.com/citations?user=jAAj8DAAAAAJ&hl=en'
 }
 
 module.exports = Bio

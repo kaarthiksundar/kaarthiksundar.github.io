@@ -43,23 +43,6 @@ var JView = function (paper) {
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib light-red',  
             href: 'https://ssrn.com/abstract=' + paper.arxiv[0]}, 'SSRN'));
     }
-    children.push(' ');
-    var btn = m('a', {
-        class: 'f7 link dim br2 ba ph1 mb2 dib light-red',
-        href: '#',
-        onclick: function (e) {
-            e.preventDefault(); // Prevent default link behavior
-            navigator.clipboard.writeText(paper.cite)
-                .then(() => {
-                    console.log('Copied to clipboard successfully!');
-                })
-                .catch(err => {
-                    console.error('Failed to copy text: ', err);
-                });
-        }
-    }, 'Copy BibTeX');
-    children.push(btn);
-
     return m('li', { class: 'pa2 lh-copy'}, children)
 };
 
@@ -89,23 +72,6 @@ var CView = function (paper) {
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib green',  
             href: 'https://ssrn.com/abstract=' + paper.arxiv[0]}, 'SSRN'));
     }
-    children.push(' ');
-    var btn = m('a', {
-        class: 'f7 link dim br2 ba ph1 mb2 dib green',
-        href: '#',
-        onclick: function (e) {
-            e.preventDefault(); // Prevent default link behavior
-            navigator.clipboard.writeText(paper.cite)
-                .then(() => {
-                    console.log('Copied to clipboard successfully!');
-                })
-                .catch(err => {
-                    console.error('Failed to copy text: ', err);
-                });
-        }
-    }, 'Copy BibTeX');
-    children.push(btn);
-
     return m('li', { class: 'pa2 lh-copy'}, children)
 };
 
@@ -130,23 +96,6 @@ var PreprintView = function (paper) {
         children.push(m('a', {class: 'f7 link dim br2 ba ph1 mb2 dib blue', 
             href: 'https://ssrn.com/abstract=' + paper.arxiv[0]}, 'SSRN'));
     }
-    children.push(' ');
-    var btn = m('a', {
-        class: 'f7 link dim br2 ba ph1 mb2 dib blue',
-        href: '#',
-        onclick: function (e) {
-            e.preventDefault(); // Prevent default link behavior
-            navigator.clipboard.writeText(paper.cite)
-                .then(() => {
-                    console.log('Copied to clipboard successfully!');
-                })
-                .catch(err => {
-                    console.error('Failed to copy text: ', err);
-                });
-        }
-    }, 'Copy BibTeX');
-    children.push(btn);
-
     return m('li', { class: 'pa2 lh-copy'}, children)
 }
 
@@ -174,17 +123,39 @@ module.exports = {
             })
         );
 
-        var searchbox =  m('input', {
-            placeholder: 'Type to search...',
-            oninput: function() { 
+        var searchbox = m('input', {
+            type: 'search',
+            value: Publication.searchString,
+            placeholder: 'Search publications...',
+            'aria-label': 'Search publications',
+            autocomplete: 'off',
+            class: 'pa2 ba b--black-20 br2 w5 w6-ns',
+            oninput: function () {
                 Publication.searchString = this.value
-            } 
+            }
         });
 
-        var searchdiv = m('div', {class: 'f6 dib ml4 mb4'}, [
-            m(Icon, {name: 'search'}), 
-            m('span', {class: 'f6 f5-ns pr2'}, ' '), 
+        var searchControls = [
+            m(Icon, {name: 'search'}),
+            m('span', {class: 'f6 f5-ns pr2'}, ' '),
             searchbox
+        ]
+        if (Publication.searchString != '') {
+            searchControls.push(m('button', {
+                type: 'button',
+                class: 'ml2 pa2 bn bg-transparent blue pointer underline-hover',
+                onclick: function () { Publication.searchString = '' }
+            }, 'Clear'))
+        }
+
+        var searchdiv = m('div', {class: 'f6 dib ml4 mb3'}, searchControls)
+        var searchHelp = m('div', {class: 'f7 f6-ns black-60 ml4 mb4 lh-copy'}, [
+            'Searches all words. Use quotes for a phrase or filters such as ',
+            m('code', 'author:sundar'), ', ',
+            m('code', 'title:"gas flow"'), ', ',
+            m('code', 'year:2024'), ', ',
+            m('code', 'type:journal'), ', or ',
+            m('code', 'doi:10.'), '.'
         ])
         var dddiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Select year :'), dropdown])
         
@@ -204,17 +175,17 @@ module.exports = {
         var conftitle = m('h3', {class: 'f6 ttu tracked nt2 green'}, 'CONFERENCE PROCEEDINGS');
         // 'fa-ul' replaced by 'list pl0 ml4 relative'
         var conflist = m('ul', { class: 'list pl0 ml4 relative f6 f5-ns' }, conferences.map(CView));
-        var confdiv = m('div', {id: 'conference', class: 'pa3 ph5-ns w-100' }, [conftitle, conflist]);
+        var confdiv = m('div', {id: 'conference', class: 'publication-section pa3 ph5-ns w-100', tabindex: '-1'}, [conftitle, conflist]);
 
         var journaltitle = m('h3', {class: 'f6 ttu tracked nt2 light-red'}, 'JOURNAL ARTICLES');
         // 'fa-ul' replaced by 'list pl0 ml4 relative'
         var journallist = m('ul', { class: 'list pl0 ml4 relative f6 f5-ns' }, journals.map(JView));
-        var journaldiv = m('div', {id: 'journal', class: 'pa3 ph5-ns w-100' }, [journaltitle, journallist]);
+        var journaldiv = m('div', {id: 'journal', class: 'publication-section pa3 ph5-ns w-100', tabindex: '-1'}, [journaltitle, journallist]);
 
         var preprinttitle = m('h3', {class: 'f6 ttu tracked nt2 blue'}, 'PREPRINTS');
         // 'fa-ul' replaced by 'list pl0 ml4 relative'
         var preprintlist = m('ul', {class: 'list pl0 ml4 relative f6 f5-ns' }, preprints.map(PreprintView))
-        var preprintdiv = m('div', {id: 'preprint', class: 'pa3 ph5-ns w-100' }, [preprinttitle, preprintlist])
+        var preprintdiv = m('div', {id: 'preprint', class: 'publication-section pa3 ph5-ns w-100', tabindex: '-1'}, [preprinttitle, preprintlist])
 
         var paperdiv = []
         if (preprints.length != 0) 
@@ -225,9 +196,45 @@ module.exports = {
             paperdiv.push(confdiv)
 
         var numentries = preprints.length + journals.length + conferences.length
-        var numentriesdiv = m('div', {class: 'f6 dib ml4 mb4'}, 
-            m('span', {class: 'f6 f5-ns pr2'}, 'Number of entries : ' + numentries))
+        var publicationCounts = [
+            {count: preprints.length, singular: 'preprint', plural: 'preprints', color: 'blue', target: 'preprint'},
+            {count: journals.length, singular: 'journal article', plural: 'journal articles', color: 'dark-red', target: 'journal'},
+            {count: conferences.length, singular: 'conference paper', plural: 'conference papers', color: 'dark-green', target: 'conference'}
+        ].filter(function (item) {
+            return item.count > 0
+        })
+
+        var countList = m('ul', {
+            class: 'list pa0 mt2 mb0',
+            'aria-label': 'Publication counts by type'
+        }, publicationCounts.map(function (item) {
+            var label = item.count == 1 ? item.singular : item.plural
+            return m('li', {class: 'dib mr2 mb2'},
+                m('button', {
+                    type: 'button',
+                    class: 'dib ba br2 ph2 pv1 bg-transparent pointer dim ' + item.color,
+                    onclick: function () {
+                        var section = document.getElementById(item.target)
+                        if (section) {
+                            section.scrollIntoView({behavior: 'smooth', block: 'start'})
+                            section.focus({preventScroll: true})
+                        }
+                    },
+                    'aria-label': 'Go to ' + label
+                }, [
+                    m('strong', item.count), ' ', label
+                ]))
+        }))
+
+        var numentriesdiv = m('div', {class: 'f6 ml4 mb3'}, [
+            m('div', {class: 'f6 f5-ns'}, 'Showing ' + numentries + ' publication' + (numentries == 1 ? '' : 's')),
+            countList
+        ])
+
+        if (numentries == 0) {
+            paperdiv.push(m('p', {class: 'ml4 f6 f5-ns black-60'}, 'No publications match the selected year and search terms.'))
+        }
         
-        return m('div', {class: 'pb3 nt5-ns'}, [dddiv, searchdiv, numentriesdiv, paperdiv])
+        return m('div', {class: 'pb3 nt5-ns'}, [dddiv, searchdiv, searchHelp, numentriesdiv, paperdiv])
     }
 }

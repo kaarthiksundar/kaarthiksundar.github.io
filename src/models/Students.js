@@ -1,31 +1,23 @@
 var m = require("mithril")
 
-var Student = {
-    list: [],
+var Group = {
+    postdocs: [],
+    students: [],
+    committees: [],
     loaded: false,
-    loadList: async function () {
-        console.log("Students.loadList starting...")
-        Student.list = await m.request({
-            method: "GET",
-            url: "../assets/students.json",
-        })
-        Student.loaded = true
-        console.log("Students.loadList completed.")
-    },
-    getStudents: function() {
-        summer = Student.list.filter( function (it) {
-            return (it.type == "summer")
-        });
-    
-        pd = Student.list.filter( function (it) {
-            return (it.type == "postdoc")
-        });
-    
-        summer.sort((a, b) => (a.start > b.start) ? -1 : 1)
-        pd.sort((a, b) => (a.start > b.start) ? -1 : 1)
-        
-        return [summer, pd]
+    loadLists: async function () {
+        console.log("Group.loadLists starting...")
+        var results = await Promise.all([
+            m.request({method: "GET", url: "../assets/postdocs.json"}),
+            m.request({method: "GET", url: "../assets/students.json"}),
+            m.request({method: "GET", url: "../assets/doctoral-committee.json"})
+        ])
+        Group.postdocs = results[0]
+        Group.students = results[1]
+        Group.committees = results[2]
+        Group.loaded = true
+        console.log("Group.loadLists completed.")
     }
 }
 
-module.exports = Student
+module.exports = Group

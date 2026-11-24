@@ -10,16 +10,19 @@ class Link {
 module.exports = {
     view: function() {
         var links = [
-            new Link('Home', '/#!'),
-            new Link('Research', '/#!/research'),
-            // new Link('Experience', '/#!/experience'),
-            new Link('Publications', '/#!/publications'),
-            new Link('Students', '/#!/students')
+            new Link('Home', '/'),
+            new Link('Experience', '/experience'),
+            new Link('Publications', '/publications'),
+            new Link('Group', '/group')
         ];
 
         var items = links.map( function(item) {
-            return m('a', {href: item.route, 
-                class: 'pv1-ns f6 fw6 dim link black mr3 mr3-m mr4-l dib'},
+            var isCurrent = m.route.get() == item.route
+            return m(m.route.Link, {
+                href: item.route,
+                class: 'pv1-ns f6 fw6 dim link black mr3 mr3-m mr4-l dib',
+                'aria-current': isCurrent ? 'page' : null
+            },
                 item.name)
         });
         

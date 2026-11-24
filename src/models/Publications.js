@@ -21,6 +21,9 @@ var Publication = {
     selectedYearValue: 1,
     searchString: '',
     getPubs: function(year) {
+        var conferences
+        var journals
+        var preprints
         if (year == 'All') {
             conferences = Publication.list.filter( function (pub) {
                 return (pub.type == "conference")

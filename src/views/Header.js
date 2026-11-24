@@ -4,7 +4,7 @@ var Navmenu = require("./Navmenu")
 module.exports = {
     view: function() {
         var logo = m('div', {class: 'db v-mid tl w-100'},
-            m('a', {href: '/', class: 'f5 f4-ns fw6 link dim white'},
+            m(m.route.Link, {href: '/', class: 'f5 f4-ns fw6 link dim white'},
                 'KAARTHIK SUNDAR'
             )
         );
