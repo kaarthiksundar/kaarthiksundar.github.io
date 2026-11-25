@@ -102,6 +102,10 @@ module.exports = {
             m('div', {class: 'flex flex-wrap nl2 nr2'}, Bio.researchAreas.map(researchAreaView))
         ])
 
-        return m('div', [home, researchAreas])
+        return m('div', [
+            m('h1', {class: 'visually-hidden'}, 'Kaarthik Sundar'),
+            home,
+            researchAreas
+        ])
     }
 }

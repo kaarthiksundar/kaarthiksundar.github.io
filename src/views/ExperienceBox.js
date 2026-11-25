@@ -54,6 +54,7 @@ module.exports = {
         var education = m('ul', {class: 'site-copy experience-list list pl0 ml4 relative'}, Education.list.map(educationView))
 
         return m('div', {class: 'nt6-ns nt2 pa3 ph5-ns'}, [
+            m('h1', {class: 'visually-hidden'}, 'Experience'),
             m('h2', {class: sectionHeadingClass + ' mt0'}, 'Research Appointments'),
             appointments,
             m('h2', {class: sectionHeadingClass + ' mt4'}, 'Education'),

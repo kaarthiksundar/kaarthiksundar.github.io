@@ -73,6 +73,7 @@ module.exports = {
         ])
 
         return m('div', {class: 'pb3 nt3 nt6-ns pa3 ph5-ns'}, [
+            m('h1', {class: 'visually-hidden'}, 'Group'),
             intro,
             sectionLinks,
             postdocs,

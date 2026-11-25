@@ -259,6 +259,12 @@ module.exports = {
             paperdiv.push(m('p', {class: 'ph3 ph5-ns f6 f5-ns black-60'}, 'No publications match your search.'))
         }
         
-        return m('div', {class: 'pb3 nt5-ns'}, [searchdiv, searchHelp, numentriesdiv, paperdiv])
+        return m('div', {class: 'pb3 nt5-ns'}, [
+            m('h1', {class: 'visually-hidden'}, 'Publications'),
+            searchdiv,
+            searchHelp,
+            numentriesdiv,
+            paperdiv
+        ])
     }
 }
