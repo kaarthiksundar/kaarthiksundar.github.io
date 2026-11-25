@@ -55,17 +55,6 @@ var cleanTitle = function(title) {
     return temp.replace('\\&', '&');
 };
 
-function getBibCitation(entry) {
-    var citeStr = '@' + entry['entryType'] + '{' + entry['citationKey'] + ',\n ';
-    var entryTags = entry['entryTags'];
-    for (let key in entryTags) {
-        if (key == 'keywords') continue;
-        citeStr += key.toString() + '={' + entryTags[key] + '},\n ';
-    }
-    citeStr += '}';
-    return citeStr;
-};
-
 function getJCTitle(entry) {
     if (entry.hasOwnProperty('journaltitle')) {
         if (entry['journaltitle'] == 'IFAC-PapersOnLine')
@@ -101,7 +90,6 @@ var jsonEntries = [];
 
 for(var i = 0; i < bibEntries.length; ++i) {
     var entry = bibEntries[i];
-    var cite = getBibCitation(entry);
     var entryTags = entry['entryTags'];
     var entryType = entryTags['keywords'];
     var JCtitle = getJCTitle(entryTags);
@@ -116,8 +104,7 @@ for(var i = 0; i < bibEntries.length; ++i) {
         'year': getYear(entryTags['date']),
         'paperTitle': cleanTitle(entryTags['title']),
         'doi': getDOI(entryTags),
-        'arxiv': getArxivId(entryTags),
-        'cite': cite
+        'arxiv': getArxivId(entryTags)
     };
     jsonEntries.push(jsonEntry);
 }

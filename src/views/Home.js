@@ -19,7 +19,7 @@ const Icon = {
 var researchAreaView = function (area) {
     return m('div', {class: 'w-100 w-50-m w-25-l pa2'},
         m('article', {class: 'research-interest-card h-100 ba br2 pa3'}, [
-            m('h3', {class: 'research-interest-title f5 mt0 mb2'}, area.title),
+            m('h3', {class: 'research-interest-title f6 ttu tracked mt0 mb2'}, area.title),
             m('p', {class: 'site-copy lh-copy mv0 dark-gray'}, area.description)
         ])
     )
