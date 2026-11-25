@@ -1,8 +1,12 @@
 var bibtexParse = require('@orcid/bibtex-parse-js');
 var fs = require('fs'); 
 
+var normalizeWhitespace = function(value) {
+    return value.replace(/\s+/g, ' ').trim();
+};
+
 var getNamesWithInits = function (authors) {
-    var names = authors.split(' ').map(
+    var names = normalizeWhitespace(authors).split(' ').map(
         function(name) {
             return name.replace(/^\{|\}$/g, '')
         }
@@ -29,14 +33,14 @@ var getNamesWithInits = function (authors) {
 };
 
 var parseAuthors = function(authors) {
-    return authors.split(' and ').map(
+    return authors.split(/\s+and\s+/).map(
         function(name) { 
             return getNamesWithInits(name); 
         });
 };
 
 var parseFullAuthors = function(authors) {
-    return authors.split(' and ')
+    return authors.split(/\s+and\s+/).map(normalizeWhitespace)
 };
 
 var getYear = function(date) { 
@@ -47,6 +51,7 @@ var cleanTitle = function(title) {
     var temp = title.replace('--', '—')
     temp = temp.replace('$A^*$', 'A\u002A')
     temp = temp.replace('A$^*$', 'A\u002A')
+    temp = temp.replace(/\{MIP\}s/g, 'MIPs')
     return temp.replace('\\&', '&');
 };
 

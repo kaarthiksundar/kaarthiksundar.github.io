@@ -13,12 +13,17 @@ var view = function (vnode) {
     var content = m(Content, vnode.children)
 
     var body = m('main',
-        { class: 'site-content', id: 'main-content' },
+        { class: 'site-content', id: 'main-content', tabindex: '-1' },
         [content]);
 
     return m('div',
         { class: 'site-shell firasans' },
-        [m(Header), body, m(Footer)]
+        [
+            m('a', {href: '#main-content', class: 'skip-link'}, 'Skip to main content'),
+            m(Header),
+            body,
+            m(Footer)
+        ]
         );
 };
 

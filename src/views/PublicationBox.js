@@ -17,6 +17,44 @@ const Icon = {
     }
 }
 
+function escapeRegExp(value) {
+    return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+function highlightedText(value, field) {
+    var text = String(value == null ? '' : value)
+    var terms = runSearch.getHighlightTerms(Publication.searchString, field)
+        .filter(function (term, index, allTerms) {
+            return term && allTerms.indexOf(term) == index
+        })
+        .sort(function (a, b) {
+            return b.length - a.length
+        })
+
+    if (terms.length == 0) return text
+
+    var pattern = new RegExp('(' + terms.map(escapeRegExp).join('|') + ')', 'gi')
+    return text.split(pattern).map(function (part, index) {
+        return index % 2 == 1
+            ? m('mark', {class: 'search-highlight'}, part)
+            : part
+    })
+}
+
+function searchQueryFromUrl() {
+    return new URLSearchParams(window.location.search).get('q') || ''
+}
+
+function updateSearchUrl(query) {
+    var url = new URL(window.location.href)
+    if (query) {
+        url.searchParams.set('q', query)
+    } else {
+        url.searchParams.delete('q')
+    }
+    window.history.replaceState(window.history.state, '', url.pathname + url.search + url.hash)
+}
+
 var JView = function (paper) {
     // 'fa-li' is replaced by 'left--2 absolute w2 tc' 
     var icon = m('span', { class: 'left--2 absolute w2 tc' },
@@ -24,9 +62,9 @@ var JView = function (paper) {
 
     var children = [
         icon,
-        m('span', {class: 'black'}, paper.paperTitle), m('br'),
-        '   ', paper.authors, m('br'),
-        '   ', paper.JCTitle, ', ', paper.year, m('br')
+        m('span', {class: 'black'}, highlightedText(paper.paperTitle, 'title')), m('br'),
+        '   ', m('span', {class: 'black-60'}, highlightedText(paper.authors, 'author')), m('br'),
+        '   ', highlightedText(paper.JCTitle, 'venue'), ', ', highlightedText(paper.year, 'year'), m('br')
     ]
     if (paper.doi != "") {
         children.push('  ');
@@ -53,9 +91,9 @@ var CView = function (paper) {
 
     var children = [
         icon,
-        m('span', {class: 'black'}, paper.paperTitle), m('br'),
-        '   ', paper.authors, m('br'),
-        '   ', paper.JCTitle, ', ', paper.year, m('br')
+        m('span', {class: 'black'}, highlightedText(paper.paperTitle, 'title')), m('br'),
+        '   ', m('span', {class: 'black-60'}, highlightedText(paper.authors, 'author')), m('br'),
+        '   ', highlightedText(paper.JCTitle, 'venue'), ', ', highlightedText(paper.year, 'year'), m('br')
     ]
     if (paper.doi != "") {
         children.push('  ');
@@ -82,8 +120,8 @@ var PreprintView = function (paper) {
 
     var children = [
         icon,
-        m('span', {class: 'black'}, paper.paperTitle), m('br'),
-        '   ', paper.authors, '. ', paper.year, m('br')
+        m('span', {class: 'black'}, highlightedText(paper.paperTitle, 'title')), m('br'),
+        '   ', m('span', {class: 'black-60'}, highlightedText(paper.authors, 'author')), '. ', highlightedText(paper.year, 'year'), m('br')
     ]
     
     if (paper.arxiv[1] == "arXiv") {
@@ -102,66 +140,47 @@ var PreprintView = function (paper) {
 module.exports = {
     oninit: function() {
         if (!Publication.loaded) Publication.loadList()
-        Publication.selectedYearValue = 1;
-        Publication.searchString = '';
+        Publication.searchString = searchQueryFromUrl();
     },
     view: function () {
-        var allYears = Publication.getYears();
-        allYears.unshift('All');
-        
-        var options = allYears.map(function (item, index) {
-            return {value: index + 1, name: item}
-        });
-
-        var dropdown = m('select', { id: 'year',
-            onchange: function(ev) { Publication.selectedYearValue = parseInt(ev.target.value); } 
-            },
-            options.map((row) => {
-                return m('option', {
-                    value: row.value, selected: row.value == Publication.selectedYearValue
-                }, row.name)
-            })
-        );
-
         var searchbox = m('input', {
             type: 'search',
             value: Publication.searchString,
-            placeholder: 'Search publications...',
+            placeholder: 'Search title, author, venue, or year...',
             'aria-label': 'Search publications',
+            'aria-describedby': 'publication-search-help',
             autocomplete: 'off',
-            class: 'pa2 ba b--black-20 br2 w5 w6-ns',
-            oninput: function () {
-                Publication.searchString = this.value
+            class: 'publication-search-input pa2 ba b--black-20 br2',
+            oninput: function (event) {
+                Publication.searchString = event.currentTarget.value
+                updateSearchUrl(Publication.searchString)
             }
         });
 
-        var searchControls = [
-            m(Icon, {name: 'search'}),
-            m('span', {class: 'f6 f5-ns pr2'}, ' '),
+        var searchControls = [m('div', {class: 'publication-search-field'}, [
+            m('span', {class: 'publication-search-icon', 'aria-hidden': 'true'}, m(Icon, {name: 'search'})),
             searchbox
-        ]
+        ])]
         if (Publication.searchString != '') {
             searchControls.push(m('button', {
                 type: 'button',
                 class: 'ml2 pa2 bn bg-transparent blue pointer underline-hover',
-                onclick: function () { Publication.searchString = '' }
+                onclick: function () {
+                    Publication.searchString = ''
+                    updateSearchUrl('')
+                }
             }, 'Clear'))
         }
 
-        var searchdiv = m('div', {class: 'f6 dib ml4 mb3'}, searchControls)
-        var searchHelp = m('div', {class: 'f7 f6-ns black-60 ml4 mb4 lh-copy'}, [
-            'Searches all words. Use quotes for a phrase or filters such as ',
+        var searchdiv = m('div', {class: 'publication-search f6 pa3 pb0 ph5-ns'},
+            m('div', {class: 'publication-search-control'}, searchControls))
+        var searchHelp = m('div', {id: 'publication-search-help', class: 'f7 f6-ns black-60 ph3 ph5-ns mb4 lh-copy'}, [
+            'Try ', m('code', 'year:2024'), ', ',
             m('code', 'author:sundar'), ', ',
-            m('code', 'title:"gas flow"'), ', ',
-            m('code', 'year:2024'), ', ',
-            m('code', 'type:journal'), ', or ',
-            m('code', 'doi:10.'), '.'
+            m('code', 'title:"gas flow"'), ', or ',
+            m('code', 'type:journal'), '. Use quotes for an exact phrase.'
         ])
-        var dddiv = m('div', {class: 'f6 dib ml4 mb4'}, [m('span', {class: 'f6 f5-ns pr2'}, 'Select year :'), dropdown])
-        
-        var chosenYear = options.filter( (item) => (parseInt(item.value) == Publication.selectedYearValue))[0].name;
-
-        var papers = Publication.getPubs(chosenYear);
+        var papers = Publication.getPubs('All');
         var conferences = papers[0];
         var journals = papers[1];
         var preprints = papers[2];
@@ -226,15 +245,20 @@ module.exports = {
                 ]))
         }))
 
-        var numentriesdiv = m('div', {class: 'f6 ml4 mb3'}, [
-            m('div', {class: 'f6 f5-ns'}, 'Showing ' + numentries + ' publication' + (numentries == 1 ? '' : 's')),
+        var numentriesdiv = m('div', {class: 'f6 ph3 ph5-ns mb3'}, [
+            m('div', {
+                class: 'f6 f5-ns',
+                role: 'status',
+                'aria-live': 'polite',
+                'aria-atomic': 'true'
+            }, 'Showing ' + numentries + ' publication' + (numentries == 1 ? '' : 's')),
             countList
         ])
 
         if (numentries == 0) {
-            paperdiv.push(m('p', {class: 'ml4 f6 f5-ns black-60'}, 'No publications match the selected year and search terms.'))
+            paperdiv.push(m('p', {class: 'ph3 ph5-ns f6 f5-ns black-60'}, 'No publications match your search.'))
         }
         
-        return m('div', {class: 'pb3 nt5-ns'}, [dddiv, searchdiv, searchHelp, numentriesdiv, paperdiv])
+        return m('div', {class: 'pb3 nt5-ns'}, [searchdiv, searchHelp, numentriesdiv, paperdiv])
     }
 }

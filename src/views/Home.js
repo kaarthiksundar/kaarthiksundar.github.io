@@ -30,7 +30,7 @@ module.exports = {
         var img = m('img', {
             src: Bio.pic, 
             class: 'br-100 shadow-2 o-90 h5-ns w5-ns h4 w4 dib ba b--transparent', 
-            title: 'Kaarthik Sundar'
+            alt: 'Portrait of Kaarthik Sundar'
         });
 
         var title = m('h2', {class: 'f3-ns f4 mb3 black'}, 'Staff Scientist III')

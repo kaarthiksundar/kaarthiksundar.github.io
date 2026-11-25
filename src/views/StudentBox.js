@@ -12,10 +12,12 @@ const Icon = {
 var researcherView = function (colorClass, showUndergraduateMark) {
     return function (researcher) {
         var icon = m('span', {class: 'left--2 absolute w2 tc'}, m(Icon, {class: colorClass}))
-        var undergraduateMark = showUndergraduateMark && researcher.undergraduate ? '†' : ''
+        var undergraduateMark = showUndergraduateMark && researcher.undergraduate
+            ? m('sup', {class: 'f7'}, '†')
+            : null
         return m('li', {class: 'pa2 lh-copy'}, [
             icon,
-            m('span', {class: 'black b'}, researcher.name + undergraduateMark), ', ', researcher.period,
+            m('span', {class: 'black b'}, [researcher.name, undergraduateMark]), ', ', researcher.period,
             m('br'), researcher.research
         ])
     }
@@ -51,27 +53,26 @@ module.exports = {
         }, m('ul', {class: 'list pa0 ma0'}, [
             m('li', {class: 'dib'}, sectionLink('Postdoctoral Researchers', 'postdoctoral-researchers', 'dark-green')),
             m('li', {class: 'dib'}, sectionLink('Student Interns', 'student-interns', 'dark-red')),
-            m('li', {class: 'dib'}, sectionLink('Doctoral Dissertation Committee Service', 'doctoral-committee', 'dark-blue'))
+            m('li', {class: 'dib'}, sectionLink('Doctoral Committees', 'doctoral-committee', 'dark-blue'))
         ]))
 
         var postdocs = m('section', {id: 'postdoctoral-researchers', class: 'group-section pt3'}, [
-            m('h3', {class: 'f6 ttu tracked green'}, 'Postdoctoral Researchers'),
+            m('h2', {class: 'f6 ttu tracked green'}, 'Postdoctoral Researchers'),
             m('ul', {class: 'site-copy list pl0 ml4 relative'}, Group.postdocs.map(researcherView('green', false)))
         ])
 
         var students = m('section', {id: 'student-interns', class: 'group-section pt3'}, [
-            m('h3', {class: 'f6 ttu tracked light-red'}, 'Student Interns'),
-            m('p', {class: 'f7 f6-ns black-60'}, '† Undergraduate researcher'),
+            m('h2', {class: 'f6 ttu tracked light-red'}, 'Student Interns'),
+            m('p', {class: 'f7 f6-ns black-60'}, [m('sup', {class: 'f7'}, '†'), ' Undergraduate researcher']),
             m('ul', {class: 'site-copy list pl0 ml4 relative'}, Group.students.map(researcherView('light-red', true)))
         ])
 
         var committees = m('section', {id: 'doctoral-committee', class: 'group-section pt3'}, [
-            m('h3', {class: 'f6 ttu tracked dark-blue'}, 'Doctoral Dissertation Committee Service'),
+            m('h2', {class: 'f6 ttu tracked dark-blue'}, 'Doctoral Committees'),
             m('ul', {class: 'site-copy list pl0 ml4 relative'}, Group.committees.map(committeeView))
         ])
 
         return m('div', {class: 'pb3 nt3 nt6-ns pa3 ph5-ns'}, [
-            m('h2', {class: 'f3-ns f4 mb3 black'}, 'Group'),
             intro,
             sectionLinks,
             postdocs,

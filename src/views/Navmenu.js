@@ -17,7 +17,8 @@ module.exports = {
         ];
 
         var items = links.map( function(item) {
-            var isCurrent = m.route.get() == item.route
+            var currentPath = m.route.get().split(/[?#]/)[0]
+            var isCurrent = currentPath == item.route
             return m(m.route.Link, {
                 href: item.route,
                 class: 'site-nav-link pv1-ns f6 fw6 dim link mr3 mr3-m mr4-l dib',

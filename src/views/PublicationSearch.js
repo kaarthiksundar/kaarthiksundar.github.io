@@ -55,4 +55,12 @@ function runSearch(searchValue, publications) {
     })
 }
 
+runSearch.getHighlightTerms = function (query, field) {
+    return parseQuery(query).filter(function (term) {
+        return !term.field || !fieldAliases[term.field] || term.field == field
+    }).map(function (term) {
+        return term.value
+    })
+}
+
 module.exports = runSearch

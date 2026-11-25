@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="Cache-control" content="public" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="This is Kaarthik's personal website. It contains his bio, research interests, list of publications and students/post-docs he has mentored." />
+    <meta name="description" content="Kaarthik Sundar is a staff scientist at Los Alamos National Laboratory working on networked energy systems, optimization, control, and autonomous systems." />
     <meta name="theme-color" content="#ffffff" />
 
     <script>
@@ -48,6 +48,7 @@
             --accent-green:#26734d;
             --accent-red:#b8323c;
             --control-bg:#fff;
+            --highlight-bg:#fff0a6;
             --focus:#1769a6
         }
         html[data-theme="dark"]{
@@ -66,18 +67,24 @@
             --accent-green:#70d49a;
             --accent-red:#ff9999;
             --control-bg:#1b2129;
+            --highlight-bg:#695611;
             --focus:#83bff2
         }
         html,body,.site-shell,.site-content{background:var(--page-bg);color:var(--text)}
         body{margin:0}
+        .site-shell{display:flex;min-height:100vh;flex-direction:column}
+        .site-content{flex:1 0 auto}
+        .site-footer{flex-shrink:0}
         .site-header-bar{background:var(--header-bg);color:var(--header-text)}
         .site-nav,.site-footer{background:var(--surface);color:var(--text);border-color:var(--border)}
         .site-nav-link{color:var(--heading)}
-        .site-nav-link[aria-current="page"]{color:var(--link)}
+        .site-nav-link[aria-current="page"]{color:var(--link);text-decoration:underline;text-decoration-thickness:.125rem;text-underline-offset:.3rem}
         .site-footer a{color:var(--link)}
         .theme-toggle{width:2rem;height:2rem;background:transparent;border:1px solid #8b949e;color:var(--header-text);font-family:inherit}
         .theme-toggle:hover{border-color:var(--header-text)}
         .theme-toggle:focus-visible,*:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+        .skip-link{position:fixed;z-index:999;top:.5rem;left:.5rem;padding:.5rem .75rem;background:var(--heading);color:var(--page-bg);font-weight:600;transform:translateY(-200%)}
+        .skip-link:focus{transform:translateY(0)}
         .site-copy{font-size:.875rem}
         @media screen and (min-width:30em){.site-copy{font-size:1rem}}
         .experience-section-title{font-size:.875rem!important;line-height:1.25}
@@ -86,6 +93,11 @@
         .research-interest-title{color:var(--accent-blue)}
         .publication-section{scroll-margin-top:7rem}
         .group-section{scroll-margin-top:7rem}
+        .publication-search-control{display:flex;align-items:center;width:100%;max-width:52rem}
+        .publication-search-field{position:relative;flex:1 1 auto;max-width:48rem}
+        .publication-search-icon{position:absolute;top:50%;left:.75rem;display:flex;color:var(--muted);pointer-events:none;transform:translateY(-50%)}
+        .publication-search-input{width:100%;padding-left:2.25rem!important}
+        .search-highlight{padding:0 .05em;background:var(--highlight-bg);color:inherit}
         input,select{background:var(--control-bg);color:var(--text);border-color:var(--border)}
         code{color:var(--heading)}
         html[data-theme="dark"] .bg-white{background-color:var(--page-bg)}
@@ -127,7 +139,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
     <link rel="manifest" href="assets/site.webmanifest">
 
-    <title>Kaarthik's Homepage</title>
+    <title>Kaarthik Sundar — Research</title>
 </head>
 
 <body>

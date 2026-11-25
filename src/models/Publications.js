@@ -13,12 +13,6 @@ var Publication = {
         Publication.loaded = true
         console.log("Publication.loadList completed.")
     },
-    getYears: function () {
-        return Array.from(new Set(Publication.list.map( function(o) {
-            return o['year'];
-        }).sort().reverse()));
-    }, 
-    selectedYearValue: 1,
     searchString: '',
     getPubs: function(year) {
         var conferences
